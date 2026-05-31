@@ -3,96 +3,94 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Filterable board of part-time jobs in and near Guilford, CT. Updated May 2026.">
+<meta name="description" content="Filterable board of part-time jobs in and near Guilford, CT (Madison, Branford, North Branford, Durham). Star favorites, hide rejects, tri-state filters.">
 <title>Part Time Work In/Near Guilford</title>
 <style>
   :root{
-    --bg:#0f1e2e;
-    --bg-soft:#16293b;
-    --card:#1d3447;
-    --card-hover:#234057;
-    --ink:#eaf2f8;
-    --ink-dim:#9db3c4;
-    --line:#2c4a63;
-    --accent:#3fb6a8;
-    --accent-2:#f2a65a;
-    --accent-3:#e0654f;
-    --pill:#24405a;
-    --pill-on:#3fb6a8;
-    --pill-on-ink:#08171f;
+    --bg:#0f1e2e;--bg-soft:#16293b;--card:#1d3447;--card-hover:#234057;
+    --ink:#eaf2f8;--ink-dim:#9db3c4;--line:#2c4a63;
+    --accent:#3fb6a8;--accent-2:#f2a65a;--accent-3:#e0654f;
+    --star:#f5c451;--reject:#c8556a;--exclude:#e0654f;
+    --pill:#24405a;--pill-on:#3fb6a8;--pill-on-ink:#08171f;
     --shadow:0 6px 24px rgba(0,0,0,.35);
   }
   *{box-sizing:border-box}
-  body{
-    margin:0;font-family:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+  body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
     background:linear-gradient(160deg,#0c1a28 0%,#102233 55%,#0c1a28 100%);
-    color:var(--ink);min-height:100vh;line-height:1.5;
-  }
-  header{
-    padding:34px 24px 20px;text-align:center;
-    border-bottom:1px solid var(--line);
-    background:radial-gradient(900px 300px at 50% -60px,rgba(63,182,168,.18),transparent);
-  }
-  h1{
-    margin:0;font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;letter-spacing:-.5px;
+    color:var(--ink);min-height:100vh;line-height:1.5;}
+  header{padding:34px 24px 18px;text-align:center;border-bottom:1px solid var(--line);
+    background:radial-gradient(900px 300px at 50% -60px,rgba(63,182,168,.18),transparent);}
+  h1{margin:0;font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;letter-spacing:-.5px;
     background:linear-gradient(90deg,#3fb6a8,#7fd6c9 60%,#f2a65a);
-    -webkit-background-clip:text;background-clip:text;color:transparent;
-  }
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
   .sub{color:var(--ink-dim);margin-top:8px;font-size:.95rem}
-  .wrap{max-width:1180px;margin:0 auto;padding:22px 18px 70px}
-  .toolbar{
-    background:var(--bg-soft);border:1px solid var(--line);border-radius:16px;
-    padding:16px 18px;margin-bottom:22px;box-shadow:var(--shadow);
-  }
+  .wrap{max-width:1220px;margin:0 auto;padding:22px 18px 70px}
+  .toolbar{background:var(--bg-soft);border:1px solid var(--line);border-radius:16px;
+    padding:16px 18px;margin-bottom:16px;box-shadow:var(--shadow);}
   .toolbar-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-  .search{
-    flex:1;min-width:220px;background:var(--bg);border:1px solid var(--line);
-    border-radius:10px;padding:11px 14px;color:var(--ink);font-size:.95rem;outline:none;
-  }
+  .search{flex:1;min-width:220px;background:var(--bg);border:1px solid var(--line);
+    border-radius:10px;padding:11px 14px;color:var(--ink);font-size:.95rem;outline:none;}
   .search:focus{border-color:var(--accent)}
   .count{color:var(--ink-dim);font-size:.88rem;white-space:nowrap}
   .group-label{font-size:.74rem;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-dim);margin:14px 0 7px}
-  .pills{display:flex;flex-wrap:wrap;gap:8px}
-  .pill{
-    border:1px solid var(--line);background:var(--pill);color:var(--ink);
-    padding:7px 13px;border-radius:999px;font-size:.83rem;cursor:pointer;
-    transition:.15s;user-select:none;
-  }
+  .hint{font-size:.74rem;color:var(--ink-dim);background:var(--bg);border:1px solid var(--line);
+    border-radius:10px;padding:9px 13px;margin-bottom:18px;display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .hint .chip{display:inline-flex;align-items:center;gap:6px}
+  .swatch{width:13px;height:13px;border-radius:4px;display:inline-block;border:1px solid var(--line)}
+  .sw-inc{background:var(--pill-on)} .sw-exc{background:var(--exclude)} .sw-off{background:var(--pill)}
+  .pills{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .pill{border:1px solid var(--line);background:var(--pill);color:var(--ink);
+    padding:7px 13px;border-radius:999px;font-size:.83rem;cursor:pointer;transition:.15s;user-select:none;
+    display:inline-flex;align-items:center;gap:6px;}
   .pill:hover{background:var(--card-hover)}
-  .pill.on{background:var(--pill-on);color:var(--pill-on-ink);border-color:var(--pill-on);font-weight:700}
-  .clear{margin-left:auto;background:transparent;border:1px solid var(--accent-3);color:var(--accent-3);
+  .pill .mk{font-weight:800;font-size:.9rem;opacity:.9}
+  .pill.inc{background:var(--pill-on);color:var(--pill-on-ink);border-color:var(--pill-on);font-weight:700}
+  .pill.exc{background:var(--exclude);color:#fff;border-color:var(--exclude);font-weight:700;text-decoration:line-through;text-decoration-thickness:1px;}
+  .pill.star-pill.inc{background:var(--star);border-color:var(--star);color:#3a2c00}
+  .pill.hide-pill.inc{background:var(--reject);border-color:var(--reject);color:#fff}
+  .clear{background:transparent;border:1px solid var(--accent-3);color:var(--accent-3);
     padding:7px 13px;border-radius:999px;font-size:.82rem;cursor:pointer}
   .clear:hover{background:var(--accent-3);color:#fff}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
-  .card{
-    background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px;
-    display:flex;flex-direction:column;gap:10px;transition:.18s;box-shadow:var(--shadow);
-  }
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;
+    display:flex;flex-direction:column;gap:10px;transition:.18s;box-shadow:var(--shadow);position:relative;}
   .card:hover{transform:translateY(-3px);background:var(--card-hover);border-color:var(--accent)}
-  .card h3{margin:0;font-size:1.08rem;line-height:1.3}
+  .card.starred{border-color:var(--star);box-shadow:0 0 0 1px var(--star),var(--shadow)}
+  .card.rejected{opacity:.55;border-color:var(--reject)}
+  .card h3{margin:0;font-size:1.08rem;line-height:1.3;padding-right:64px}
   .employer{color:var(--accent);font-weight:600;font-size:.9rem}
+  .marks{position:absolute;top:14px;right:14px;display:flex;gap:6px}
+  .mark{width:30px;height:30px;border-radius:8px;border:1px solid var(--line);background:var(--bg-soft);
+    cursor:pointer;font-size:15px;line-height:1;display:flex;align-items:center;justify-content:center;transition:.15s;padding:0;}
+  .mark:hover{transform:scale(1.12)}
+  .mark.star.on{background:var(--star);border-color:var(--star)}
+  .mark.hide.on{background:var(--reject);border-color:var(--reject)}
   .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
   .tag{font-size:.72rem;padding:4px 9px;border-radius:7px;background:var(--bg-soft);border:1px solid var(--line);color:var(--ink-dim)}
   .tag.cat{background:rgba(63,182,168,.16);color:#7fd6c9;border-color:rgba(63,182,168,.4)}
   .tag.pay{background:rgba(242,166,90,.16);color:var(--accent-2);border-color:rgba(242,166,90,.4)}
-  .tag.dist{background:rgba(224,101,79,.14);color:#f0a394;border-color:rgba(224,101,79,.35)}
+  .tag.town{background:rgba(224,101,79,.14);color:#f0a394;border-color:rgba(224,101,79,.35)}
   .summary{font-size:.88rem;color:var(--ink-dim);flex:1}
-  .row{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.78rem;color:var(--ink-dim);border-top:1px solid var(--line);padding-top:10px;margin-top:2px}
+  .detail{font-size:.78rem;color:var(--ink-dim);display:grid;grid-template-columns:auto 1fr;gap:3px 10px;
+    border-top:1px solid var(--line);padding-top:9px}
+  .detail b{color:var(--ink);font-weight:600}
+  .row{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.78rem;color:var(--ink-dim);padding-top:6px}
   .src{font-style:italic}
-  .apply{
-    background:var(--accent);color:var(--pill-on-ink);text-decoration:none;font-weight:700;
-    padding:8px 14px;border-radius:9px;font-size:.84rem;white-space:nowrap;transition:.15s;
-  }
+  .apply{background:var(--accent);color:var(--pill-on-ink);text-decoration:none;font-weight:700;
+    padding:8px 14px;border-radius:9px;font-size:.84rem;white-space:nowrap;transition:.15s;}
   .apply:hover{background:#54cdbe}
   .empty{text-align:center;color:var(--ink-dim);padding:60px 20px;grid-column:1/-1}
   footer{text-align:center;color:var(--ink-dim);font-size:.78rem;padding:24px;border-top:1px solid var(--line)}
   footer a{color:var(--accent)}
+  .stats{font-size:.8rem;color:var(--ink-dim);margin-left:auto}
+  .stats b{color:var(--star)}
+  .stats i{color:var(--reject);font-style:normal}
 </style>
 </head>
 <body>
 <header>
   <h1>Part Time Work In/Near Guilford</h1>
-  <div class="sub">Guilford, CT &amp; surrounding shoreline towns &middot; targeting start dates from June 2026 &middot; <span id="total"></span> listings</div>
+  <div class="sub">Guilford &middot; Madison &middot; Branford &middot; North Branford &middot; Durham &amp; nearby &middot; targeting June 2026+ &middot; <span id="total"></span> listings</div>
 </header>
 
 <div class="wrap">
@@ -101,21 +99,42 @@
       <input class="search" id="search" type="text" placeholder="Search title, employer, or keyword...">
       <span class="count" id="count"></span>
     </div>
-    <div class="group-label">Filter by category</div>
-    <div class="pills" id="catPills"></div>
-    <div class="group-label">Filter by distance</div>
-    <div class="pills" id="distPills"></div>
-    <div class="group-label">Filter by type</div>
-    <div class="pills" id="typePills">
-      <button class="clear" id="clearBtn">Clear all filters</button>
+
+    <div class="group-label">My picks</div>
+    <div class="pills">
+      <button class="pill star-pill" id="starOnly">★ Starred only</button>
+      <button class="pill hide-pill" id="showHidden">Show "not interested"</button>
+      <span class="stats" id="stats"></span>
     </div>
+
+    <div class="group-label">Town</div>
+    <div class="pills" id="townPills"></div>
+
+    <div class="group-label">Category</div>
+    <div class="pills" id="catPills"></div>
+
+    <div class="group-label">Type</div>
+    <div class="pills" id="typePills"></div>
+
+    <div class="group-label">&nbsp;</div>
+    <div class="pills"><button class="clear" id="clearBtn">Clear filters</button></div>
   </div>
+
+  <div class="hint">
+    <span><b>Tip:</b> click a filter pill to cycle through three states &mdash;</span>
+    <span class="chip"><span class="swatch sw-off"></span> off</span>
+    <span class="chip"><span class="swatch sw-inc"></span> <b style="color:var(--accent)">include</b> (show only these)</span>
+    <span class="chip"><span class="swatch sw-exc"></span> <b style="color:var(--exclude)">exclude</b> (hide these)</span>
+    <span>&rarr; off again.</span>
+  </div>
+
   <div class="grid" id="grid"></div>
 </div>
 
 <footer>
-  Compiled from public listings (Indeed, ZipRecruiter, Glassdoor, Town of Guilford HR, Guilford Free Library, employer pages) in late May 2026.
-  Listings change frequently &mdash; always confirm current availability on the employer/source link before applying.
+  Compiled from public listings (Indeed, ZipRecruiter, Glassdoor, SimplyHired, Town HR pages, library &amp; employer sites), late May 2026.
+  Listings change frequently &mdash; confirm current availability on the source link before applying.
+  Your stars, "not interested" marks, and filters are saved in this browser only.
 </footer>
 
 <script>
@@ -131,7 +150,14 @@ const JOBS = [
     "schedule": "School-year, office hours",
     "summary": "Clerical office support for an elementary school building. Apply via the Guilford Public Schools Employment page.",
     "source": "Guilford Public Schools",
-    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-001",
+    "town": "Guilford"
   },
   {
     "title": "Part-Time Para Educator (Kindergarten)",
@@ -144,7 +170,14 @@ const JOBS = [
     "schedule": "School-year, daytime",
     "summary": "Paraprofessional supporting a kindergarten classroom; assist with special events, field trips, and programs as needed.",
     "source": "Guilford Public Schools",
-    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Guilford,-CT-jobs.html"
+    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Guilford,-CT-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-002",
+    "town": "Guilford"
   },
   {
     "title": "Administrative Assistant to Town Counsel",
@@ -157,7 +190,14 @@ const JOBS = [
     "schedule": "Part-time",
     "summary": "Part-time administrative assistant supporting the town's counsel. Town government role; apply through Guilford HR.",
     "source": "Guilford Patch / Town of Guilford HR",
-    "url": "https://www.guilfordct.gov/town_departments/human_resources/employment_opportunities.php"
+    "url": "https://www.guilfordct.gov/town_departments/human_resources/employment_opportunities.php",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-003",
+    "town": "Guilford"
   },
   {
     "title": "Part-Time Kitchen Assistant",
@@ -170,7 +210,14 @@ const JOBS = [
     "schedule": "Part-time",
     "summary": "Kitchen assistant position with the Town of Guilford. Apply through Guilford Human Resources.",
     "source": "Guilford Patch / Town of Guilford HR",
-    "url": "https://www.guilfordct.gov/town_departments/human_resources/employment_opportunities.php"
+    "url": "https://www.guilfordct.gov/town_departments/human_resources/employment_opportunities.php",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-004",
+    "town": "Guilford"
   },
   {
     "title": "Librarian I",
@@ -183,7 +230,14 @@ const JOBS = [
     "schedule": "~24 hrs/week, incl. rotating nights/weekends",
     "summary": "Professional library role assisting patrons at Reference, Children's, and Circulation desks. Check the library careers page for current openings.",
     "source": "Town of Guilford / Guilford Free Library",
-    "url": "https://guilfordfreelibrary.org/topics/jobs-careers/"
+    "url": "https://guilfordfreelibrary.org/topics/jobs-careers/",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-005",
+    "town": "Guilford"
   },
   {
     "title": "Library Assistant II",
@@ -196,7 +250,14 @@ const JOBS = [
     "schedule": "Variable; rotating nights, Saturdays, Sundays",
     "summary": "Clerical and statistical library duties; high public-contact role at Circulation, Children's, and Reference desks. Submit application + resume to humanresources@guilfordct.gov.",
     "source": "Town of Guilford HR (via Indeed)",
-    "url": "https://www.indeed.com/q-Library-l-Guilford,-CT-jobs.html"
+    "url": "https://www.indeed.com/q-Library-l-Guilford,-CT-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-006",
+    "town": "Guilford"
   },
   {
     "title": "PT Team Member",
@@ -209,7 +270,14 @@ const JOBS = [
     "schedule": "Flexible shifts",
     "summary": "Retail team member: stocking, customer service, and store operations at the Michaels craft store.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-007",
+    "town": "Guilford"
   },
   {
     "title": "Guest Advocate (Cashier / Front of Store)",
@@ -222,7 +290,14 @@ const JOBS = [
     "schedule": "Flexible; store hours 7am-10pm",
     "summary": "Front-of-store guest service, cashiering, cart attendant. New Guilford Target (opened Aug 2025) includes Apple shop & optical; multiple roles open.",
     "source": "Indeed / CT Insider",
-    "url": "https://www.indeed.com/q-target-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-target-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-008",
+    "town": "Guilford"
   },
   {
     "title": "Starbucks Barista (in-store)",
@@ -235,7 +310,14 @@ const JOBS = [
     "schedule": "Flexible; store hours",
     "summary": "Prepare beverages and serve guests at the in-store Starbucks; part of Target's Food & Beverage team.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-barista-l-branford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-barista-l-branford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-009",
+    "town": "Guilford"
   },
   {
     "title": "Retail Sales Associate",
@@ -248,7 +330,14 @@ const JOBS = [
     "schedule": "Flexible shifts",
     "summary": "Sales floor and customer service role. Employee discount across Old Navy, Gap, Banana Republic, and Athleta.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-010",
+    "town": "Guilford"
   },
   {
     "title": "Retail Associate",
@@ -261,7 +350,14 @@ const JOBS = [
     "schedule": "Flexible shifts",
     "summary": "Store associate handling merchandise, fitting room, register, and customer service.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-011",
+    "town": "Guilford"
   },
   {
     "title": "Task Associate",
@@ -274,7 +370,14 @@ const JOBS = [
     "schedule": "Flexible shifts",
     "summary": "Operational excellence role supporting sales drivers, stocking, and store presentation.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-012",
+    "town": "Guilford"
   },
   {
     "title": "Center Store / Produce / Service Clerk",
@@ -287,7 +390,14 @@ const JOBS = [
     "schedule": "Flexible; incl. evenings/weekends",
     "summary": "Multiple grocery roles: center store clerk, produce/floral clerk, cashier, service clerk. Must be 16+. Customer-facing, fresh product handling.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-big-y-foods-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-big-y-foods-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-013",
+    "town": "Guilford"
   },
   {
     "title": "Cashier / Produce / Front End Associate",
@@ -300,7 +410,14 @@ const JOBS = [
     "schedule": "Flexible shifts",
     "summary": "Front-end and produce clerk roles; cart collection and general store housekeeping. Customer-facing grocery work.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-stop-&-shop-l-branford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-stop-&-shop-l-branford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-014",
+    "town": "Branford"
   },
   {
     "title": "Cashier / Produce Team Member",
@@ -313,7 +430,14 @@ const JOBS = [
     "schedule": "Flexible; incl. weekends",
     "summary": "Cashier and produce associate roles focused on guest experience and fresh product presentation.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-grocery-store-l-branford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-grocery-store-l-branford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-015",
+    "town": "Guilford"
   },
   {
     "title": "Personal Shopper (In-Store)",
@@ -326,7 +450,14 @@ const JOBS = [
     "schedule": "Flexible shifts",
     "summary": "Pick and pack online grocery orders in-store. Walmart also offers Live Better U education benefit for PT associates.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-Walmart-l-Guilford,-CT-jobs.html"
+    "url": "https://www.indeed.com/q-Walmart-l-Guilford,-CT-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-016",
+    "town": "Branford"
   },
   {
     "title": "Cart Attendant / Stocker / Freight Associate",
@@ -339,7 +470,14 @@ const JOBS = [
     "schedule": "Various shifts incl. overnight",
     "summary": "Cart attendant, stocking, and freight team roles. Multiple openings across the Branford store.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-Walmart-l-Guilford,-CT-jobs.html"
+    "url": "https://www.indeed.com/q-Walmart-l-Guilford,-CT-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-017",
+    "town": "Branford"
   },
   {
     "title": "Crew Member / Cashier",
@@ -352,7 +490,14 @@ const JOBS = [
     "schedule": "Flexible; early mornings available",
     "summary": "Front-counter crew/barista role. Full-time and management growth available. Fast-paced guest service.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-Coffee-Shop-l-Guilford,-CT-jobs.html"
+    "url": "https://www.indeed.com/q-Coffee-Shop-l-Guilford,-CT-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-018",
+    "town": "Guilford"
   },
   {
     "title": "Team Member",
@@ -365,7 +510,14 @@ const JOBS = [
     "schedule": "Flexible shifts",
     "summary": "Prepare bowls and smoothies, take orders, restock, and clear tables in a fast-paced counter-service spot.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Guilford,-CT-jobs.html"
+    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Guilford,-CT-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-019",
+    "town": "Guilford"
   },
   {
     "title": "Front of House Staff (Day Hours)",
@@ -378,7 +530,14 @@ const JOBS = [
     "schedule": "Daytime hours",
     "summary": "Greet customers, discuss allergens, offer cheese samples, take orders, and manage online ordering alongside the kitchen.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-hiring-restaurant-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-hiring-restaurant-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-020",
+    "town": "Guilford"
   },
   {
     "title": "Server",
@@ -391,7 +550,14 @@ const JOBS = [
     "schedule": "Variable; evenings/weekends",
     "summary": "Front-of-house server role taking orders and delivering food and drinks in a tavern setting.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-part-time-restaurant-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-part-time-restaurant-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-021",
+    "town": "Madison"
   },
   {
     "title": "Seasonal Food & Beverage Service Staff",
@@ -404,7 +570,14 @@ const JOBS = [
     "schedule": "Seasonal (summer), variable",
     "summary": "Seasonal F&B service at a private waterfront club overlooking the Thimble Islands. Server/busser roles for the season.",
     "source": "Glassdoor / Indeed",
-    "url": "https://www.glassdoor.com/Job/guilford-server-jobs-SRCH_IL.0,8_IC1148459_KO9,15.htm"
+    "url": "https://www.glassdoor.com/Job/guilford-server-jobs-SRCH_IL.0,8_IC1148459_KO9,15.htm",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-022",
+    "town": "Branford"
   },
   {
     "title": "Home Care Aide (Caregiver)",
@@ -417,7 +590,14 @@ const JOBS = [
     "schedule": "Weekday, weekend & overnight shifts",
     "summary": "In-home caregiving assisting clients with daily activities. Flexible shifts. Call 203-402-8966 for an interview.",
     "source": "ZipRecruiter / Indeed",
-    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-023",
+    "town": "Guilford"
   },
   {
     "title": "Caregiver (Shoreline Area)",
@@ -430,7 +610,14 @@ const JOBS = [
     "schedule": "Flexible; in-home shifts",
     "summary": "Caregiver assisting with bathing, dressing, transfers, and incontinence care. CNA/HHA/PCA cert & 2+ yrs experience preferred.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-024",
+    "town": "Guilford"
   },
   {
     "title": "Home Health Aide",
@@ -443,7 +630,14 @@ const JOBS = [
     "schedule": "Flexible; in-home",
     "summary": "Provide in-home care under a major regional health system; flexibility and comfort providing care in patient homes required.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-025",
+    "town": "Guilford"
   },
   {
     "title": "Caregiver / Home Care Aide",
@@ -456,7 +650,14 @@ const JOBS = [
     "schedule": "Flexible shifts",
     "summary": "Reliable in-home caregiving with paid orientation and ongoing training. Punctuality and shift coverage valued.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-026",
+    "town": "Branford"
   },
   {
     "title": "Certified Nursing Assistant (CNA)",
@@ -469,7 +670,14 @@ const JOBS = [
     "schedule": "Various shifts",
     "summary": "Certified nursing assistant role at a Guilford rehab/nursing facility assisting residents with daily living and personal care.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-guilford-health-care-center-jobs.html"
+    "url": "https://www.indeed.com/q-guilford-health-care-center-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-027",
+    "town": "Guilford"
   },
   {
     "title": "Concierge / Front Desk (Weekends)",
@@ -482,7 +690,14 @@ const JOBS = [
     "schedule": "Part-time weekends",
     "summary": "Answer incoming calls, direct inquiries, distribute mail/packages, and provide clerical support at a senior living community.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-028",
+    "town": "Branford"
   },
   {
     "title": "Pet Sitter / Weekend Pet Care Coordinator",
@@ -495,7 +710,14 @@ const JOBS = [
     "schedule": "Includes weekends; schedule coordination",
     "summary": "Pet care plus coordination: supporting field staff, reviewing and fine-tuning the upcoming week's schedule. Good fit for a detail-oriented animal lover.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-029",
+    "town": "Guilford"
   },
   {
     "title": "Delivery Driver",
@@ -508,7 +730,14 @@ const JOBS = [
     "schedule": "Shift-based; varies",
     "summary": "Deliver Amazon packages throughout the New Haven area. Requires valid driver's license and reliable transportation.",
     "source": "ZipRecruiter",
-    "url": "https://www.ziprecruiter.com/Jobs/-in-Guilford,CT"
+    "url": "https://www.ziprecruiter.com/Jobs/-in-Guilford,CT",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-030",
+    "town": "Regional"
   },
   {
     "title": "Package Handler / Warehouse (Seasonal & Year-Round)",
@@ -521,7 +750,14 @@ const JOBS = [
     "schedule": "Variable shift lengths by package volume",
     "summary": "Package handling roles with competitive weekly pay for both full- and part-time. Shift lengths vary based on volume.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/m/jobs?q=Part+Time&l=Guilford"
+    "url": "https://www.indeed.com/m/jobs?q=Part+Time&l=Guilford",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-031",
+    "town": "Regional"
   },
   {
     "title": "Part-Time Office Assistant",
@@ -534,7 +770,14 @@ const JOBS = [
     "schedule": "~20 hrs/week, flexible",
     "summary": "Clerical and administrative support: answer phones, respond to emails, greet tenants/vendors. Potential to grow into full-time.",
     "source": "ZipRecruiter",
-    "url": "https://www.ziprecruiter.com/Jobs/-in-Guilford,CT"
+    "url": "https://www.ziprecruiter.com/Jobs/-in-Guilford,CT",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-032",
+    "town": "North Haven"
   },
   {
     "title": "Direct Support Professional (Group Homes)",
@@ -547,7 +790,14 @@ const JOBS = [
     "schedule": "8-hr shifts w/ paid lunch; no off-shift mandating",
     "summary": "Assist adults with intellectual and physical disabilities in group homes. No prior experience required - training provided.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-no-experience-part-time-l-guilford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-no-experience-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-033",
+    "town": "Guilford"
   },
   {
     "title": "Crew Member / Barista",
@@ -560,73 +810,514 @@ const JOBS = [
     "schedule": "Flexible; FT & management available",
     "summary": "Take customer orders on POS, prepare beverages, friendly counter service. Shift Leader roles also posted.",
     "source": "Indeed",
-    "url": "https://www.indeed.com/q-barista-l-branford,-ct-jobs.html"
+    "url": "https://www.indeed.com/q-barista-l-branford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-034",
+    "town": "Guilford"
+  },
+  {
+    "title": "Cafeteria Worker",
+    "employer": "Town of Madison",
+    "category": "Food Service",
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$16.94-$20.80/hr",
+    "schedule": "29.5 hrs/week",
+    "hours_week": "29.5",
+    "posted": "May 15, 2026",
+    "benefits": "Municipal",
+    "experience": "Entry level",
+    "apply_method": "Town of Madison HR / madisonct.org",
+    "summary": "Town cafeteria worker role, just under 30 hrs/week. Open until filled. Municipal position with steady daytime school-aligned hours.",
+    "source": "Town of Madison (CivicEngage)",
+    "url": "https://www.madisonct.org/Jobs.aspx",
+    "id": "job-035",
+    "town": "Madison"
+  },
+  {
+    "title": "Facility Monitor",
+    "employer": "Town of Madison",
+    "category": "Office / Admin",
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Minimum wage (hourly)",
+    "schedule": "Hours vary",
+    "hours_week": "Varies",
+    "posted": "Sep 4, 2025",
+    "benefits": "Municipal",
+    "experience": "Entry level",
+    "apply_method": "Town of Madison HR / madisonct.org",
+    "summary": "Monitor a town facility; flexible varying hours. Good low-key role with the municipality. Open until filled.",
+    "source": "Town of Madison (CivicEngage)",
+    "url": "https://www.madisonct.org/jobs.aspx?CommunityJobs=False&CatID=Employment-with-the-Town-of-Madison-CT-100",
+    "id": "job-036",
+    "town": "Madison"
+  },
+  {
+    "title": "Store Associate / Retail Sales",
+    "employer": "CVS",
+    "category": "Retail",
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Hourly (retail scale)",
+    "schedule": "Flexible shifts",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "PT benefits eligible",
+    "experience": "1+ yr retail preferred",
+    "apply_method": "CVS Health careers",
+    "summary": "Cashiering, customer service, and store associate duties. Application window noted closing 07/19/2026. Stand for sustained periods.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-madison,-ct-jobs.html",
+    "id": "job-037",
+    "town": "Madison"
+  },
+  {
+    "title": "Dietary Aide",
+    "employer": "Autumn Lake Healthcare at Madison",
+    "category": "Caregiving / Health",
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time / Full-time",
+    "pay": "Competitive hourly + referral bonuses",
+    "schedule": "Various shifts",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Benefit package",
+    "experience": "Entry level; training provided",
+    "apply_method": "Autumn Lake Healthcare careers",
+    "summary": "Dietary aide in a skilled nursing facility. Team-oriented environment with training, referral bonuses, and benefits.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/jobs?q=Part+Time&l=Madison%2C+CT&from=mobRdr",
+    "id": "job-038",
+    "town": "Madison"
+  },
+  {
+    "title": "Lifeguard (Seasonal)",
+    "employer": "Town of Madison \u2013 Beach & Recreation",
+    "category": "Recreation",
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time / Seasonal",
+    "pay": "Hourly (seasonal scale)",
+    "schedule": "Starts May 2026; TBD",
+    "hours_week": "Varies",
+    "posted": "Mar 16, 2026",
+    "benefits": "Seasonal",
+    "experience": "Lifeguard certification",
+    "apply_method": "Town of Madison HR",
+    "summary": "Seasonal beach/pool lifeguard for the summer. Requires current lifeguard certification. Outdoor shoreline work.",
+    "source": "Town of Madison (CivicEngage)",
+    "url": "https://www.madisonct.org/Jobs.aspx",
+    "id": "job-039",
+    "town": "Madison"
+  },
+  {
+    "title": "Server / Food Runner",
+    "employer": "Madison Beach Hotel",
+    "category": "Food Service",
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Hourly + tips",
+    "schedule": "Variable; events & dining",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Hospitality",
+    "experience": "Food service helpful",
+    "apply_method": "Madison Beach Hotel careers",
+    "summary": "Front-of-house service at a waterfront hotel; take and deliver food/drink orders, coordinate with kitchen and bar staff. Event work available.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-restaurant-staff-l-guilford,-ct-jobs.html",
+    "id": "job-040",
+    "town": "Madison"
+  },
+  {
+    "title": "Goodwill Store Associate (P/T)",
+    "employer": "Goodwill Industries Southern New England",
+    "category": "Retail",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly (retail scale)",
+    "schedule": "Flexible; sales floor",
+    "hours_week": "20-30",
+    "posted": "2026",
+    "benefits": "PT eligible",
+    "experience": "Entry level",
+    "apply_method": "Goodwill SNE careers",
+    "summary": "Cash wrap and sales-floor associate; protect agency assets, maintain floor appearance and cleanliness. Mission-driven nonprofit retailer.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Branford,-CT-jobs.html",
+    "id": "job-041",
+    "town": "Branford"
+  },
+  {
+    "title": "Customer Service Associate I",
+    "employer": "Retailer (Branford)",
+    "category": "Retail",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly (retail scale)",
+    "schedule": "Flexible schedules",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Paid vacation & sick time",
+    "experience": "Entry level",
+    "apply_method": "via Indeed",
+    "summary": "Greet guests, take orders, customer service. Flexible part-time schedules with paid vacation and sick time offered.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Branford,-CT-jobs.html",
+    "id": "job-042",
+    "town": "Branford"
+  },
+  {
+    "title": "Evening Pet Care Provider",
+    "employer": "We Let the Dogs Out, LLC",
+    "category": "Pet Care",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly; higher rate for evenings/experience",
+    "schedule": "Weekday evening visits",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Pet CPR/First Aid training offered",
+    "experience": "Reliable; pet experience a plus",
+    "apply_method": "via Indeed",
+    "summary": "Evening dog/pet visits. Especially seeking dependable team members for weekday evenings; slightly higher pay for experienced caregivers.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-evening-part-time-l-branford,-ct-jobs.html",
+    "id": "job-043",
+    "town": "Branford"
+  },
+  {
+    "title": "Receptionist (Evenings)",
+    "employer": "Ark Healthcare & Rehabilitation at Branford Hills",
+    "category": "Office / Admin",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly",
+    "schedule": "Mon-Fri 3pm-8pm",
+    "hours_week": "~25",
+    "posted": "2026",
+    "benefits": "PT",
+    "experience": "Phone/reception experience",
+    "apply_method": "Ark Healthcare careers",
+    "summary": "Operate phone and paging system, answer and redirect incoming calls at a rehab facility. Set weekday evening shift (3-8pm).",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/Jobs/Part-Time/-in-Branford,CT",
+    "id": "job-044",
+    "town": "Branford"
+  },
+  {
+    "title": "Administrative Assistant (P/T)",
+    "employer": "Center for NeuroPotential",
+    "category": "Office / Admin",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly",
+    "schedule": "Office hours",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "PT",
+    "experience": "Admin/organizational skills",
+    "apply_method": "via ZipRecruiter",
+    "summary": "Administrative assistant optimizing organizational systems within a behavioral healthcare practice. Detail-oriented office role.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/Jobs/Part-Time/-in-Branford,CT",
+    "id": "job-045",
+    "town": "Branford"
+  },
+  {
+    "title": "School Bus Driver (Certified & Non-Certified)",
+    "employer": "Z\u016bm",
+    "category": "Delivery / Driving",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Competitive; 5 guaranteed daily hours",
+    "schedule": "School AM/PM split",
+    "hours_week": "~25",
+    "posted": "2026",
+    "benefits": "Medical, Dental, Vision, 401K",
+    "experience": "Will train/certify; CDL pathway",
+    "apply_method": "Z\u016bm careers",
+    "summary": "Drive students to/from school; non-certified applicants welcome with training. 5 guaranteed daily hours plus full benefits \u2014 strong PT option.",
+    "source": "SimplyHired",
+    "url": "https://www.simplyhired.com/search?q=part+time&l=branford,+ct",
+    "id": "job-046",
+    "town": "Branford"
+  },
+  {
+    "title": "Part-Time Library Assistant",
+    "employer": "Town of North Branford (Atwater & Smith Libraries)",
+    "category": "Library",
+    "location": "North Branford, CT",
+    "distance": "~9 mi (N. Branford)",
+    "type": "Part-time",
+    "pay": "Town scale (hourly)",
+    "schedule": "Circulation hours incl. some nights/weekends",
+    "hours_week": "Varies",
+    "posted": "Jul 28, 2025 (open until filled)",
+    "benefits": "Municipal",
+    "experience": "HS diploma req; Bachelor's preferred",
+    "apply_method": "Town Manager's Office, 909 Foxon Rd",
+    "summary": "Full range of circulation services at the Atwater and Smith Libraries; help patrons find materials, support technology needs, assist with collection upkeep and program prep.",
+    "source": "North Branford Libraries",
+    "url": "https://nbranfordlibraries.org/employment/",
+    "id": "job-047",
+    "town": "North Branford"
+  },
+  {
+    "title": "Assistant Town Clerk (P/T)",
+    "employer": "Town of North Branford",
+    "category": "Office / Admin",
+    "location": "North Branford, CT",
+    "distance": "~9 mi (N. Branford)",
+    "type": "Part-time",
+    "pay": "Town scale (hourly)",
+    "schedule": "Office hours",
+    "hours_week": "Varies",
+    "posted": "Jan 15, 2026 (open until filled)",
+    "benefits": "Municipal",
+    "experience": "Clerical/records experience",
+    "apply_method": "North Branford HR / northbranfordct.gov",
+    "summary": "Assist in administration of the Town Clerk's office \u2014 records, documents, public service. Stable municipal part-time role.",
+    "source": "Town of North Branford (CivicEngage)",
+    "url": "https://www.northbranfordct.gov/Jobs.aspx",
+    "id": "job-048",
+    "town": "North Branford"
+  },
+  {
+    "title": "Flex Merchandiser",
+    "employer": "Driveline",
+    "category": "Retail",
+    "location": "North Branford, CT",
+    "distance": "~9 mi (N. Branford)",
+    "type": "Part-time",
+    "pay": "Hourly",
+    "schedule": "Flexible; self-scheduled",
+    "hours_week": "Varies",
+    "posted": "May 22, 2026",
+    "benefits": "Flexible PT",
+    "experience": "Entry; lift to 30 lbs",
+    "apply_method": "Driveline careers",
+    "summary": "In-store merchandising: resets, displays, product rotation. Independent, flexible scheduling \u2014 set your own pace. Lift up to 30 lbs.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-Part-Time-l-North-Branford,-CT-06471-jobs.html",
+    "id": "job-049",
+    "town": "North Branford"
+  },
+  {
+    "title": "Part-time Evening Assistant",
+    "employer": "Town of Durham, CT",
+    "category": "Office / Admin",
+    "location": "Durham, CT",
+    "distance": "~15 mi (Durham)",
+    "type": "Part-time",
+    "pay": "Hourly (town scale)",
+    "schedule": "Evenings",
+    "hours_week": "Varies",
+    "posted": "2025-2026",
+    "benefits": "Municipal",
+    "experience": "Entry level",
+    "apply_method": "Town of Durham HR / townofdurhamct.org",
+    "summary": "Evening assistant role with the Town of Durham. Note: confirm current availability \u2014 the town's job page may rotate postings. Light evening municipal support.",
+    "source": "Indeed / Town of Durham",
+    "url": "https://www.townofdurhamct.org/job-openings",
+    "id": "job-050",
+    "town": "Durham"
+  },
+  {
+    "title": "Crew Member",
+    "employer": "Insomnia Cookies",
+    "category": "Food Service",
+    "location": "New Haven, CT",
+    "distance": "~20 mi (New Haven)",
+    "type": "Part-time",
+    "pay": "Hourly + tips",
+    "schedule": "Evenings/late night",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "PT",
+    "experience": "Entry level",
+    "apply_method": "Insomnia Cookies careers",
+    "summary": "Greet guests and fulfill cookie orders. Evening/late-night hours \u2014 good for flexible or supplemental income.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Branford,-CT-jobs.html",
+    "id": "job-051",
+    "town": "New Haven"
+  },
+  {
+    "title": "Retail Merchandiser (SAS Retail Services)",
+    "employer": "SAS Retail Services",
+    "category": "Retail",
+    "location": "North Branford area, CT",
+    "distance": "~9 mi (N. Branford)",
+    "type": "Part-time",
+    "pay": "Hourly + $2,000 completion bonus",
+    "schedule": "Flexible day shifts",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "PT",
+    "experience": "Entry level",
+    "apply_method": "SAS Retail Services careers",
+    "summary": "In-store merchandising support: build displays/end caps, reset shelves, track inventory. Includes a $2,000 completion bonus opportunity.",
+    "source": "Zippia",
+    "url": "https://www.zippia.com/north-branford-ct-jobs/",
+    "id": "job-052",
+    "town": "North Branford"
+  },
+  {
+    "title": "Food Service Associate (Dining Svcs)",
+    "employer": "Yale New Haven Health",
+    "category": "Food Service",
+    "location": "New Haven, CT",
+    "distance": "~20 mi (New Haven)",
+    "type": "Part-time",
+    "pay": "Hourly (health system scale)",
+    "schedule": "Day/Evening",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Health system benefits",
+    "experience": "Entry level",
+    "apply_method": "Yale New Haven Health careers",
+    "summary": "Routine dining-services tasks within a hospital food & beverage department. Day or evening part-time shifts; strong benefits.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-evening-part-time-l-branford,-ct-jobs.html",
+    "id": "job-053",
+    "town": "New Haven"
   }
 ];
 
-const state = { cats:new Set(), dists:new Set(), types:new Set(), q:"" };
+// ---- persistent marks ----
+const LS_STAR='guilford_pt_starred', LS_HIDE='guilford_pt_hidden';
+function load(key){ try{ return new Set(JSON.parse(localStorage.getItem(key)||'[]')); }catch(e){ return new Set(); } }
+function save(key,set){ try{ localStorage.setItem(key, JSON.stringify([...set])); }catch(e){} }
+const starred=load(LS_STAR), hidden=load(LS_HIDE);
 
-const catPills = document.getElementById('catPills');
-const distPills = document.getElementById('distPills');
-const typePills = document.getElementById('typePills');
-const grid = document.getElementById('grid');
-const countEl = document.getElementById('count');
-const totalEl = document.getElementById('total');
-totalEl.textContent = JOBS.length;
+// ---- tri-state filter model ----
+// each group holds a Map: value -> 'inc' | 'exc'  (absent = off)
+const filters = { town:new Map(), category:new Map(), type:new Map() };
+const ui = { q:"", starOnly:false, showHidden:false };
 
+const $ = id => document.getElementById(id);
+$('total').textContent = JOBS.length;
 function uniq(key){ return [...new Set(JOBS.map(j=>j[key]))].sort(); }
 
-function buildPills(container, values, set){
+// cycle: off -> inc -> exc -> off
+function cyclePill(btn, group, value){
+  const cur = filters[group].get(value); // undefined | 'inc' | 'exc'
+  btn.classList.remove('inc','exc');
+  let next;
+  if(cur===undefined){ next='inc'; }
+  else if(cur==='inc'){ next='exc'; }
+  else { next=null; } // back to off
+  if(next){ filters[group].set(value,next); btn.classList.add(next); }
+  else { filters[group].delete(value); }
+  updatePillMark(btn,next);
+  render();
+}
+function updatePillMark(btn,state){
+  let mk = btn.querySelector('.mk');
+  if(!mk){ mk=document.createElement('span'); mk.className='mk'; btn.prepend(mk); }
+  mk.textContent = state==='inc' ? '✓' : state==='exc' ? '✕' : '';
+  if(!state) mk.textContent='';
+}
+
+function buildPills(container, values, group){
   values.forEach(v=>{
     const b=document.createElement('button');
-    b.className='pill';b.textContent=v;
-    b.onclick=()=>{ b.classList.toggle('on'); set.has(v)?set.delete(v):set.add(v); render(); };
+    b.className='pill';
+    const mk=document.createElement('span'); mk.className='mk'; b.appendChild(mk);
+    const label=document.createElement('span'); label.textContent=v; b.appendChild(label);
+    b.onclick=()=>cyclePill(b,group,v);
     container.appendChild(b);
   });
 }
-buildPills(catPills, uniq('category'), state.cats);
-buildPills(distPills, uniq('distance'), state.dists);
-// types: split combos so "Part-time / Seasonal" matches both
-const typeSet = new Set();
-JOBS.forEach(j=> j.type.split('/').forEach(t=>typeSet.add(t.trim())));
-buildPills(typePills, [...typeSet].sort(), state.types);
+buildPills($('townPills'), uniq('town'), 'town');
+buildPills($('catPills'),  uniq('category'), 'category');
+const typeSet=new Set(); JOBS.forEach(j=>j.type.split('/').forEach(t=>typeSet.add(t.trim())));
+buildPills($('typePills'), [...typeSet].sort(), 'type');
 
-document.getElementById('search').addEventListener('input',e=>{ state.q=e.target.value.toLowerCase(); render(); });
-document.getElementById('clearBtn').onclick=()=>{
-  state.cats.clear();state.dists.clear();state.types.clear();state.q="";
-  document.getElementById('search').value="";
-  document.querySelectorAll('.pill.on').forEach(p=>p.classList.remove('on'));
+$('search').addEventListener('input',e=>{ ui.q=e.target.value.toLowerCase(); render(); });
+$('starOnly').onclick=function(){ ui.starOnly=!ui.starOnly; this.classList.toggle('inc',ui.starOnly); render(); };
+$('showHidden').onclick=function(){ ui.showHidden=!ui.showHidden; this.classList.toggle('inc',ui.showHidden); render(); };
+$('clearBtn').onclick=()=>{
+  filters.town.clear(); filters.category.clear(); filters.type.clear();
+  ui.q=""; ui.starOnly=false; ui.showHidden=false; $('search').value="";
+  document.querySelectorAll('.pill').forEach(p=>{ p.classList.remove('inc','exc'); const mk=p.querySelector('.mk'); if(mk)mk.textContent=''; });
   render();
 };
 
+// returns the list of a job's values for a group (type can be multiple)
+function jobValues(j, group){
+  if(group==='type') return j.type.split('/').map(t=>t.trim());
+  if(group==='town') return [j.town];
+  if(group==='category') return [j.category];
+  return [];
+}
+
+function groupPass(j, group){
+  const map=filters[group];
+  if(map.size===0) return true;
+  const incs=[...map].filter(([,s])=>s==='inc').map(([v])=>v);
+  const excs=[...map].filter(([,s])=>s==='exc').map(([v])=>v);
+  const vals=jobValues(j,group);
+  // exclude wins: if job matches any excluded value, drop it
+  if(excs.some(v=>vals.includes(v))) return false;
+  // if any includes are set, job must match at least one
+  if(incs.length && !incs.some(v=>vals.includes(v))) return false;
+  return true;
+}
+
 function matches(j){
-  if(state.cats.size && !state.cats.has(j.category)) return false;
-  if(state.dists.size && !state.dists.has(j.distance)) return false;
-  if(state.types.size){
-    const jt=j.type.split('/').map(t=>t.trim());
-    if(![...state.types].some(t=>jt.includes(t))) return false;
-  }
-  if(state.q){
-    const hay=(j.title+' '+j.employer+' '+j.summary+' '+j.category+' '+j.location).toLowerCase();
-    if(!hay.includes(state.q)) return false;
+  if(hidden.has(j.id) && !ui.showHidden && !ui.starOnly) return false;
+  if(ui.starOnly && !starred.has(j.id)) return false;
+  if(!groupPass(j,'town')) return false;
+  if(!groupPass(j,'category')) return false;
+  if(!groupPass(j,'type')) return false;
+  if(ui.q){
+    const hay=(j.title+' '+j.employer+' '+j.summary+' '+j.category+' '+j.location+' '+j.town).toLowerCase();
+    if(!hay.includes(ui.q)) return false;
   }
   return true;
 }
 
 function card(j){
-  return `<div class="card">
-    <div>
-      <h3>${j.title}</h3>
-      <div class="employer">${j.employer}</div>
+  const isStar=starred.has(j.id), isHide=hidden.has(j.id);
+  return `<div class="card ${isStar?'starred':''} ${isHide?'rejected':''}" data-id="${j.id}">
+    <div class="marks">
+      <button class="mark star ${isStar?'on':''}" title="Star this job" data-act="star" data-id="${j.id}">★</button>
+      <button class="mark hide ${isHide?'on':''}" title="Not interested" data-act="hide" data-id="${j.id}">✕</button>
     </div>
+    <div><h3>${j.title}</h3><div class="employer">${j.employer}</div></div>
     <div class="meta">
       <span class="tag cat">${j.category}</span>
-      <span class="tag dist">📍 ${j.location}</span>
+      <span class="tag town">📍 ${j.town}</span>
       <span class="tag pay">💵 ${j.pay}</span>
       <span class="tag">${j.type}</span>
-      <span class="tag">🕒 ${j.schedule}</span>
     </div>
     <div class="summary">${j.summary}</div>
+    <div class="detail">
+      <b>Location</b><span>${j.location}</span>
+      <b>Schedule</b><span>${j.schedule}${j.hours_week&&j.hours_week!=='Varies'?' ('+j.hours_week+' hrs/wk)':''}</span>
+      <b>Experience</b><span>${j.experience||'See posting'}</span>
+      <b>Benefits</b><span>${j.benefits||'Varies'}</span>
+      <b>Posted</b><span>${j.posted||'—'}</span>
+      <b>Apply via</b><span>${j.apply_method||'Source link'}</span>
+    </div>
     <div class="row">
       <span class="src">via ${j.source}</span>
       <a class="apply" href="${j.url}" target="_blank" rel="noopener">View / Apply →</a>
@@ -636,10 +1327,26 @@ function card(j){
 
 function render(){
   const list=JOBS.filter(matches);
-  countEl.textContent = list.length+" of "+JOBS.length+" shown";
-  grid.innerHTML = list.length ? list.map(card).join("") :
-    '<div class="empty">No listings match those filters. Try clearing some.</div>';
+  $('count').textContent = list.length+" of "+JOBS.length+" shown";
+  $('stats').innerHTML = `<b>★ ${starred.size} starred</b> &middot; <i>✕ ${hidden.size} hidden</i>`;
+  $('grid').innerHTML = list.length ? list.map(card).join("")
+    : '<div class="empty">No listings match those filters. Try clearing some.</div>';
 }
+
+$('grid').addEventListener('click',e=>{
+  const btn=e.target.closest('.mark'); if(!btn) return;
+  const id=btn.dataset.id, act=btn.dataset.act;
+  if(act==='star'){
+    starred.has(id)?starred.delete(id):starred.add(id);
+    if(starred.has(id)) hidden.delete(id);
+  }else{
+    hidden.has(id)?hidden.delete(id):hidden.add(id);
+    if(hidden.has(id)) starred.delete(id);
+  }
+  save(LS_STAR,starred); save(LS_HIDE,hidden);
+  render();
+});
+
 render();
 </script>
 </body>
