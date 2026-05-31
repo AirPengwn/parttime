@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Filterable board of part-time jobs in and near Guilford, CT. Updated May 2026.">
+<title>Part Time Work In/Near Guilford</title>
+<style>
+  :root{
+    --bg:#0f1e2e;
+    --bg-soft:#16293b;
+    --card:#1d3447;
+    --card-hover:#234057;
+    --ink:#eaf2f8;
+    --ink-dim:#9db3c4;
+    --line:#2c4a63;
+    --accent:#3fb6a8;
+    --accent-2:#f2a65a;
+    --accent-3:#e0654f;
+    --pill:#24405a;
+    --pill-on:#3fb6a8;
+    --pill-on-ink:#08171f;
+    --shadow:0 6px 24px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;font-family:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+    background:linear-gradient(160deg,#0c1a28 0%,#102233 55%,#0c1a28 100%);
+    color:var(--ink);min-height:100vh;line-height:1.5;
+  }
+  header{
+    padding:34px 24px 20px;text-align:center;
+    border-bottom:1px solid var(--line);
+    background:radial-gradient(900px 300px at 50% -60px,rgba(63,182,168,.18),transparent);
+  }
+  h1{
+    margin:0;font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;letter-spacing:-.5px;
+    background:linear-gradient(90deg,#3fb6a8,#7fd6c9 60%,#f2a65a);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .sub{color:var(--ink-dim);margin-top:8px;font-size:.95rem}
+  .wrap{max-width:1180px;margin:0 auto;padding:22px 18px 70px}
+  .toolbar{
+    background:var(--bg-soft);border:1px solid var(--line);border-radius:16px;
+    padding:16px 18px;margin-bottom:22px;box-shadow:var(--shadow);
+  }
+  .toolbar-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  .search{
+    flex:1;min-width:220px;background:var(--bg);border:1px solid var(--line);
+    border-radius:10px;padding:11px 14px;color:var(--ink);font-size:.95rem;outline:none;
+  }
+  .search:focus{border-color:var(--accent)}
+  .count{color:var(--ink-dim);font-size:.88rem;white-space:nowrap}
+  .group-label{font-size:.74rem;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-dim);margin:14px 0 7px}
+  .pills{display:flex;flex-wrap:wrap;gap:8px}
+  .pill{
+    border:1px solid var(--line);background:var(--pill);color:var(--ink);
+    padding:7px 13px;border-radius:999px;font-size:.83rem;cursor:pointer;
+    transition:.15s;user-select:none;
+  }
+  .pill:hover{background:var(--card-hover)}
+  .pill.on{background:var(--pill-on);color:var(--pill-on-ink);border-color:var(--pill-on);font-weight:700}
+  .clear{margin-left:auto;background:transparent;border:1px solid var(--accent-3);color:var(--accent-3);
+    padding:7px 13px;border-radius:999px;font-size:.82rem;cursor:pointer}
+  .clear:hover{background:var(--accent-3);color:#fff}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px;
+    display:flex;flex-direction:column;gap:10px;transition:.18s;box-shadow:var(--shadow);
+  }
+  .card:hover{transform:translateY(-3px);background:var(--card-hover);border-color:var(--accent)}
+  .card h3{margin:0;font-size:1.08rem;line-height:1.3}
+  .employer{color:var(--accent);font-weight:600;font-size:.9rem}
+  .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+  .tag{font-size:.72rem;padding:4px 9px;border-radius:7px;background:var(--bg-soft);border:1px solid var(--line);color:var(--ink-dim)}
+  .tag.cat{background:rgba(63,182,168,.16);color:#7fd6c9;border-color:rgba(63,182,168,.4)}
+  .tag.pay{background:rgba(242,166,90,.16);color:var(--accent-2);border-color:rgba(242,166,90,.4)}
+  .tag.dist{background:rgba(224,101,79,.14);color:#f0a394;border-color:rgba(224,101,79,.35)}
+  .summary{font-size:.88rem;color:var(--ink-dim);flex:1}
+  .row{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.78rem;color:var(--ink-dim);border-top:1px solid var(--line);padding-top:10px;margin-top:2px}
+  .src{font-style:italic}
+  .apply{
+    background:var(--accent);color:var(--pill-on-ink);text-decoration:none;font-weight:700;
+    padding:8px 14px;border-radius:9px;font-size:.84rem;white-space:nowrap;transition:.15s;
+  }
+  .apply:hover{background:#54cdbe}
+  .empty{text-align:center;color:var(--ink-dim);padding:60px 20px;grid-column:1/-1}
+  footer{text-align:center;color:var(--ink-dim);font-size:.78rem;padding:24px;border-top:1px solid var(--line)}
+  footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Part Time Work In/Near Guilford</h1>
+  <div class="sub">Guilford, CT &amp; surrounding shoreline towns &middot; targeting start dates from June 2026 &middot; <span id="total"></span> listings</div>
+</header>
+
+<div class="wrap">
+  <div class="toolbar">
+    <div class="toolbar-row">
+      <input class="search" id="search" type="text" placeholder="Search title, employer, or keyword...">
+      <span class="count" id="count"></span>
+    </div>
+    <div class="group-label">Filter by category</div>
+    <div class="pills" id="catPills"></div>
+    <div class="group-label">Filter by distance</div>
+    <div class="pills" id="distPills"></div>
+    <div class="group-label">Filter by type</div>
+    <div class="pills" id="typePills">
+      <button class="clear" id="clearBtn">Clear all filters</button>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+</div>
+
+<footer>
+  Compiled from public listings (Indeed, ZipRecruiter, Glassdoor, Town of Guilford HR, Guilford Free Library, employer pages) in late May 2026.
+  Listings change frequently &mdash; always confirm current availability on the employer/source link before applying.
+</footer>
+
+<script>
+const JOBS = [
+  {
+    "title": "Part-Time Office Clerical Support",
+    "employer": "Guilford Public Schools (Lakes Elementary)",
+    "category": "Office / Admin",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "District scale (hourly)",
+    "schedule": "School-year, office hours",
+    "summary": "Clerical office support for an elementary school building. Apply via the Guilford Public Schools Employment page.",
+    "source": "Guilford Public Schools",
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Part-Time Para Educator (Kindergarten)",
+    "employer": "Guilford Public Schools",
+    "category": "Education",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "District scale (hourly)",
+    "schedule": "School-year, daytime",
+    "summary": "Paraprofessional supporting a kindergarten classroom; assist with special events, field trips, and programs as needed.",
+    "source": "Guilford Public Schools",
+    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Guilford,-CT-jobs.html"
+  },
+  {
+    "title": "Administrative Assistant to Town Counsel",
+    "employer": "Town of Guilford",
+    "category": "Office / Admin",
+    "location": "Guilford Town Hall, 31 Park St",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$18/hr",
+    "schedule": "Part-time",
+    "summary": "Part-time administrative assistant supporting the town's counsel. Town government role; apply through Guilford HR.",
+    "source": "Guilford Patch / Town of Guilford HR",
+    "url": "https://www.guilfordct.gov/town_departments/human_resources/employment_opportunities.php"
+  },
+  {
+    "title": "Part-Time Kitchen Assistant",
+    "employer": "Town of Guilford",
+    "category": "Food Service",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$14+/hr",
+    "schedule": "Part-time",
+    "summary": "Kitchen assistant position with the Town of Guilford. Apply through Guilford Human Resources.",
+    "source": "Guilford Patch / Town of Guilford HR",
+    "url": "https://www.guilfordct.gov/town_departments/human_resources/employment_opportunities.php"
+  },
+  {
+    "title": "Librarian I",
+    "employer": "Guilford Free Library / Town of Guilford",
+    "category": "Library",
+    "location": "67 Park St, Guilford",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "~$21.63/hr (per prior posting)",
+    "schedule": "~24 hrs/week, incl. rotating nights/weekends",
+    "summary": "Professional library role assisting patrons at Reference, Children's, and Circulation desks. Check the library careers page for current openings.",
+    "source": "Town of Guilford / Guilford Free Library",
+    "url": "https://guilfordfreelibrary.org/topics/jobs-careers/"
+  },
+  {
+    "title": "Library Assistant II",
+    "employer": "Town of Guilford (Guilford Free Library)",
+    "category": "Library",
+    "location": "67 Park St, Guilford",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Town scale (hourly)",
+    "schedule": "Variable; rotating nights, Saturdays, Sundays",
+    "summary": "Clerical and statistical library duties; high public-contact role at Circulation, Children's, and Reference desks. Submit application + resume to humanresources@guilfordct.gov.",
+    "source": "Town of Guilford HR (via Indeed)",
+    "url": "https://www.indeed.com/q-Library-l-Guilford,-CT-jobs.html"
+  },
+  {
+    "title": "PT Team Member",
+    "employer": "Michaels Stores",
+    "category": "Retail",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (retail scale)",
+    "schedule": "Flexible shifts",
+    "summary": "Retail team member: stocking, customer service, and store operations at the Michaels craft store.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Guest Advocate (Cashier / Front of Store)",
+    "employer": "Target (Guilford store T2925)",
+    "category": "Retail",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time / Seasonal",
+    "pay": "At or above CT minimum wage + premiums",
+    "schedule": "Flexible; store hours 7am-10pm",
+    "summary": "Front-of-store guest service, cashiering, cart attendant. New Guilford Target (opened Aug 2025) includes Apple shop & optical; multiple roles open.",
+    "source": "Indeed / CT Insider",
+    "url": "https://www.indeed.com/q-target-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Starbucks Barista (in-store)",
+    "employer": "Target (Guilford store T2925)",
+    "category": "Food Service",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "At or above CT minimum wage + premiums",
+    "schedule": "Flexible; store hours",
+    "summary": "Prepare beverages and serve guests at the in-store Starbucks; part of Target's Food & Beverage team.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-barista-l-branford,-ct-jobs.html"
+  },
+  {
+    "title": "Retail Sales Associate",
+    "employer": "Old Navy",
+    "category": "Retail",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly; 50% brand merch discount",
+    "schedule": "Flexible shifts",
+    "summary": "Sales floor and customer service role. Employee discount across Old Navy, Gap, Banana Republic, and Athleta.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Retail Associate",
+    "employer": "TJ Maxx",
+    "category": "Retail",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (retail scale)",
+    "schedule": "Flexible shifts",
+    "summary": "Store associate handling merchandise, fitting room, register, and customer service.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Task Associate",
+    "employer": "Ulta Beauty",
+    "category": "Retail",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (retail scale)",
+    "schedule": "Flexible shifts",
+    "summary": "Operational excellence role supporting sales drivers, stocking, and store presentation.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Center Store / Produce / Service Clerk",
+    "employer": "Big Y Foods",
+    "category": "Grocery",
+    "location": "830 Boston Post Rd, Guilford",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (grocery scale)",
+    "schedule": "Flexible; incl. evenings/weekends",
+    "summary": "Multiple grocery roles: center store clerk, produce/floral clerk, cashier, service clerk. Must be 16+. Customer-facing, fresh product handling.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-big-y-foods-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Cashier / Produce / Front End Associate",
+    "employer": "Stop & Shop",
+    "category": "Grocery",
+    "location": "22 Leetes Island Rd, Branford",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly (grocery scale)",
+    "schedule": "Flexible shifts",
+    "summary": "Front-end and produce clerk roles; cart collection and general store housekeeping. Customer-facing grocery work.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-stop-&-shop-l-branford,-ct-jobs.html"
+  },
+  {
+    "title": "Cashier / Produce Team Member",
+    "employer": "The Fresh Market",
+    "category": "Grocery",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (grocery scale)",
+    "schedule": "Flexible; incl. weekends",
+    "summary": "Cashier and produce associate roles focused on guest experience and fresh product presentation.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-grocery-store-l-branford,-ct-jobs.html"
+  },
+  {
+    "title": "Personal Shopper (In-Store)",
+    "employer": "Walmart",
+    "category": "Grocery",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "At or above CT minimum wage + premiums",
+    "schedule": "Flexible shifts",
+    "summary": "Pick and pack online grocery orders in-store. Walmart also offers Live Better U education benefit for PT associates.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-Walmart-l-Guilford,-CT-jobs.html"
+  },
+  {
+    "title": "Cart Attendant / Stocker / Freight Associate",
+    "employer": "Walmart",
+    "category": "Retail",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "At or above CT minimum wage + premiums",
+    "schedule": "Various shifts incl. overnight",
+    "summary": "Cart attendant, stocking, and freight team roles. Multiple openings across the Branford store.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-Walmart-l-Guilford,-CT-jobs.html"
+  },
+  {
+    "title": "Crew Member / Cashier",
+    "employer": "Dunkin' (Guilford - D'Andrea Group)",
+    "category": "Food Service",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (QSR scale)",
+    "schedule": "Flexible; early mornings available",
+    "summary": "Front-counter crew/barista role. Full-time and management growth available. Fast-paced guest service.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-Coffee-Shop-l-Guilford,-CT-jobs.html"
+  },
+  {
+    "title": "Team Member",
+    "employer": "Playa Bowls",
+    "category": "Food Service",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (QSR scale)",
+    "schedule": "Flexible shifts",
+    "summary": "Prepare bowls and smoothies, take orders, restock, and clear tables in a fast-paced counter-service spot.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-Part-Time-l-Town-of-Guilford,-CT-jobs.html"
+  },
+  {
+    "title": "Front of House Staff (Day Hours)",
+    "employer": "Three Girls Vegan Creamery",
+    "category": "Food Service",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly + tips",
+    "schedule": "Daytime hours",
+    "summary": "Greet customers, discuss allergens, offer cheese samples, take orders, and manage online ordering alongside the kitchen.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-hiring-restaurant-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Server",
+    "employer": "Fat Duck Tavern",
+    "category": "Food Service",
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Hourly + tips",
+    "schedule": "Variable; evenings/weekends",
+    "summary": "Front-of-house server role taking orders and delivering food and drinks in a tavern setting.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-restaurant-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Seasonal Food & Beverage Service Staff",
+    "employer": "Pine Orchard Yacht & Country Club",
+    "category": "Food Service",
+    "location": "Branford, CT",
+    "distance": "~9 mi (Branford)",
+    "type": "Part-time / Seasonal",
+    "pay": "Hourly + gratuity",
+    "schedule": "Seasonal (summer), variable",
+    "summary": "Seasonal F&B service at a private waterfront club overlooking the Thimble Islands. Server/busser roles for the season.",
+    "source": "Glassdoor / Indeed",
+    "url": "https://www.glassdoor.com/Job/guilford-server-jobs-SRCH_IL.0,8_IC1148459_KO9,15.htm"
+  },
+  {
+    "title": "Home Care Aide (Caregiver)",
+    "employer": "Homewatch CareGivers of Guilford & the Shoreline",
+    "category": "Caregiving / Health",
+    "location": "Guilford & Shoreline, CT",
+    "distance": "In town + nearby",
+    "type": "Part-time / Full-time",
+    "pay": "$17-$20/hr (by cert & experience)",
+    "schedule": "Weekday, weekend & overnight shifts",
+    "summary": "In-home caregiving assisting clients with daily activities. Flexible shifts. Call 203-402-8966 for an interview.",
+    "source": "ZipRecruiter / Indeed",
+    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Caregiver (Shoreline Area)",
+    "employer": "Always Best Care Senior Services",
+    "category": "Caregiving / Health",
+    "location": "Branford / Guilford, CT",
+    "distance": "In town + nearby",
+    "type": "Part-time / Full-time",
+    "pay": "Hourly (by certification)",
+    "schedule": "Flexible; in-home shifts",
+    "summary": "Caregiver assisting with bathing, dressing, transfers, and incontinence care. CNA/HHA/PCA cert & 2+ yrs experience preferred.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Home Health Aide",
+    "employer": "Yale New Haven Health",
+    "category": "Caregiving / Health",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (health system scale)",
+    "schedule": "Flexible; in-home",
+    "summary": "Provide in-home care under a major regional health system; flexibility and comfort providing care in patient homes required.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Caregiver / Home Care Aide",
+    "employer": "Synergy HomeCare",
+    "category": "Caregiving / Health",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly; time-and-a-half OT & holidays",
+    "schedule": "Flexible shifts",
+    "summary": "Reliable in-home caregiving with paid orientation and ongoing training. Punctuality and shift coverage valued.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-home-care-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Certified Nursing Assistant (CNA)",
+    "employer": "Apple Rehab Guilford",
+    "category": "Caregiving / Health",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time / Full-time",
+    "pay": "Hourly (CNA scale)",
+    "schedule": "Various shifts",
+    "summary": "Certified nursing assistant role at a Guilford rehab/nursing facility assisting residents with daily living and personal care.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-guilford-health-care-center-jobs.html"
+  },
+  {
+    "title": "Concierge / Front Desk (Weekends)",
+    "employer": "Artis Senior Living of Branford",
+    "category": "Office / Admin",
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly",
+    "schedule": "Part-time weekends",
+    "summary": "Answer incoming calls, direct inquiries, distribute mail/packages, and provide clerical support at a senior living community.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Pet Sitter / Weekend Pet Care Coordinator",
+    "employer": "We Let the Dogs Out, LLC",
+    "category": "Pet Care",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly",
+    "schedule": "Includes weekends; schedule coordination",
+    "summary": "Pet care plus coordination: supporting field staff, reviewing and fine-tuning the upcoming week's schedule. Good fit for a detail-oriented animal lover.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Delivery Driver",
+    "employer": "Spelman Logistics (Amazon DSP)",
+    "category": "Delivery / Driving",
+    "location": "Serves New Haven County",
+    "distance": "Nearby region",
+    "type": "Part-time / Flexible",
+    "pay": "Starting $22.25/hr",
+    "schedule": "Shift-based; varies",
+    "summary": "Deliver Amazon packages throughout the New Haven area. Requires valid driver's license and reliable transportation.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/Jobs/-in-Guilford,CT"
+  },
+  {
+    "title": "Package Handler / Warehouse (Seasonal & Year-Round)",
+    "employer": "Regional logistics (via Indeed)",
+    "category": "Delivery / Driving",
+    "location": "New Haven County, CT",
+    "distance": "Nearby region",
+    "type": "Part-time",
+    "pay": "From $19.25/hr, paid weekly",
+    "schedule": "Variable shift lengths by package volume",
+    "summary": "Package handling roles with competitive weekly pay for both full- and part-time. Shift lengths vary based on volume.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/m/jobs?q=Part+Time&l=Guilford"
+  },
+  {
+    "title": "Part-Time Office Assistant",
+    "employer": "Property Management start-up",
+    "category": "Office / Admin",
+    "location": "North Haven, CT",
+    "distance": "~15 mi (North Haven)",
+    "type": "Part-time",
+    "pay": "$20/hr",
+    "schedule": "~20 hrs/week, flexible",
+    "summary": "Clerical and administrative support: answer phones, respond to emails, greet tenants/vendors. Potential to grow into full-time.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/Jobs/-in-Guilford,CT"
+  },
+  {
+    "title": "Direct Support Professional (Group Homes)",
+    "employer": "Disability services provider (via Indeed)",
+    "category": "Caregiving / Health",
+    "location": "Guilford / shoreline area",
+    "distance": "In town + nearby",
+    "type": "Part-time / Full-time",
+    "pay": "Hourly, based on experience",
+    "schedule": "8-hr shifts w/ paid lunch; no off-shift mandating",
+    "summary": "Assist adults with intellectual and physical disabilities in group homes. No prior experience required - training provided.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-no-experience-part-time-l-guilford,-ct-jobs.html"
+  },
+  {
+    "title": "Crew Member / Barista",
+    "employer": "Dunkin' (D'Andrea Group)",
+    "category": "Food Service",
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (QSR scale)",
+    "schedule": "Flexible; FT & management available",
+    "summary": "Take customer orders on POS, prepare beverages, friendly counter service. Shift Leader roles also posted.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-barista-l-branford,-ct-jobs.html"
+  }
+];
+
+const state = { cats:new Set(), dists:new Set(), types:new Set(), q:"" };
+
+const catPills = document.getElementById('catPills');
+const distPills = document.getElementById('distPills');
+const typePills = document.getElementById('typePills');
+const grid = document.getElementById('grid');
+const countEl = document.getElementById('count');
+const totalEl = document.getElementById('total');
+totalEl.textContent = JOBS.length;
+
+function uniq(key){ return [...new Set(JOBS.map(j=>j[key]))].sort(); }
+
+function buildPills(container, values, set){
+  values.forEach(v=>{
+    const b=document.createElement('button');
+    b.className='pill';b.textContent=v;
+    b.onclick=()=>{ b.classList.toggle('on'); set.has(v)?set.delete(v):set.add(v); render(); };
+    container.appendChild(b);
+  });
+}
+buildPills(catPills, uniq('category'), state.cats);
+buildPills(distPills, uniq('distance'), state.dists);
+// types: split combos so "Part-time / Seasonal" matches both
+const typeSet = new Set();
+JOBS.forEach(j=> j.type.split('/').forEach(t=>typeSet.add(t.trim())));
+buildPills(typePills, [...typeSet].sort(), state.types);
+
+document.getElementById('search').addEventListener('input',e=>{ state.q=e.target.value.toLowerCase(); render(); });
+document.getElementById('clearBtn').onclick=()=>{
+  state.cats.clear();state.dists.clear();state.types.clear();state.q="";
+  document.getElementById('search').value="";
+  document.querySelectorAll('.pill.on').forEach(p=>p.classList.remove('on'));
+  render();
+};
+
+function matches(j){
+  if(state.cats.size && !state.cats.has(j.category)) return false;
+  if(state.dists.size && !state.dists.has(j.distance)) return false;
+  if(state.types.size){
+    const jt=j.type.split('/').map(t=>t.trim());
+    if(![...state.types].some(t=>jt.includes(t))) return false;
+  }
+  if(state.q){
+    const hay=(j.title+' '+j.employer+' '+j.summary+' '+j.category+' '+j.location).toLowerCase();
+    if(!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+
+function card(j){
+  return `<div class="card">
+    <div>
+      <h3>${j.title}</h3>
+      <div class="employer">${j.employer}</div>
+    </div>
+    <div class="meta">
+      <span class="tag cat">${j.category}</span>
+      <span class="tag dist">📍 ${j.location}</span>
+      <span class="tag pay">💵 ${j.pay}</span>
+      <span class="tag">${j.type}</span>
+      <span class="tag">🕒 ${j.schedule}</span>
+    </div>
+    <div class="summary">${j.summary}</div>
+    <div class="row">
+      <span class="src">via ${j.source}</span>
+      <a class="apply" href="${j.url}" target="_blank" rel="noopener">View / Apply →</a>
+    </div>
+  </div>`;
+}
+
+function render(){
+  const list=JOBS.filter(matches);
+  countEl.textContent = list.length+" of "+JOBS.length+" shown";
+  grid.innerHTML = list.length ? list.map(card).join("") :
+    '<div class="empty">No listings match those filters. Try clearing some.</div>';
+}
+render();
+</script>
+</body>
+</html>
