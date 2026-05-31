@@ -48,6 +48,7 @@
   .pill.exc{background:var(--exclude);color:#fff;border-color:var(--exclude);font-weight:700;text-decoration:line-through;text-decoration-thickness:1px;}
   .pill.star-pill.inc{background:var(--star);border-color:var(--star);color:#3a2c00}
   .pill.hide-pill.inc{background:var(--reject);border-color:var(--reject);color:#fff}
+  .pill.new-pill.inc{background:#5ad0b4;border-color:#5ad0b4;color:#06231d}
   .clear{background:transparent;border:1px solid var(--accent-3);color:var(--accent-3);
     padding:7px 13px;border-radius:999px;font-size:.82rem;cursor:pointer}
   .clear:hover{background:var(--accent-3);color:#fff}
@@ -57,6 +58,9 @@
   .card:hover{transform:translateY(-3px);background:var(--card-hover);border-color:var(--accent)}
   .card.starred{border-color:var(--star);box-shadow:0 0 0 1px var(--star),var(--shadow)}
   .card.rejected{opacity:.55;border-color:var(--reject)}
+  .badge-new{display:inline-block;background:#5ad0b4;color:#06231d;font-size:.62rem;font-weight:800;
+    letter-spacing:.04em;padding:2px 6px;border-radius:6px;vertical-align:middle;margin-right:7px;transform:translateY(-1px)}
+  .new-stat{color:#5ad0b4;font-weight:700}
   .card h3{margin:0;font-size:1.08rem;line-height:1.3;padding-right:64px}
   .employer{color:var(--accent);font-weight:600;font-size:.9rem}
   .marks{position:absolute;top:14px;right:14px;display:flex;gap:6px}
@@ -129,6 +133,7 @@
     <div class="group-label">My picks</div>
     <div class="pills">
       <button class="pill star-pill" id="starOnly">★ Starred only</button>
+      <button class="pill new-pill" id="newOnly" hidden>🆕 New only</button>
       <button class="pill hide-pill" id="showHidden">Show "not interested"</button>
       <span class="sync off" id="syncBtn" title="Cloud sync status — click for details"><span class="dot"></span><span id="syncText">Local only</span></span>
       <span class="stats" id="stats"></span>
@@ -1225,6 +1230,384 @@ const JOBS = [
     "url": "https://www.indeed.com/q-evening-part-time-l-branford,-ct-jobs.html",
     "id": "job-053",
     "town": "New Haven"
+  },
+  {
+    "title": "Library Paraeducator",
+    "employer": "Guilford Public Schools (Adams Middle School)",
+    "categories": ["Education","Library"],
+    "location": "Adams Middle School, Guilford",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "District scale (hourly)",
+    "schedule": "School-year, daytime",
+    "summary": "Run the library circulation desk and help supervise the media center at Adams Middle School. School-based support role.",
+    "source": "Guilford Public Schools / Frontline",
+    "url": "https://www.applitrack.com/guilford/onlineapp/default.aspx?all=1",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Guilford Public Schools (Frontline)",
+    "id": "job-054",
+    "town": "Guilford",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Substitute Cafeteria Worker",
+    "employer": "Guilford Public Schools",
+    "categories": ["Food Service","Education"],
+    "location": "Guilford, CT (district schools)",
+    "distance": "In town",
+    "type": "Part-time / Substitute",
+    "pay": "$145.51/school day (days 1-40)",
+    "schedule": "School days, daytime",
+    "summary": "Fill-in cafeteria/food-service role across district schools. Day-rate sub position; good flexible school-hours work.",
+    "source": "Guilford Public Schools / Frontline",
+    "url": "https://www.applitrack.com/guilford/onlineapp/default.aspx?all=1",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level",
+    "apply_method": "Guilford Public Schools (Frontline)",
+    "id": "job-055",
+    "town": "Guilford",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Substitute Custodian (Part-Time)",
+    "employer": "Guilford Public Schools",
+    "categories": ["Cleaning / Facilities","Education"],
+    "location": "Guilford, CT (district schools)",
+    "distance": "In town",
+    "type": "Part-time / Substitute",
+    "pay": "Hourly (district scale)",
+    "schedule": "As-needed; day & evening",
+    "summary": "On-call custodial coverage for district school buildings. Cleaning and light facilities upkeep on a substitute basis.",
+    "source": "Guilford Public Schools / Frontline",
+    "url": "https://www.applitrack.com/guilford/onlineapp/default.aspx?all=1",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level",
+    "apply_method": "Guilford Public Schools (Frontline)",
+    "id": "job-056",
+    "town": "Guilford",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Substitute Teacher",
+    "employer": "Guilford Public Schools",
+    "categories": ["Education"],
+    "location": "Guilford, CT (district schools)",
+    "distance": "In town",
+    "type": "Part-time / Substitute",
+    "pay": "$120/day",
+    "schedule": "School days, daytime; flexible",
+    "summary": "Day-to-day substitute teaching across Guilford schools for the school year. Set your own availability; $120/day.",
+    "source": "Guilford Public Schools / Frontline",
+    "url": "https://www.applitrack.com/guilford/onlineapp/default.aspx?all=1",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "See posting (cert/sub permit)",
+    "apply_method": "Guilford Public Schools (Frontline)",
+    "id": "job-057",
+    "town": "Guilford",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Special Assignment Paraeducator (6 hr)",
+    "employer": "Madison Public Schools (Neck River School)",
+    "categories": ["Education"],
+    "location": "Neck River School (PreK-5), Madison",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$18.11/hr",
+    "schedule": "6 hrs/day, 184 days/yr (school year)",
+    "summary": "Assist teachers with daily classroom activities for grades PreK-5 at Neck River School. 6-hour daily paraeducator assignment.",
+    "source": "Madison Public Schools / Frontline",
+    "url": "https://www.applitrack.com/madison/onlineapp/default.aspx",
+    "hours_week": "30",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "See posting",
+    "apply_method": "Madison Public Schools (Frontline)",
+    "id": "job-058",
+    "town": "Madison",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Athletic Coach (Seasonal)",
+    "employer": "Madison Public Schools",
+    "categories": ["Education","Recreation"],
+    "location": "Madison, CT (school athletics)",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time / Seasonal",
+    "pay": "Seasonal stipend",
+    "schedule": "After-school, in season",
+    "summary": "Coach a school sport (various openings incl. basketball). After-school seasonal stipend role for the district's athletics program.",
+    "source": "Madison Public Schools / Indeed",
+    "url": "https://www.indeed.com/q-madison-public-schools-l-madison,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Coaching/sport background",
+    "apply_method": "Madison Public Schools (Frontline)",
+    "id": "job-059",
+    "town": "Madison",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Summer School Program Facilitator",
+    "employer": "Regional School District 18 (Lyme-Old Lyme)",
+    "categories": ["Education"],
+    "location": "Old Lyme, CT",
+    "distance": "~22 mi (Old Lyme)",
+    "type": "Part-time / Seasonal",
+    "pay": "Hourly (district scale)",
+    "schedule": "Jul 6-30, 2026 · Mon-Thu",
+    "summary": "Facilitate a summer-school program for the Lyme-Old Lyme district, July 6-30, 2026 (Mon-Thu). Short-term summer education role.",
+    "source": "CT REAP",
+    "url": "https://www.ctreap.net/",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Seasonal",
+    "experience": "See posting",
+    "apply_method": "via CT REAP",
+    "id": "job-060",
+    "town": "Old Lyme",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Part-Time Floater / Teacher's Aide",
+    "employer": "Kinder-Garden Learning Center",
+    "categories": ["Childcare","Education"],
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (see posting)",
+    "schedule": "Mon-Fri, between 8am-5pm",
+    "summary": "Support classrooms as a floater/teacher's aide at an early-childhood learning center. Weekday daytime availability needed.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-guilford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level; childcare a plus",
+    "apply_method": "Via source link",
+    "id": "job-061",
+    "town": "Guilford",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Senior Center Bus Driver",
+    "employer": "Town of Madison (Senior Center)",
+    "categories": ["Delivery / Driving"],
+    "location": "Madison Senior Center, Madison",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$20/hr",
+    "schedule": "Mon-Thu, 29 hrs/week",
+    "summary": "Drive seniors to and from the Madison Senior Center and appointments. Steady weekday daytime municipal role at $20/hr.",
+    "source": "Town of Madison (CivicEngage)",
+    "url": "https://www.madisonct.org/Jobs.aspx",
+    "hours_week": "29",
+    "posted": "Sep 2025 (open until filled)",
+    "benefits": "Municipal",
+    "experience": "Valid license; clean record",
+    "apply_method": "Town of Madison HR / madisonct.org",
+    "id": "job-062",
+    "town": "Madison",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Building & Grounds Maintainer (Seasonal)",
+    "employer": "Town of Madison",
+    "categories": ["Landscaping / Outdoor","Cleaning / Facilities"],
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time / Seasonal",
+    "pay": "Hourly (seasonal scale)",
+    "schedule": "Seasonal; daytime",
+    "summary": "Seasonal upkeep of town buildings and grounds - mowing, light maintenance, and facility support. Outdoor municipal summer work.",
+    "source": "Town of Madison (CivicEngage)",
+    "url": "https://www.madisonct.org/Jobs.aspx",
+    "hours_week": "Varies",
+    "posted": "Mar 2026 (open until filled)",
+    "benefits": "Seasonal",
+    "experience": "Entry level",
+    "apply_method": "Town of Madison HR / madisonct.org",
+    "id": "job-063",
+    "town": "Madison",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Recreation Crew / Camp Counselor (Seasonal)",
+    "employer": "Town of North Branford (Recreation Dept.)",
+    "categories": ["Recreation"],
+    "location": "North Branford, CT",
+    "distance": "~9 mi (N. Branford)",
+    "type": "Part-time / Seasonal",
+    "pay": "Hourly (seasonal scale)",
+    "schedule": "Summer; daytime program hours",
+    "summary": "Plan and lead recreation activities and summer programs for the town's Rec Department. Great seasonal role for students and active folks.",
+    "source": "Town of North Branford (CivicEngage)",
+    "url": "https://www.northbranfordct.gov/Jobs.aspx",
+    "hours_week": "Varies",
+    "posted": "Mar 2026 (open until filled)",
+    "benefits": "Seasonal",
+    "experience": "Entry level",
+    "apply_method": "North Branford HR / northbranfordct.gov",
+    "id": "job-064",
+    "town": "North Branford",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Retail Sales Associate",
+    "employer": "Nike Factory Store (Clinton Crossing)",
+    "categories": ["Retail"],
+    "location": "Clinton Crossing Premium Outlets, Clinton",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "Hourly (retail scale)",
+    "schedule": "Flexible shifts incl. weekends",
+    "summary": "Sales-floor and customer-service associate at the Nike outlet in Clinton Crossing. Athletic-brand retail with flexible scheduling.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-outlet-l-clinton,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "PT eligible",
+    "experience": "Entry level",
+    "apply_method": "Via source link",
+    "id": "job-065",
+    "town": "Clinton",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Seasonal Sales Associate (multiple brands)",
+    "employer": "Clinton Crossing Premium Outlets",
+    "categories": ["Retail"],
+    "location": "Clinton Crossing Premium Outlets, Clinton",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time / Seasonal",
+    "pay": "~$15+/hr (varies by brand)",
+    "schedule": "Flexible; incl. weekends",
+    "summary": "Many outlet stores at Clinton Crossing hire seasonal part-time associates (median ~$15/hr). Customer service, register, and stock.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/Jobs/Outlet/-in-Clinton,CT",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level",
+    "apply_method": "Via source link",
+    "id": "job-066",
+    "town": "Clinton",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Retail Sales Associate",
+    "employer": "Marshalls",
+    "categories": ["Retail"],
+    "location": "Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Hourly (retail scale)",
+    "schedule": "Flexible shifts",
+    "summary": "Register, fitting room, merchandising, and customer service at the Old Saybrook Marshalls. Flexible part-time retail.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-old-saybrook,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level",
+    "apply_method": "Via source link",
+    "id": "job-067",
+    "town": "Old Saybrook",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Night Crew Clerk (Overnight)",
+    "employer": "Stop & Shop",
+    "categories": ["Grocery"],
+    "location": "Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Hourly (grocery scale)",
+    "schedule": "Overnight stocking shifts",
+    "summary": "Overnight grocery stocking and floor recovery at the Old Saybrook Stop & Shop. Good fit if you prefer night hours.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-old-saybrook,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level",
+    "apply_method": "Via source link",
+    "id": "job-068",
+    "town": "Old Saybrook",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Weekend Dog Walker",
+    "employer": "Shoreline Happy Paws",
+    "categories": ["Pet Care"],
+    "location": "Clinton, CT & shoreline",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "Hourly (see posting)",
+    "schedule": "Weekends; as little as 2 hrs/day, flexible",
+    "summary": "Flexible weekend dog-walking on the shoreline - work as little as a couple of hours a day. Great supplemental role for animal lovers.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/Jobs/Part-Time/-in-Clinton,CT",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Reliable; pet experience a plus",
+    "apply_method": "Via source link",
+    "id": "job-069",
+    "town": "Clinton",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Cafe / Deli / Kitchen Staff",
+    "employer": "The Marketplace at Guilford Food Center",
+    "categories": ["Food Service"],
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Hourly (see posting)",
+    "schedule": "Daytime; varies",
+    "summary": "Local cafe/deli/grocer regularly hiring cafe, deli, and kitchen staff - all experience levels welcome. Email info@marketplaceguilford.com.",
+    "source": "Marketplace Guilford",
+    "url": "https://www.marketplaceguilford.com/",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "All levels welcome",
+    "apply_method": "Email info@marketplaceguilford.com",
+    "id": "job-070",
+    "town": "Guilford",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Life Enrichment / Activities Assistant",
+    "employer": "Senior living community (Branford)",
+    "categories": ["Caregiving / Health","Recreation"],
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Hourly",
+    "schedule": "Tue & Thu + every other weekend",
+    "summary": "Lead activities and enrichment programs for residents at a Branford senior-living community. Set part-time schedule with alternating weekends.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-part-time-l-branford,-ct-jobs.html",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "PT",
+    "experience": "See posting",
+    "apply_method": "Via source link",
+    "id": "job-071",
+    "town": "Branford",
+    "first_seen": "2026-05-31"
   }
 ];
 
@@ -1244,11 +1627,24 @@ const SYNC_ENABLED = !!(JSONBIN_BIN && JSONBIN_KEY);
 const JSONBIN_BASE = "https://api.jsonbin.io/v3/b/" + JSONBIN_BIN;
 
 // ---- persistent marks (localStorage = instant cache + offline fallback) ----
-const LS_STAR='guilford_pt_starred', LS_HIDE='guilford_pt_hidden', LS_TS='guilford_pt_updated';
+const LS_STAR='guilford_pt_starred', LS_HIDE='guilford_pt_hidden', LS_TS='guilford_pt_updated', LS_VISIT='guilford_pt_lastvisit';
 function load(key){ try{ return new Set(JSON.parse(localStorage.getItem(key)||'[]')); }catch(e){ return new Set(); } }
 function save(key,set){ try{ localStorage.setItem(key, JSON.stringify([...set])); }catch(e){} }
 const starred=load(LS_STAR), hidden=load(LS_HIDE);
 let localUpdatedAt = Number(localStorage.getItem(LS_TS)||0);
+
+// ---- "NEW since last visit" ----
+// PREV_VISIT is captured once at load and held for the whole session, so badges
+// don't vanish while you're looking. First-ever visit => baseline = now (nothing new).
+const STORED_VISIT = Number(localStorage.getItem(LS_VISIT)||0);
+let PREV_VISIT = STORED_VISIT || Date.now();
+function isNew(j){ return j.first_seen && Date.parse(j.first_seen) > PREV_VISIT; }
+let visitRecorded=false;
+function recordVisit(){           // stamp "now" as the new last-visit (local + cloud)
+  if(visitRecorded) return; visitRecorded=true;
+  try{ localStorage.setItem(LS_VISIT, String(Date.now())); }catch(e){}
+  pushRemote();                   // no-op if sync not configured
+}
 
 // ---- sync state machine ----
 let syncTimer=null, syncing=false;
@@ -1273,6 +1669,9 @@ async function pullRemote(){
     const body=await r.json();
     const doc=(body && body.record) || {};
     const remoteTs=Number(doc.updatedAt||0);
+    // cross-device "NEW": use the most recent visit recorded on any device
+    const cross=Math.max(STORED_VISIT, Number(doc.lastVisit||0));
+    if(cross && !visitRecorded){ PREV_VISIT=cross; render(); }
     if(Array.isArray(doc.starred) && Array.isArray(doc.hidden) && remoteTs>=localUpdatedAt){
       starred.clear(); doc.starred.forEach(id=>starred.add(id));
       hidden.clear();  doc.hidden.forEach(id=>hidden.add(id));
@@ -1297,7 +1696,8 @@ function pushRemote(immediate){
     if(syncing){ syncTimer=setTimeout(doSend,400); return; }
     syncing=true; setSyncStatus('syncing','Saving…');
     try{
-      const payload={starred:[...starred],hidden:[...hidden],updatedAt:localUpdatedAt};
+      const payload={starred:[...starred],hidden:[...hidden],
+        lastVisit:Number(localStorage.getItem(LS_VISIT)||0),updatedAt:localUpdatedAt};
       const r=await fetch(JSONBIN_BASE,{method:'PUT',
         headers:{'Content-Type':'application/json','X-Access-Key':JSONBIN_KEY},
         body:JSON.stringify(payload)});
@@ -1313,11 +1713,25 @@ function pushRemote(immediate){
 // ---- tri-state filter model ----
 // each group holds a Map: value -> 'inc' | 'exc'  (absent = off)
 const filters = { town:new Map(), category:new Map(), type:new Map() };
-const ui = { q:"", starOnly:false, showHidden:false };
+const ui = { q:"", starOnly:false, showHidden:false, newOnly:false };
 
 const $ = id => document.getElementById(id);
 $('total').textContent = JOBS.length;
 function uniq(key){ return [...new Set(JOBS.map(j=>j[key]))].sort(); }
+
+// A job's category list: explicit `categories` array if present, else the single
+// `category`. Any role physically AT a school also counts as Education, even if
+// it's clerical / cafeteria / custodial.
+function jobCategories(j){
+  let cats = Array.isArray(j.categories) ? j.categories.slice() : (j.category?[j.category]:[]);
+  // detect a school WORKPLACE from employer/location only (not the job title, so
+  // "School Bus Driver" isn't miscounted as an at-a-school role)
+  const where=(j.employer+' '+j.location).toLowerCase();
+  const atSchool=/\bschool\b|public schools|elementary|middle school|high school|\bacademy\b|board of education|pre-?school|head start/.test(where);
+  if(atSchool && !cats.includes('Education')) cats.push('Education');
+  return cats.length?cats:['Other'];
+}
+const allCats=[...new Set(JOBS.flatMap(jobCategories))].sort();
 
 // cycle: off -> inc -> exc -> off
 function cyclePill(btn, group, value){
@@ -1350,16 +1764,17 @@ function buildPills(container, values, group){
   });
 }
 buildPills($('townPills'), uniq('town'), 'town');
-buildPills($('catPills'),  uniq('category'), 'category');
+buildPills($('catPills'),  allCats, 'category');
 const typeSet=new Set(); JOBS.forEach(j=>j.type.split('/').forEach(t=>typeSet.add(t.trim())));
 buildPills($('typePills'), [...typeSet].sort(), 'type');
 
 $('search').addEventListener('input',e=>{ ui.q=e.target.value.toLowerCase(); render(); });
 $('starOnly').onclick=function(){ ui.starOnly=!ui.starOnly; this.classList.toggle('inc',ui.starOnly); render(); };
+$('newOnly').onclick=function(){ ui.newOnly=!ui.newOnly; this.classList.toggle('inc',ui.newOnly); render(); };
 $('showHidden').onclick=function(){ ui.showHidden=!ui.showHidden; this.classList.toggle('inc',ui.showHidden); render(); };
 $('clearBtn').onclick=()=>{
   filters.town.clear(); filters.category.clear(); filters.type.clear();
-  ui.q=""; ui.starOnly=false; ui.showHidden=false; $('search').value="";
+  ui.q=""; ui.starOnly=false; ui.showHidden=false; ui.newOnly=false; $('search').value="";
   document.querySelectorAll('.pill').forEach(p=>{ p.classList.remove('inc','exc'); const mk=p.querySelector('.mk'); if(mk)mk.textContent=''; });
   render();
 };
@@ -1368,7 +1783,7 @@ $('clearBtn').onclick=()=>{
 function jobValues(j, group){
   if(group==='type') return j.type.split('/').map(t=>t.trim());
   if(group==='town') return [j.town];
-  if(group==='category') return [j.category];
+  if(group==='category') return jobCategories(j);
   return [];
 }
 
@@ -1391,8 +1806,9 @@ function matches(j){
   if(!groupPass(j,'town')) return false;
   if(!groupPass(j,'category')) return false;
   if(!groupPass(j,'type')) return false;
+  if(ui.newOnly && !isNew(j)) return false;
   if(ui.q){
-    const hay=(j.title+' '+j.employer+' '+j.summary+' '+j.category+' '+j.location+' '+j.town).toLowerCase();
+    const hay=(j.title+' '+j.employer+' '+j.summary+' '+jobCategories(j).join(' ')+' '+j.location+' '+j.town).toLowerCase();
     if(!hay.includes(ui.q)) return false;
   }
   return true;
@@ -1423,6 +1839,8 @@ function card(j){
   const isStar=starred.has(j.id), isHide=hidden.has(j.id);
   const hrs=(j.hours_week&&j.hours_week!=='Varies')?` (${esc(j.hours_week)} hrs/wk)`:'';
   const chips=highlights(j).map(h=>`<span class="chip-hl ${h.cls}">${h.icon} ${h.label}</span>`).join('');
+  const catTags=jobCategories(j).map(c=>`<span class="tag cat">${esc(c)}</span>`).join('');
+  const newBadge=isNew(j)?'<span class="badge-new">🆕 NEW</span>':'';
   const dClean=j.distance?j.distance.replace(/\s*\([^)]*\)\s*$/,'').trim():'';
   const dist=dClean?`<span class="tag town">📍 ${esc(j.town)} · ${esc(dClean)}</span>`:`<span class="tag town">📍 ${esc(j.town)}</span>`;
   return `<div class="card ${isStar?'starred':''} ${isHide?'rejected':''}" data-id="${j.id}">
@@ -1430,9 +1848,9 @@ function card(j){
       <button class="mark star ${isStar?'on':''}" title="Star this job" data-act="star" data-id="${j.id}">★</button>
       <button class="mark hide ${isHide?'on':''}" title="Not interested" data-act="hide" data-id="${j.id}">✕</button>
     </div>
-    <div><h3>${esc(j.title)}</h3><div class="employer">${esc(j.employer)}</div></div>
+    <div><h3>${newBadge}${esc(j.title)}</h3><div class="employer">${esc(j.employer)}</div></div>
     <div class="meta">
-      <span class="tag cat">${esc(j.category)}</span>
+      ${catTags}
       ${dist}
       <span class="tag pay">💵 ${esc(j.pay)}</span>
       <span class="tag">${esc(j.type)}</span>
@@ -1466,8 +1884,11 @@ function card(j){
 
 function render(){
   const list=JOBS.filter(matches);
+  const newCount=JOBS.filter(isNew).length;
+  $('newOnly').hidden = newCount===0;            // only show the pill when there are new ones
   $('count').textContent = list.length+" of "+JOBS.length+" shown";
-  $('stats').innerHTML = `<b>★ ${starred.size} starred</b> &middot; <i>✕ ${hidden.size} hidden</i>`;
+  $('stats').innerHTML = `<b>★ ${starred.size} starred</b> &middot; <i>✕ ${hidden.size} hidden</i>`
+    + (newCount?` &middot; <span class="new-stat">🆕 ${newCount} new</span>`:'');
   $('grid').innerHTML = list.length ? list.map(card).join("")
     : '<div class="empty">No listings match those filters. Try clearing some.</div>';
 }
@@ -1502,9 +1923,9 @@ $('syncBtn').onclick=()=>{ if(SYNC_ENABLED) pullRemote(); };
 
 render();
 
-// ---- kick off cloud sync ----
-if(SYNC_ENABLED){ setSyncStatus('syncing','Syncing…'); pullRemote(); }
-else { setSyncStatus('off','Local only'); }
+// ---- kick off cloud sync, then stamp this visit ----
+if(SYNC_ENABLED){ setSyncStatus('syncing','Syncing…'); pullRemote().finally(recordVisit); }
+else { setSyncStatus('off','Local only'); recordVisit(); }
 </script>
 </body>
 </html>

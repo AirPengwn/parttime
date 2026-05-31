@@ -1,22 +1,29 @@
 # Part Time Work In/Near Guilford
 
 A filterable, single-page job board of part-time openings in and around Guilford, CT —
-covering **Guilford, Madison, Branford, North Branford, and Durham** plus nearby
-regional roles (New Haven, North Haven). Targeting start dates June 2026 onward.
+covering **Guilford, Madison, Branford, North Branford, Durham, Clinton, Old Saybrook**
+and nearby regional roles (New Haven, North Haven, Old Lyme). Targeting spring/summer
+2026 onward.
 
 One self-contained `index.html` — no build step, no dependencies. Works on GitHub Pages instantly.
 
 ## Files
 - `index.html` — the site (HTML + CSS + JS, data embedded).
-- `jobs-data.json` — the underlying dataset (53 listings) if you want to edit separately.
+- `jobs-data.json` — the underlying dataset (71 listings), regenerated from the embedded array so the two stay in parity.
 
 ## Features
 - **Tri-state filter pills** — click a Town / Category / Type pill to cycle:
   **off → include** (✓ teal, show only these) **→ exclude** (✕ red strikethrough, hide these)
   **→ off**. Includes and excludes combine across groups; exclude always wins over include.
-- **53 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
+- **71 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
   schedule + hours/week, experience, benefits, posted date, apply method, source, and the
   live link.
+- **Multi-category tagging** — jobs can carry more than one category. Any role *physically
+  at a school* (clerical, cafeteria, custodial, paraeducator, coach…) is automatically also
+  tagged **Education**, so it shows up under that filter.
+- **🆕 NEW since last visit** — jobs added since you last opened the board are badged NEW,
+  with a "New only" filter and a count. (Driven by a `first_seen` date on each listing and a
+  `lastVisit` timestamp saved locally / synced to the cloud.)
 - **Highlight chips** — quick scannable perks auto-derived from each listing: 💵 Tips,
   🎁 Bonus, 🏥 Benefits, 🌱 No-experience-OK, 🕐 Flexible, 📅 Weekends, 🌙 Evenings,
   ☀️ Seasonal, 💼 Paid perks, 🏷️ Discount, 🚗 Driving.
