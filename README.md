@@ -1,21 +1,21 @@
 # Part Time Work In/Near Guilford
 
 A filterable, single-page job board of part-time openings in and around Guilford, CT —
-covering **Guilford, Madison, Branford, North Branford, Durham, Clinton, Old Saybrook**
-and nearby regional roles (New Haven, North Haven, Old Lyme). Targeting spring/summer
-2026 onward.
+covering **Guilford, Madison, Branford, North Branford, Durham, Clinton, Old Saybrook,
+Westbrook, East Haven** and nearby regional roles (New Haven, North Haven, Old Lyme).
+Targeting spring/summer 2026 onward.
 
 One self-contained `index.html` — no build step, no dependencies. Works on GitHub Pages instantly.
 
 ## Files
 - `index.html` — the site (HTML + CSS + JS, data embedded).
-- `jobs-data.json` — the underlying dataset (71 listings), regenerated from the embedded array so the two stay in parity.
+- `jobs-data.json` — the underlying dataset (80 listings), regenerated from the embedded array so the two stay in parity.
 
 ## Features
 - **Tri-state filter pills** — click a Town / Category / Type pill to cycle:
   **off → include** (✓ teal, show only these) **→ exclude** (✕ red strikethrough, hide these)
   **→ off**. Includes and excludes combine across groups; exclude always wins over include.
-- **71 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
+- **80 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
   schedule + hours/week, experience, benefits, posted date, apply method, source, and the
   live link.
 - **Multi-category tagging** — jobs can carry more than one category. Any role *physically
