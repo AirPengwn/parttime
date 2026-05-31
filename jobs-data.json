@@ -1690,5 +1690,29 @@
     "id": "job-080",
     "town": "East Haven",
     "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Language Arts Teacher (1.0 FTE)",
+    "employer": "Madison Public Schools (Daniel Hand High School)",
+    "categories": [
+      "Teaching Position",
+      "Education"
+    ],
+    "location": "Daniel Hand High School, Madison",
+    "distance": "~5 mi (Madison)",
+    "type": "Full-time",
+    "pay": "Per MEA contract salary schedule (2026-2027)",
+    "schedule": "School year, full-time",
+    "summary": "Full-time high-school Language Arts (English) teacher for the 2026-2027 year. Requires CT certification endorsed for English 7-12 (#015). Apply online with intro letter, resume, certification, transcripts, and 3 references.",
+    "source": "Madison Public Schools (Frontline)",
+    "url": "https://www.applitrack.com/madison/onlineapp/default.aspx",
+    "hours_week": "Full-time",
+    "posted": "2026 (for 2026-2027)",
+    "benefits": "Certified staff benefits (per contract)",
+    "experience": "CT cert: English 7-12 (015)",
+    "apply_method": "Madison Public Schools online application",
+    "id": "job-081",
+    "town": "Madison",
+    "first_seen": "2026-05-31"
   }
 ]

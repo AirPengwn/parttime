@@ -24,6 +24,9 @@
     background:linear-gradient(90deg,#3fb6a8,#7fd6c9 60%,#f2a65a);
     -webkit-background-clip:text;background-clip:text;color:transparent;}
   .sub{color:var(--ink-dim);margin-top:8px;font-size:.95rem}
+  .ver{font-size:.5em;font-weight:600;color:var(--accent);background:rgba(63,182,168,.14);
+    border:1px solid rgba(63,182,168,.35);border-radius:999px;padding:3px 9px;vertical-align:middle;
+    -webkit-text-fill-color:var(--accent);letter-spacing:0;white-space:nowrap}
   .wrap{max-width:1220px;margin:0 auto;padding:22px 18px 70px}
   .toolbar{background:var(--bg-soft);border:1px solid var(--line);border-radius:16px;
     padding:16px 18px;margin-bottom:16px;box-shadow:var(--shadow);}
@@ -119,8 +122,8 @@
 </head>
 <body>
 <header>
-  <h1>Part Time Work In/Near Guilford</h1>
-  <div class="sub">Guilford &middot; Madison &middot; Branford &middot; North Branford &middot; Durham &amp; nearby &middot; targeting June 2026+ &middot; <span id="total"></span> listings</div>
+  <h1>Part Time Work In/Near Guilford <span class="ver" id="ver"></span></h1>
+  <div class="sub">Guilford &middot; Madison &middot; Branford &middot; North Branford &middot; Durham &middot; Clinton &middot; Old Saybrook &amp; nearby &middot; <span id="total"></span> listings &middot; <span id="updated"></span></div>
 </header>
 
 <div class="wrap">
@@ -1797,6 +1800,27 @@ const JOBS = [
     "id": "job-080",
     "town": "East Haven",
     "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Language Arts Teacher (1.0 FTE)",
+    "employer": "Madison Public Schools (Daniel Hand High School)",
+    "categories": ["Teaching Position","Education"],
+    "location": "Daniel Hand High School, Madison",
+    "distance": "~5 mi (Madison)",
+    "type": "Full-time",
+    "pay": "Per MEA contract salary schedule (2026-2027)",
+    "schedule": "School year, full-time",
+    "summary": "Full-time high-school Language Arts (English) teacher for the 2026-2027 year. Requires CT certification endorsed for English 7-12 (#015). Apply online with intro letter, resume, certification, transcripts, and 3 references.",
+    "source": "Madison Public Schools (Frontline)",
+    "url": "https://www.applitrack.com/madison/onlineapp/default.aspx",
+    "hours_week": "Full-time",
+    "posted": "2026 (for 2026-2027)",
+    "benefits": "Certified staff benefits (per contract)",
+    "experience": "CT cert: English 7-12 (015)",
+    "apply_method": "Madison Public Schools online application",
+    "id": "job-081",
+    "town": "Madison",
+    "first_seen": "2026-05-31"
   }
 ];
 
@@ -1810,10 +1834,16 @@ const JOBS = [
 //  The Access Key is scoped to this one bin, so exposing it here only ever
 //  lets someone read/write THIS job-board's stars & hides — not your account.
 // ============================================================
-const JSONBIN_BIN = "";          // e.g. "665a1f2ce41b4d34e4071abc"
-const JSONBIN_KEY = "";          // e.g. "$2a$10$....your-access-key...."
+const JSONBIN_BIN = "6a1c9045ddf5aa59f77cc720";          // scoped bin for this job board
+const JSONBIN_KEY = "$2a$10$.JPxc6er/eN3ANucZmsDzOq9ymzPRm1QpRd3VYLdBYqJE6VZ4AJFS";   // scoped Access Key (Read + Update on the bin only)
 const SYNC_ENABLED = !!(JSONBIN_BIN && JSONBIN_KEY);
 const JSONBIN_BASE = "https://api.jsonbin.io/v3/b/" + JSONBIN_BIN;
+
+// ---- version / last-updated stamp (shown after the title) ----
+// The daily updater bumps the patch number and sets DATA_UPDATED to its run date
+// whenever it adds listings.
+const APP_VERSION = "1.3.0";
+const DATA_UPDATED = "2026-05-31";
 
 // ---- persistent marks (localStorage = instant cache + offline fallback) ----
 const LS_STAR='guilford_pt_starred', LS_HIDE='guilford_pt_hidden', LS_TS='guilford_pt_updated', LS_VISIT='guilford_pt_lastvisit';
@@ -1906,6 +1936,10 @@ const ui = { q:"", starOnly:false, showHidden:false, newOnly:false };
 
 const $ = id => document.getElementById(id);
 $('total').textContent = JOBS.length;
+$('ver').textContent = 'v'+APP_VERSION;
+try{ const d=new Date(DATA_UPDATED+'T00:00:00');
+  $('updated').textContent='updated '+d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}); }
+catch(e){ $('updated').textContent='updated '+DATA_UPDATED; }
 function uniq(key){ return [...new Set(JOBS.map(j=>j[key]))].sort(); }
 
 // A job's category list: explicit `categories` array if present, else the single

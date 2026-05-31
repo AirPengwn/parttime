@@ -9,18 +9,23 @@ One self-contained `index.html` — no build step, no dependencies. Works on Git
 
 ## Files
 - `index.html` — the site (HTML + CSS + JS, data embedded).
-- `jobs-data.json` — the underlying dataset (80 listings), regenerated from the embedded array so the two stay in parity.
+- `jobs-data.json` — the underlying dataset (81 listings), regenerated from the embedded array so the two stay in parity.
 
 ## Features
 - **Tri-state filter pills** — click a Town / Category / Type pill to cycle:
   **off → include** (✓ teal, show only these) **→ exclude** (✕ red strikethrough, hide these)
   **→ off**. Includes and excludes combine across groups; exclude always wins over include.
-- **80 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
+- **81 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
   schedule + hours/week, experience, benefits, posted date, apply method, source, and the
   live link.
 - **Multi-category tagging** — jobs can carry more than one category. Any role *physically
   at a school* (clerical, cafeteria, custodial, paraeducator, coach…) is automatically also
   tagged **Education**, so it shows up under that filter.
+- **Teaching Position filter** — full-time K-12 **Language Arts / English** teaching roles in
+  Madison, Branford, North Branford, and Clinton are tagged **Teaching Position** (and
+  Education) so you can filter to just them. (Only Language Arts is tracked — no other subjects.)
+- **Version + updated stamp** — a `vX.Y.Z` badge after the title and an "updated <date>" note,
+  bumped by the daily updater so you can see at a glance when the data last changed.
 - **🆕 NEW since last visit** — jobs added since you last opened the board are badged NEW,
   with a "New only" filter and a count. (Driven by a `first_seen` date on each listing and a
   `lastVisit` timestamp saved locally / synced to the cloud.)
