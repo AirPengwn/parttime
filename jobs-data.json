@@ -1714,5 +1714,76 @@
     "id": "job-081",
     "town": "Madison",
     "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Front Desk Agent (Part-Time)",
+    "employer": "Saybrook Point Resort & Marina",
+    "categories": [
+      "Hospitality",
+      "Office / Admin"
+    ],
+    "location": "2 Bridge St, Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "~$18/hr",
+    "schedule": "Flexible; resort hours incl. weekends",
+    "summary": "First point of guest contact at this AAA Four Diamond waterfront resort — handle check-ins, reservations, and guest inquiries. Multiple sources confirm this is an active part-time opening at the Old Saybrook property.",
+    "source": "Saybrook Point Resort & Marina / Indeed",
+    "url": "https://www.saybrook.com/careers/",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Hospitality",
+    "experience": "Front desk / hospitality experience preferred",
+    "apply_method": "saybrook.com/careers or Indeed",
+    "id": "job-082",
+    "town": "Old Saybrook",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Front Desk Night Auditor (Part-Time)",
+    "employer": "Saybrook Point Resort & Marina",
+    "categories": [
+      "Hospitality",
+      "Office / Admin"
+    ],
+    "location": "2 Bridge St, Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Hourly (hospitality scale)",
+    "schedule": "Overnight shifts",
+    "summary": "Audit and reconcile accounting records, track room revenue and occupancy percentages, prepare daily cash/credit summaries, and deliver AAA Four Diamond guest service on the overnight front-desk shift at a waterfront resort.",
+    "source": "Saybrook Point Resort & Marina / Indeed",
+    "url": "https://www.saybrook.com/careers/",
+    "hours_week": "Varies",
+    "posted": "May 2026",
+    "benefits": "Hospitality",
+    "experience": "Hotel front desk or accounting/audit experience",
+    "apply_method": "saybrook.com/careers or Indeed",
+    "id": "job-083",
+    "town": "Old Saybrook",
+    "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Seasonal Lifeguard (Hammonasset Beach State Park)",
+    "employer": "State of CT – Dept. of Energy & Environmental Protection (DEEP)",
+    "categories": [
+      "Recreation"
+    ],
+    "location": "Hammonasset Beach State Park, Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time / Seasonal",
+    "pay": "Starting $20/hr",
+    "schedule": "Summer season; beach operating hours",
+    "summary": "Guard CT's largest shoreline beach (2+ miles of sand) at Hammonasset State Park. Requires ARC Lifeguarding Certification; paid training available. Must swim 550 yards in ≤10 min. Applications close 6/4/2026 — apply at portal.ct.gov. Different employer/location from the Town of Madison beach lifeguard listing.",
+    "source": "CT DEEP / portal.ct.gov",
+    "url": "https://portal.ct.gov/DEEP/State-Parks/Seasonal-Employment/Parks-and-Forests-Seasonal-Employment",
+    "hours_week": "Varies",
+    "posted": "2026 (closes 6/4/2026)",
+    "benefits": "Seasonal state position",
+    "experience": "ARC Lifeguarding Cert required (paid training provided)",
+    "apply_method": "portal.ct.gov or Deep.Lifeguards@CT.Gov",
+    "id": "job-084",
+    "town": "Madison",
+    "first_seen": "2026-05-31"
   }
 ]
