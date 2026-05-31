@@ -1,7 +1,7 @@
 # Part Time Work In/Near Guilford
 
 A filterable, single-page job board of part-time openings in and around Guilford, CT —
-now covering **Guilford, Madison, Branford, North Branford, and Durham** plus nearby
+covering **Guilford, Madison, Branford, North Branford, and Durham** plus nearby
 regional roles (New Haven, North Haven). Targeting start dates June 2026 onward.
 
 One self-contained `index.html` — no build step, no dependencies. Works on GitHub Pages instantly.
@@ -14,39 +14,54 @@ One self-contained `index.html` — no build step, no dependencies. Works on Git
 - **Tri-state filter pills** — click a Town / Category / Type pill to cycle:
   **off → include** (✓ teal, show only these) **→ exclude** (✕ red strikethrough, hide these)
   **→ off**. Includes and excludes combine across groups; exclude always wins over include.
-- **53 job cards** with full metadata: category, employer, town, location, pay, type,
-  schedule + hours/week, experience, benefits, posted date, apply method, source.
-- **★ Star** good options and **✕ Not interested** to dismiss bad ones — both saved in
-  your browser (localStorage), so they persist between visits.
-- **"Starred only"** filter to see just your favorites.
-- **"Show not interested"** toggle — hidden jobs are removed from view by default; flip
-  this on to review or un-hide them.
-- Pill filters for **Town**, **Category**, and **Type** (all combinable).
+- **53 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
+  schedule + hours/week, experience, benefits, posted date, apply method, source, and the
+  live link.
+- **Highlight chips** — quick scannable perks auto-derived from each listing: 💵 Tips,
+  🎁 Bonus, 🏥 Benefits, 🌱 No-experience-OK, 🕐 Flexible, 📅 Weekends, 🌙 Evenings,
+  ☀️ Seasonal, 💼 Paid perks, 🏷️ Discount, 🚗 Driving.
+- **Expandable details** — each card shows a compact summary; click **Details ▾** to expand
+  the full field-by-field breakdown (collapses again with **Hide details**).
+- **★ Star** good options and **✕ Not interested** to dismiss bad ones.
+- **"Starred only"** filter and a **"Show not interested"** toggle.
 - Free-text search across title / employer / keyword / town.
 - Live counts of total shown, starred, and hidden.
 
-## Put it in your repo
-From `C:\dev\parttime`:
+## Saving your stars & "not interested" marks
 
+Marks are always saved to this browser's **localStorage** (instant, offline). Optionally
+they also sync to the cloud via **[JSONBin](https://jsonbin.io)** so they carry across
+devices/browsers.
+
+### Turn on cloud sync (JSONBin)
+1. Sign up free at <https://jsonbin.io>.
+2. Create a bin with any JSON contents, e.g. `{}` — copy its **Bin ID**.
+3. **API Keys → create an Access Key** with **Read + Update** permission on that bin, and copy it.
+4. Open `index.html`, find the `CLOUD SYNC` block near the top of the `<script>`, and fill in:
+   ```js
+   const JSONBIN_BIN = "your-bin-id";
+   const JSONBIN_KEY = "your-access-key";
+   ```
+5. Commit & push. The sync chip in the toolbar turns from **Local only** → **Synced**.
+
+**Security note:** this is a *public* page, so anyone viewing source can see those values.
+Use a **scoped Access Key** (not your Master Key) — it can only read/write this one bin, i.e.
+this job board's stars & hides, never your account. Click the sync chip any time to re-pull
+from the cloud. Sync uses last-write-wins on the whole document (fine for a single user
+across devices).
+
+## Versioning / push to your repo
+This folder is already wired to `https://github.com/AirPengwn/parttime.git` (branch `main`).
+Normal flow:
 ```bash
-git init
-git add index.html jobs-data.json README.md
-git commit -m "Expanded Guilford-area part-time job board with star/hide"
-git branch -M main
-git remote add origin https://github.com/AirPengwn/parttime.git
-git push -u origin main
+git add -A
+git commit -m "Describe the change"
+git push
 ```
-If the repo already has commits: `git pull origin main --rebase` then `git push`.
 
 ## Host free on GitHub Pages
 Repo → **Settings → Pages → Source: `main`, root → Save.**
 Live at: `https://airpengwn.github.io/parttime/`
-
-## A note on the stars/hides
-They live in the browser's localStorage tied to the page's address. They'll persist on the
-same browser/device. If you open the file locally (file://) and later via GitHub Pages
-(https://), those are two different addresses, so marks won't carry over between them —
-pick one home for it and they'll stick.
 
 ## Data caveats
 Pay is shown as stated in the posting; where a posting only said "hourly," that's noted

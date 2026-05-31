@@ -71,9 +71,25 @@
   .tag.pay{background:rgba(242,166,90,.16);color:var(--accent-2);border-color:rgba(242,166,90,.4)}
   .tag.town{background:rgba(224,101,79,.14);color:#f0a394;border-color:rgba(224,101,79,.35)}
   .summary{font-size:.88rem;color:var(--ink-dim);flex:1}
-  .detail{font-size:.78rem;color:var(--ink-dim);display:grid;grid-template-columns:auto 1fr;gap:3px 10px;
-    border-top:1px solid var(--line);padding-top:9px}
+  /* highlight chips — quick scannable perks derived from the listing text */
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:-2px}
+  .chip-hl{font-size:.7rem;padding:3px 8px;border-radius:999px;background:var(--bg-soft);
+    border:1px solid var(--line);color:var(--ink-dim);display:inline-flex;align-items:center;gap:4px;white-space:nowrap}
+  .chip-hl.good{background:rgba(63,182,168,.14);border-color:rgba(63,182,168,.35);color:#7fd6c9}
+  .chip-hl.money{background:rgba(242,166,90,.14);border-color:rgba(242,166,90,.35);color:var(--accent-2)}
+  /* expandable details */
+  .det-toggle{align-self:flex-start;background:transparent;border:1px solid var(--line);color:var(--ink-dim);
+    font-size:.76rem;padding:5px 11px;border-radius:8px;cursor:pointer;transition:.15s;display:inline-flex;align-items:center;gap:6px}
+  .det-toggle:hover{border-color:var(--accent);color:var(--ink)}
+  .det-toggle .caret{transition:transform .2s;font-size:.7rem}
+  .det-toggle[aria-expanded="true"] .caret{transform:rotate(180deg)}
+  .detail-wrap{display:grid;grid-template-rows:0fr;transition:grid-template-rows .22s ease}
+  .detail-wrap.open{grid-template-rows:1fr}
+  .detail-inner{overflow:hidden;min-height:0}
+  .detail{font-size:.78rem;color:var(--ink-dim);display:grid;grid-template-columns:auto 1fr;gap:5px 10px;
+    border-top:1px solid var(--line);padding-top:10px;margin-top:4px}
   .detail b{color:var(--ink);font-weight:600}
+  .detail a{color:var(--accent);word-break:break-all}
   .row{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.78rem;color:var(--ink-dim);padding-top:6px}
   .src{font-style:italic}
   .apply{background:var(--accent);color:var(--pill-on-ink);text-decoration:none;font-weight:700;
@@ -85,6 +101,16 @@
   .stats{font-size:.8rem;color:var(--ink-dim);margin-left:auto}
   .stats b{color:var(--star)}
   .stats i{color:var(--reject);font-style:normal}
+  /* cloud sync indicator */
+  .sync{display:inline-flex;align-items:center;gap:7px;font-size:.78rem;color:var(--ink-dim);
+    border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 12px;cursor:pointer;transition:.15s}
+  .sync:hover{border-color:var(--accent);color:var(--ink)}
+  .sync .dot{width:9px;height:9px;border-radius:50%;background:var(--ink-dim);transition:.2s;flex:none}
+  .sync.ok .dot{background:var(--accent);box-shadow:0 0 6px var(--accent)}
+  .sync.syncing .dot{background:var(--accent-2);animation:pulse 1s infinite}
+  .sync.err .dot{background:var(--accent-3)}
+  .sync.off .dot{background:var(--ink-dim)}
+  @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
 </style>
 </head>
 <body>
@@ -104,6 +130,7 @@
     <div class="pills">
       <button class="pill star-pill" id="starOnly">★ Starred only</button>
       <button class="pill hide-pill" id="showHidden">Show "not interested"</button>
+      <span class="sync off" id="syncBtn" title="Cloud sync status — click for details"><span class="dot"></span><span id="syncText">Local only</span></span>
       <span class="stats" id="stats"></span>
     </div>
 
@@ -1201,11 +1228,87 @@ const JOBS = [
   }
 ];
 
-// ---- persistent marks ----
-const LS_STAR='guilford_pt_starred', LS_HIDE='guilford_pt_hidden';
+// ============================================================
+//  CLOUD SYNC (JSONBin)  ——  paste your scoped Access Key + Bin ID below.
+//  Leave them blank to run in local-only mode (saves to this browser only).
+//  How to get them:
+//    1. Sign up free at https://jsonbin.io
+//    2. Create a bin with any JSON contents, e.g.  {}   — copy its Bin ID
+//    3. API Keys → create an ACCESS KEY with Read + Update on that bin → copy it
+//  The Access Key is scoped to this one bin, so exposing it here only ever
+//  lets someone read/write THIS job-board's stars & hides — not your account.
+// ============================================================
+const JSONBIN_BIN = "";          // e.g. "665a1f2ce41b4d34e4071abc"
+const JSONBIN_KEY = "";          // e.g. "$2a$10$....your-access-key...."
+const SYNC_ENABLED = !!(JSONBIN_BIN && JSONBIN_KEY);
+const JSONBIN_BASE = "https://api.jsonbin.io/v3/b/" + JSONBIN_BIN;
+
+// ---- persistent marks (localStorage = instant cache + offline fallback) ----
+const LS_STAR='guilford_pt_starred', LS_HIDE='guilford_pt_hidden', LS_TS='guilford_pt_updated';
 function load(key){ try{ return new Set(JSON.parse(localStorage.getItem(key)||'[]')); }catch(e){ return new Set(); } }
 function save(key,set){ try{ localStorage.setItem(key, JSON.stringify([...set])); }catch(e){} }
 const starred=load(LS_STAR), hidden=load(LS_HIDE);
+let localUpdatedAt = Number(localStorage.getItem(LS_TS)||0);
+
+// ---- sync state machine ----
+let syncTimer=null, syncing=false;
+function setSyncStatus(state, text){
+  const el=$('syncBtn'); if(!el) return;
+  el.classList.remove('ok','syncing','err','off');
+  el.classList.add(state);
+  $('syncText').textContent=text;
+}
+function persistLocal(){
+  save(LS_STAR,starred); save(LS_HIDE,hidden);
+  localUpdatedAt=Date.now();
+  try{ localStorage.setItem(LS_TS,String(localUpdatedAt)); }catch(e){}
+}
+// Pull remote on load; remote is canonical when it's newer than our last local edit.
+async function pullRemote(){
+  if(!SYNC_ENABLED) return;
+  setSyncStatus('syncing','Syncing…');
+  try{
+    const r=await fetch(JSONBIN_BASE+'/latest',{headers:{'X-Access-Key':JSONBIN_KEY}});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const body=await r.json();
+    const doc=(body && body.record) || {};
+    const remoteTs=Number(doc.updatedAt||0);
+    if(Array.isArray(doc.starred) && Array.isArray(doc.hidden) && remoteTs>=localUpdatedAt){
+      starred.clear(); doc.starred.forEach(id=>starred.add(id));
+      hidden.clear();  doc.hidden.forEach(id=>hidden.add(id));
+      localUpdatedAt=remoteTs;
+      save(LS_STAR,starred); save(LS_HIDE,hidden);
+      try{ localStorage.setItem(LS_TS,String(localUpdatedAt)); }catch(e){}
+      render();
+    } else if(localUpdatedAt>remoteTs){
+      // our local edits are newer (made offline) — push them up
+      pushRemote(true);
+    }
+    setSyncStatus('ok','Synced');
+  }catch(e){
+    setSyncStatus('err','Sync error — local saved');
+  }
+}
+// Debounced push of the full document to the bin.
+function pushRemote(immediate){
+  if(!SYNC_ENABLED) return;
+  clearTimeout(syncTimer);
+  const doSend=async()=>{
+    if(syncing){ syncTimer=setTimeout(doSend,400); return; }
+    syncing=true; setSyncStatus('syncing','Saving…');
+    try{
+      const payload={starred:[...starred],hidden:[...hidden],updatedAt:localUpdatedAt};
+      const r=await fetch(JSONBIN_BASE,{method:'PUT',
+        headers:{'Content-Type':'application/json','X-Access-Key':JSONBIN_KEY},
+        body:JSON.stringify(payload)});
+      if(!r.ok) throw new Error('HTTP '+r.status);
+      setSyncStatus('ok','Synced');
+    }catch(e){
+      setSyncStatus('err','Save failed — kept locally');
+    }finally{ syncing=false; }
+  };
+  syncTimer=setTimeout(doSend, immediate?0:700);
+}
 
 // ---- tri-state filter model ----
 // each group holds a Map: value -> 'inc' | 'exc'  (absent = off)
@@ -1295,32 +1398,68 @@ function matches(j){
   return true;
 }
 
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+// Derive quick scannable perk chips from the listing text.
+function highlights(j){
+  const hay=[j.summary,j.benefits,j.pay,j.schedule,j.experience,j.type,j.category].join(' ').toLowerCase();
+  const out=[];
+  const add=(cond,cls,icon,label)=>{ if(cond) out.push({cls,icon,label}); };
+  add(/\btips?\b|gratuit/.test(hay),'money','💵','Tips');
+  add(/\bbonus\b/.test(hay),'money','🎁','Bonus');
+  add(/medical|dental|vision|401k|401\(k\)|health system benefit|benefit package/.test(hay),'good','🏥','Benefits');
+  add(/no (prior )?experience|entry level|will train|training provided|no experience required/.test(hay),'good','🌱','No exp. OK');
+  add(/flexible|self-schedul|set your own|flexible schedul/.test(hay),'','🕐','Flexible');
+  add(/weekend/.test(hay),'','📅','Weekends');
+  add(/evening|overnight|late night|night/.test(hay),'','🌙','Evenings');
+  add(/seasonal/.test(hay),'','☀️','Seasonal');
+  add(/\bpaid (vacation|sick|orientation|lunch)\b|paid weekly/.test(hay),'good','💼','Paid perks');
+  add(/discount/.test(hay),'money','🏷️','Discount');
+  add(j.category==='Delivery / Driving'||/driver|driving|cdl|license/.test(hay),'','🚗','Driving');
+  return out.slice(0,5);
+}
+
 function card(j){
   const isStar=starred.has(j.id), isHide=hidden.has(j.id);
+  const hrs=(j.hours_week&&j.hours_week!=='Varies')?` (${esc(j.hours_week)} hrs/wk)`:'';
+  const chips=highlights(j).map(h=>`<span class="chip-hl ${h.cls}">${h.icon} ${h.label}</span>`).join('');
+  const dClean=j.distance?j.distance.replace(/\s*\([^)]*\)\s*$/,'').trim():'';
+  const dist=dClean?`<span class="tag town">📍 ${esc(j.town)} · ${esc(dClean)}</span>`:`<span class="tag town">📍 ${esc(j.town)}</span>`;
   return `<div class="card ${isStar?'starred':''} ${isHide?'rejected':''}" data-id="${j.id}">
     <div class="marks">
       <button class="mark star ${isStar?'on':''}" title="Star this job" data-act="star" data-id="${j.id}">★</button>
       <button class="mark hide ${isHide?'on':''}" title="Not interested" data-act="hide" data-id="${j.id}">✕</button>
     </div>
-    <div><h3>${j.title}</h3><div class="employer">${j.employer}</div></div>
+    <div><h3>${esc(j.title)}</h3><div class="employer">${esc(j.employer)}</div></div>
     <div class="meta">
-      <span class="tag cat">${j.category}</span>
-      <span class="tag town">📍 ${j.town}</span>
-      <span class="tag pay">💵 ${j.pay}</span>
-      <span class="tag">${j.type}</span>
+      <span class="tag cat">${esc(j.category)}</span>
+      ${dist}
+      <span class="tag pay">💵 ${esc(j.pay)}</span>
+      <span class="tag">${esc(j.type)}</span>
     </div>
-    <div class="summary">${j.summary}</div>
-    <div class="detail">
-      <b>Location</b><span>${j.location}</span>
-      <b>Schedule</b><span>${j.schedule}${j.hours_week&&j.hours_week!=='Varies'?' ('+j.hours_week+' hrs/wk)':''}</span>
-      <b>Experience</b><span>${j.experience||'See posting'}</span>
-      <b>Benefits</b><span>${j.benefits||'Varies'}</span>
-      <b>Posted</b><span>${j.posted||'—'}</span>
-      <b>Apply via</b><span>${j.apply_method||'Source link'}</span>
-    </div>
+    ${chips?`<div class="chips">${chips}</div>`:''}
+    <div class="summary">${esc(j.summary)}</div>
+    <button class="det-toggle" data-act="details" data-id="${j.id}" aria-expanded="false">
+      <span class="caret">▾</span> <span class="lbl">Details</span>
+    </button>
+    <div class="detail-wrap" data-detail="${j.id}"><div class="detail-inner">
+      <div class="detail">
+        <b>Location</b><span>${esc(j.location)}</span>
+        <b>Distance</b><span>${esc(j.distance||'—')}</span>
+        <b>Schedule</b><span>${esc(j.schedule)}${hrs}</span>
+        <b>Type</b><span>${esc(j.type)}</span>
+        <b>Pay</b><span>${esc(j.pay)}</span>
+        <b>Experience</b><span>${esc(j.experience||'See posting')}</span>
+        <b>Benefits</b><span>${esc(j.benefits||'Varies')}</span>
+        <b>Posted</b><span>${esc(j.posted||'—')}</span>
+        <b>Apply via</b><span>${esc(j.apply_method||'Source link')}</span>
+        <b>Source</b><span>${esc(j.source)}</span>
+        <b>Link</b><span><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.url)}</a></span>
+      </div>
+    </div></div>
     <div class="row">
-      <span class="src">via ${j.source}</span>
-      <a class="apply" href="${j.url}" target="_blank" rel="noopener">View / Apply →</a>
+      <span class="src">via ${esc(j.source)}</span>
+      <a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener">View / Apply →</a>
     </div>
   </div>`;
 }
@@ -1334,6 +1473,16 @@ function render(){
 }
 
 $('grid').addEventListener('click',e=>{
+  // expand / collapse details (no re-render, so the card stays put)
+  const dt=e.target.closest('.det-toggle');
+  if(dt){
+    const id=dt.dataset.id;
+    const wrap=document.querySelector(`.detail-wrap[data-detail="${id}"]`);
+    const open=wrap.classList.toggle('open');
+    dt.setAttribute('aria-expanded', open?'true':'false');
+    dt.querySelector('.lbl').textContent = open?'Hide details':'Details';
+    return;
+  }
   const btn=e.target.closest('.mark'); if(!btn) return;
   const id=btn.dataset.id, act=btn.dataset.act;
   if(act==='star'){
@@ -1343,11 +1492,19 @@ $('grid').addEventListener('click',e=>{
     hidden.has(id)?hidden.delete(id):hidden.add(id);
     if(hidden.has(id)) starred.delete(id);
   }
-  save(LS_STAR,starred); save(LS_HIDE,hidden);
+  persistLocal();      // write to localStorage + bump timestamp
+  pushRemote();        // debounced cloud sync (no-op if not configured)
   render();
 });
 
+// manual re-sync on clicking the indicator
+$('syncBtn').onclick=()=>{ if(SYNC_ENABLED) pullRemote(); };
+
 render();
+
+// ---- kick off cloud sync ----
+if(SYNC_ENABLED){ setSyncStatus('syncing','Syncing…'); pullRemote(); }
+else { setSyncStatus('off','Local only'); }
 </script>
 </body>
 </html>
