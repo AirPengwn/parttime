@@ -1785,5 +1785,98 @@
     "id": "job-084",
     "town": "Madison",
     "first_seen": "2026-05-31"
+  },
+  {
+    "title": "Animal Care Attendant",
+    "employer": "Town of Branford (Dan Cosgrove Animal Shelter)",
+    "categories": [
+      "Pet Care"
+    ],
+    "location": "Dan Cosgrove Animal Shelter, Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$16.35/hr",
+    "schedule": "Hours vary; includes weekends and holidays",
+    "summary": "Part-time animal care at Branford's newly renovated Dan Cosgrove Animal Shelter — maintain cleanliness of kennels, cat rooms, and critter habitats. Requires basic animal care and sanitation knowledge, attention to detail, and good customer service.",
+    "source": "Town of Branford HR",
+    "url": "https://www.branford-ct.gov/jobs/25-01-30/animal-care-attendant",
+    "hours_week": "≤19",
+    "posted": "Jan 23, 2026 (open until filled)",
+    "benefits": "Municipal",
+    "experience": "Basic animal care/sanitation knowledge",
+    "apply_method": "Email careers@branford-ct.gov or branford-ct.gov/273/Employment-Opportunities",
+    "id": "job-085",
+    "town": "Branford",
+    "first_seen": "2026-06-01"
+  },
+  {
+    "title": "Part-Time Chef (Community Center)",
+    "employer": "Town of Branford (Parks, Recreation & Senior Services)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "Joe Trapasso Community Center, 46 Church St, Branford",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$22.94/hr",
+    "schedule": "Part-time, schedule varies by program",
+    "summary": "Municipal chef role cooking meals for Branford's Parks, Recreation & Senior Services department at the Joe Trapasso Community Center. 8-14 hrs/week at $22.94/hr — a solid rate for a light part-time kitchen gig.",
+    "source": "Town of Branford HR",
+    "url": "https://www.branford-ct.gov/273/Employment-Opportunities",
+    "hours_week": "8-14",
+    "posted": "Feb 2026 (open until filled)",
+    "benefits": "Municipal",
+    "experience": "Culinary/cooking experience required",
+    "apply_method": "Email careers@branford-ct.gov or branford-ct.gov/273/Employment-Opportunities",
+    "id": "job-086",
+    "town": "Branford",
+    "first_seen": "2026-06-01"
+  },
+  {
+    "title": "Adult Counselor (Before & After School Program)",
+    "employer": "Town of Madison Beach & Recreation",
+    "categories": [
+      "Childcare",
+      "Education"
+    ],
+    "location": "Madison, CT (school sites)",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Hourly (town scale)",
+    "schedule": "Before school 7:00 am–start of school; after school 3–6 pm; Mon–Fri school year",
+    "summary": "Supervise and engage children in the Town of Madison's Before and After School Program at school sites. Split-shift schedule: early morning and after-school. Contact Director James Przybylski at 203-245-5621 for details.",
+    "source": "Town of Madison (CivicEngage)",
+    "url": "https://www.madisonct.org/Jobs.aspx",
+    "hours_week": "Varies",
+    "posted": "Aug 21, 2025 (open until filled)",
+    "benefits": "Municipal",
+    "experience": "Entry level; childcare/youth experience a plus",
+    "apply_method": "madisonct.org/Jobs.aspx or call 203-245-5621",
+    "id": "job-087",
+    "town": "Madison",
+    "first_seen": "2026-06-01"
+  },
+  {
+    "title": "Crew Member (Subs / Counter Service)",
+    "employer": "Jersey Mike's Subs (Clinton, Store #38021)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "Clinton, CT",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "Hourly (QSR scale)",
+    "schedule": "Flexible; all shifts available",
+    "summary": "Counter crew at Jersey Mike's Clinton (Store #38021) — prepare and serve subs, take orders, and greet guests. Opening crew positions available for all shifts. Must be 18+.",
+    "source": "Glassdoor / Jersey Mike's Subs",
+    "url": "https://www.glassdoor.com/job-listing/crew-member-38021-jersey-mike-s-clinton-JV_IC1149204_KO0,11_KE12,39.htm",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level; must be 18+",
+    "apply_method": "jerseymikes.com/careers or via Glassdoor",
+    "id": "job-088",
+    "town": "Clinton",
+    "first_seen": "2026-06-01"
   }
 ]
