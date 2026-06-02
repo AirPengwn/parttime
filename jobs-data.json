@@ -1878,5 +1878,74 @@
     "id": "job-088",
     "town": "Clinton",
     "first_seen": "2026-06-01"
+  },
+  {
+    "title": "Store Associate (Part-Time)",
+    "employer": "DSW Designer Shoe Warehouse",
+    "categories": [
+      "Retail"
+    ],
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$15.95–$16.95/hr",
+    "schedule": "Flexible shifts",
+    "summary": "Retail store associate at Guilford's DSW Designer Shoe Warehouse — greet customers, promote the DSW Loyalty program, merchandise the sales floor, fulfill online and in-store orders, and keep the store clean and organized.",
+    "source": "DSW Designer Shoe Warehouse (careers.dswinc.com)",
+    "url": "https://careers.dswinc.com/job/Guilford-Store-Associate-Part-Time-CT-06437/735657200/",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level",
+    "apply_method": "careers.dswinc.com",
+    "id": "job-089",
+    "town": "Guilford",
+    "first_seen": "2026-06-02"
+  },
+  {
+    "title": "Sales Associate (Part-Time)",
+    "employer": "Five Below (Store #8086, Old Saybrook)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "Old Saybrook, CT 06475",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$14–$19/hr",
+    "schedule": "Flexible shifts",
+    "summary": "Part-time sales associate at Five Below's Old Saybrook store — assist customers, operate the register, stock shelves, and help maintain the store. Fun, fast-paced discount retailer carrying items priced at $5 and below.",
+    "source": "ZipRecruiter / Five Below",
+    "url": "https://www.ziprecruiter.com/c/Five-Below/Job/Sales-Associate/-in-Old-Saybrook,CT?jid=5f0c79b39a3786c5",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Entry level",
+    "apply_method": "fivebelow.com/careers or via ZipRecruiter",
+    "id": "job-090",
+    "town": "Old Saybrook",
+    "first_seen": "2026-06-02"
+  },
+  {
+    "title": "Deli Clerk",
+    "employer": "Big Y Foods, Inc. (Branford)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "~$16–$19/hr (est.)",
+    "schedule": "Flexible; includes mornings, evenings, weekends",
+    "summary": "Deli clerk at the Branford Big Y supermarket — prepare and serve fresh deli products, maintain food safety and sanitation standards, stock the deli counter, and assist customers with product knowledge. Must be 18+.",
+    "source": "Glassdoor / Big Y Foods",
+    "url": "https://www.glassdoor.com/job-listing/deli-clerk-big-y-foods-inc-JV_IC1148455_KO0,10_KE11,26.htm?jl=1009798830578",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Must be 18+; deli or food service experience a plus",
+    "apply_method": "bigy.com/page/careers or via Glassdoor",
+    "id": "job-091",
+    "town": "Branford",
+    "first_seen": "2026-06-02"
   }
 ]

@@ -9,13 +9,13 @@ One self-contained `index.html` — no build step, no dependencies. Works on Git
 
 ## Files
 - `index.html` — the site (HTML + CSS + JS, data embedded).
-- `jobs-data.json` — the underlying dataset (88 listings), regenerated from the embedded array so the two stay in parity.
+- `jobs-data.json` — the underlying dataset (91 listings), regenerated from the embedded array so the two stay in parity.
 
 ## Features
 - **Tri-state filter pills** — click a Town / Category / Type pill to cycle:
   **off → include** (✓ teal, show only these) **→ exclude** (✕ red strikethrough, hide these)
   **→ off**. Includes and excludes combine across groups; exclude always wins over include.
-- **88 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
+- **91 job cards** with rich metadata: category, employer, town **+ distance**, pay, type,
   schedule + hours/week, experience, benefits, posted date, apply method, source, and the
   live link.
 - **Multi-category tagging** — jobs can carry more than one category. Any role *physically
