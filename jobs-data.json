@@ -1947,5 +1947,99 @@
     "id": "job-091",
     "town": "Branford",
     "first_seen": "2026-06-02"
+  },
+  {
+    "title": "Part-Time Library Assistant (Weekend)",
+    "employer": "Town of Guilford (Guilford Free Library)",
+    "categories": [
+      "Library"
+    ],
+    "location": "67 Park St, Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$15.45/hr",
+    "schedule": "Saturday (8 hrs) and/or Sunday (4 hrs)",
+    "summary": "Weekend-only library assistant at Guilford Free Library providing Saturday (8-hr shift) and/or Sunday (4-hr shift) coverage. Circulation desk and public-service duties at the town library. Starting at $15.45/hr. Submit employment application to Guilford HR, 31 Park St.",
+    "source": "Town of Guilford HR",
+    "url": "https://www.guilfordct.gov/_T32_R21.php",
+    "hours_week": "Up to 12 (Sat 8 + Sun 4)",
+    "posted": "2026",
+    "benefits": "Municipal",
+    "experience": "See posting",
+    "apply_method": "Submit employment application to humanresources@guilfordct.gov or 31 Park St, Guilford CT 06437",
+    "id": "job-092",
+    "town": "Guilford",
+    "first_seen": "2026-06-03"
+  },
+  {
+    "title": "SACC Site Supervisor (Indian Neck School)",
+    "employer": "Branford Public Schools",
+    "categories": [
+      "Childcare",
+      "Education"
+    ],
+    "location": "Indian Neck School, Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$20.00–$23.00/hr",
+    "schedule": "Mon–Fri school year: 7:15–10:30 am + 3:00–5:30 pm split shift",
+    "summary": "Lead supervisor for Branford's School Age Child Care (SACC) program at Indian Neck School. Supervisory-level split-shift role: before school (7:15–10:30 am) and after school (3:00–5:30 pm), Mon–Fri during the school year. Higher-level counterpart to the SACC Program Aide; 29 hrs/week. Bilingual English/Spanish encouraged.",
+    "source": "Branford Public Schools / CT REAP",
+    "url": "https://www.applitrack.com/branford/onlineapp/default.aspx",
+    "hours_week": "29",
+    "posted": "2026 (open until filled)",
+    "benefits": "Varies",
+    "experience": "Childcare/supervisory experience preferred; bilingual English/Spanish a plus",
+    "apply_method": "branfordschools.org or applitrack.com/branford/onlineapp",
+    "id": "job-093",
+    "town": "Branford",
+    "first_seen": "2026-06-03"
+  },
+  {
+    "title": "Adult Education Evening Supervisor & School Counselor",
+    "employer": "Branford Public Schools (Shoreline Adult Education)",
+    "categories": [
+      "Education",
+      "Office / Admin"
+    ],
+    "location": "Branford High School / Morgan High School (Clinton), Branford",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$48.00/hr",
+    "schedule": "Tue & Wed 4:00–8:45 pm; 10-month school year; starts Aug 10, 2026",
+    "summary": "Administrative leadership and school counseling for adult learners in Shoreline Adult Education's evening program at Branford High School. Serve as primary supervisor for all evening activities; guide adult students through high school diploma options. Requires CT cert with Endorsements 092 (Admin/Supervision) and 068 (School Counselor). Posted Mar 2026.",
+    "source": "Branford Public Schools / CT REAP (listing #163061)",
+    "url": "https://www.ctreap.net/job_postings/163061/CT01/CT01",
+    "hours_week": "~9",
+    "posted": "Mar 26, 2026 (starts Aug 10, 2026)",
+    "benefits": "Per contract",
+    "experience": "CT cert: Endorsements 092 (Admin/Supervision) + 068 (School Counselor) required",
+    "apply_method": "branfordschools.org or applitrack.com/branford/onlineapp; contact cbjork@branfordschools.org",
+    "id": "job-094",
+    "town": "Branford",
+    "first_seen": "2026-06-03"
+  },
+  {
+    "title": "Camp Counselor (Summer)",
+    "employer": "Valley Shore YMCA (Camp Shore)",
+    "categories": [
+      "Recreation"
+    ],
+    "location": "201 Spencer Plains Rd, Westbrook, CT",
+    "distance": "~20 mi (Westbrook)",
+    "type": "Part-time / Seasonal",
+    "pay": "$18/hr",
+    "schedule": "Summer season; full-day camp hours",
+    "summary": "Supervise and engage a group of campers at YMCA Camp Shore, the Valley Shore Y's shoreline day camp in Westbrook. Activities include archery, ropes challenge course, swimming, boating, arts & crafts, and outdoor living skills. Staff perks: free YMCA membership and 50% tuition discount at Post University.",
+    "source": "Valley Shore YMCA / Indeed",
+    "url": "https://vsymca.org/employment/",
+    "hours_week": "Varies (summer)",
+    "posted": "2026",
+    "benefits": "Free YMCA membership; 50% Post University tuition discount",
+    "experience": "HS diploma or equiv; CPR/First Aid/AED within 30 days of hire",
+    "apply_method": "vsymca.org/employment/ or call (860) 399-9622",
+    "id": "job-095",
+    "town": "Westbrook",
+    "first_seen": "2026-06-03"
   }
 ]
