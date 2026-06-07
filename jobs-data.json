@@ -2295,5 +2295,99 @@
     "id": "job-106",
     "town": "East Haven",
     "first_seen": "2026-06-06"
+  },
+  {
+    "title": "5-Hour Instructional ParaEducator",
+    "employer": "Madison Public Schools (Dr. Robert H. Brown School)",
+    "categories": [
+      "Education"
+    ],
+    "location": "Dr. Robert H. Brown Intermediate School, Madison, CT",
+    "distance": "~7 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$18.11/hr",
+    "schedule": "5 hrs/day, school calendar (184 student days + 3 PD days/yr)",
+    "summary": "Assist teachers with general daily classroom activities at this PreK–5 school in Madison. Requires at least 2 years of college credit and a passing score on the ParaPro assessment. Benefits include life insurance and paid sick/personal leave.",
+    "source": "ZipRecruiter / Madison Public Schools HR",
+    "url": "https://www.madisonpublicschools.org/o/mps/page/employment-opportunities",
+    "hours_week": "~25 hrs/week",
+    "posted": "2026",
+    "benefits": "Life insurance, paid sick and personal leave",
+    "experience": "2+ years college credit; ParaPro Assessment passing score required",
+    "apply_method": "Apply via ESS or madisonpublicschools.org",
+    "id": "job-107",
+    "town": "Madison",
+    "first_seen": "2026-06-07"
+  },
+  {
+    "title": "Special Education Paraprofessional (2 Positions)",
+    "employer": "Westbrook Public Schools",
+    "categories": [
+      "Education"
+    ],
+    "location": "Daisy Ingraham Elementary / Westbrook High School, Westbrook, CT",
+    "distance": "~14 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "$19.58/hr",
+    "schedule": "6.25 hrs/day, school year",
+    "summary": "Two special education paraprofessional openings — one at Daisy Ingraham Elementary, one at Westbrook High School. Support students with special needs in inclusive classrooms. Minimum: Associate's Degree or passing score on the ParaPro test.",
+    "source": "ZipRecruiter / Westbrook Public Schools",
+    "url": "https://www.applitrack.com/westbrook/onlineapp/default.aspx",
+    "hours_week": "~31 hrs/week",
+    "posted": "2026",
+    "benefits": "Per district policy",
+    "experience": "Associate's Degree or ParaPro passing score required",
+    "apply_method": "applitrack.com/westbrook/onlineapp",
+    "id": "job-108",
+    "town": "Westbrook",
+    "first_seen": "2026-06-07"
+  },
+  {
+    "title": "Banquet Server",
+    "employer": "Saybrook Point Resort & Marina",
+    "categories": [
+      "Food Service",
+      "Hospitality"
+    ],
+    "location": "2 Bridge St, Old Saybrook, CT 06475",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Hourly + gratuity",
+    "schedule": "Event-based; evenings and weekends",
+    "summary": "Banquet wait staff for catered events and private functions at this luxury waterfront resort. Duties include table/buffet set-up, beverage service, and guest accommodation during service. Apply at saybrook.com/careers.",
+    "source": "Saybrook Point Resort & Marina Careers",
+    "url": "https://saybrook.com/banquet-server/",
+    "hours_week": "Varies (event-based)",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Food service or banquet experience helpful",
+    "apply_method": "saybrook.com/careers or direct application",
+    "id": "job-109",
+    "town": "Old Saybrook",
+    "first_seen": "2026-06-07"
+  },
+  {
+    "title": "Seasonal Beach Supervisor",
+    "employer": "Town of Clinton (Parks & Recreation)",
+    "categories": [
+      "Recreation",
+      "Municipal"
+    ],
+    "location": "Clinton Town Beach, Clinton, CT",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time / Seasonal",
+    "pay": "See posting",
+    "schedule": "Summer season; daily shifts",
+    "summary": "Oversee daily operations at the Clinton Town Beach during the summer season. Supervisory seasonal role with the Town of Clinton Parks & Recreation department. Posted April 24, 2026; open until filled.",
+    "source": "Town of Clinton (clintonct.org)",
+    "url": "https://clintonct.org/Jobs.aspx?CID=98",
+    "hours_week": "Varies (seasonal)",
+    "posted": "April 24, 2026",
+    "benefits": "Seasonal",
+    "experience": "Supervisory experience preferred; lifeguard certification may be required",
+    "apply_method": "clintonct.org/Jobs.aspx or Town of Clinton HR",
+    "id": "job-110",
+    "town": "Clinton",
+    "first_seen": "2026-06-07"
   }
 ]
