@@ -2389,5 +2389,75 @@
     "id": "job-110",
     "town": "Clinton",
     "first_seen": "2026-06-07"
+  },
+  {
+    "title": "Part-Time Circulation Assistant",
+    "employer": "Durham Public Library",
+    "categories": [
+      "Library"
+    ],
+    "location": "Durham, CT",
+    "distance": "~15 mi (Durham)",
+    "type": "Part-time",
+    "pay": "$19.63/hr",
+    "schedule": "Mon & Tue evenings + Wed mornings",
+    "summary": "Part-time circulation desk and customer service role at the Durham Public Library — check materials in/out, issue and renew library cards, place holds, answer phones, and assist patrons with computers and technology. 10 hrs/week; set schedule of Monday and Tuesday evenings plus Wednesday mornings. Non-union, no benefits. Background check and pre-employment drug screen required.",
+    "source": "Durham Public Library (durhamlibrary.org)",
+    "url": "https://durhamlibrary.org/were-hiring/",
+    "hours_week": "10",
+    "posted": "2026",
+    "benefits": "None (non-union, no benefits)",
+    "experience": "HS diploma required; Associates degree preferred",
+    "apply_method": "Email resume and cover letter to Lauren Redfield, Library Director, at lredfield@durhamlibrary.org",
+    "id": "job-111",
+    "town": "Durham",
+    "first_seen": "2026-06-08"
+  },
+  {
+    "title": "Guest Service Agent (Part-Time)",
+    "employer": "Madison Beach Hotel",
+    "categories": [
+      "Hospitality",
+      "Office / Admin"
+    ],
+    "location": "94 W Wharf Rd, Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$18–$20/hr",
+    "schedule": "Flexible; includes weekends and holidays",
+    "summary": "Part-time front-desk agent at this AAA Four Diamond boutique waterfront hotel — greet guests, handle check-ins/check-outs, answer phones, take reservations, act as cashier, and provide local-area information. Minimum 1 year of hotel front desk experience required. Distinct from the Server / Food Runner role also listed at this property.",
+    "source": "ZipRecruiter / Madison Beach Hotel",
+    "url": "https://www.ziprecruiter.com/c/Madison-Beach-Hotel/Job/Guest-Service-Agent/-in-Madison,CT?jid=d74bde8b1aaf81a0",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Hospitality",
+    "experience": "Minimum 1 year hotel front desk experience; HS diploma required",
+    "apply_method": "ZipRecruiter or careers.hireology.com/madisonbeachhotel",
+    "id": "job-112",
+    "town": "Madison",
+    "first_seen": "2026-06-08"
+  },
+  {
+    "title": "Caregiver / PCA / CNA / HHA",
+    "employer": "Comfort Keepers (Madison, CT)",
+    "categories": [
+      "Caregiving / Health"
+    ],
+    "location": "Madison, CT and shoreline",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time / Full-time",
+    "pay": "~$16.49/hr (competitive, by experience)",
+    "schedule": "Flexible; PT, FT, overnight, and live-in options available",
+    "summary": "In-home caregiver providing companionship and personal care to seniors and adults throughout the CT shoreline. One-on-one client assignments; flexible scheduling with part-time, full-time, overnight, and live-in shifts. Office at 150 Boston Post Rd, Madison; serves Guilford, Branford, Clinton, and all shoreline towns. Paid training, background check, and valid driver's license required.",
+    "source": "Comfort Keepers / comfortkeepers.jobs",
+    "url": "https://www.comfortkeepers.jobs/offices/connecticut/madison/",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Paid training; flexible schedule",
+    "experience": "CNA/HHA/PCA experience preferred; valid driver's license required",
+    "apply_method": "Apply at comfortkeepers.jobs or call (203) 453-2100",
+    "id": "job-113",
+    "town": "Madison",
+    "first_seen": "2026-06-08"
   }
 ]
