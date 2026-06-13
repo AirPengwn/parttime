@@ -2806,5 +2806,120 @@
     "id": "job-128",
     "town": "Clinton",
     "first_seen": "2026-06-12"
+  },
+  {
+    "title": "Pizza Maker",
+    "employer": "Naples Restaurant & Pizza",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "850 Boston Post Rd, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$20–$23/hr",
+    "schedule": "Flexible; shifts 11am–8pm (8 or 10-hr options); weekend part-time available",
+    "summary": "Pizza maker at this family-owned Guilford institution open for 30+ years — stock the station, make dough, and craft pies by hand. Must have pizza-making experience. Full-time and weekend part-time options available. Apply in person or via Glassdoor.",
+    "source": "Glassdoor / Naples Restaurant & Pizza",
+    "url": "https://www.glassdoor.com/job-listing/pizza-maker-naples-pizza-guilford-ct-JV_IC1148459_KO0,11_KE12,36.htm?jl=1009836548840",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Pizza-making experience required",
+    "apply_method": "Apply in person at 850 Boston Post Rd, Guilford or via Glassdoor",
+    "id": "job-129",
+    "town": "Guilford",
+    "first_seen": "2026-06-13"
+  },
+  {
+    "title": "Wait Staff / Server",
+    "employer": "Old Saybrook Pizza Palace",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "1283 Boston Post Rd, Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Hourly + tips",
+    "schedule": "Variable shifts; restaurant open daily 10am–9:30pm",
+    "summary": "Wait staff and server at Old Saybrook Pizza Palace, a beloved family-owned Greek-style pizza restaurant on the CT shoreline since 1977. Take orders, serve food and beverages, and deliver warm guest service in a casual, established dining room.",
+    "source": "Glassdoor / Old Saybrook Pizza Palace",
+    "url": "https://www.glassdoor.com/job-listing/wait-staff-server-old-saybrook-pizza-palace-JV_IC1148418_KO0,17_KE18,43.htm?jl=1009812664743",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Restaurant/serving experience helpful",
+    "apply_method": "Via Glassdoor or call Old Saybrook Pizza Palace at (860) 388-4090",
+    "id": "job-130",
+    "town": "Old Saybrook",
+    "first_seen": "2026-06-13"
+  },
+  {
+    "title": "Kitchen Staff",
+    "employer": "Old Saybrook Pizza Palace",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "1283 Boston Post Rd, Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Hourly (see posting)",
+    "schedule": "Variable shifts; restaurant open daily 10am–9:30pm",
+    "summary": "Kitchen team member at Old Saybrook Pizza Palace — prep ingredients, assist with pizza and food production, and maintain kitchen cleanliness in a high-volume, family-run shoreline restaurant. Full-time and part-time options available.",
+    "source": "Glassdoor / Old Saybrook Pizza Palace",
+    "url": "https://www.glassdoor.com/job-listing/kitchen-staff-old-saybrook-pizza-palace-JV_IC1148418_KO0,13_KE14,39.htm?jl=1009732704756",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Kitchen or food prep experience helpful",
+    "apply_method": "Via Glassdoor or call Old Saybrook Pizza Palace at (860) 388-4090",
+    "id": "job-131",
+    "town": "Old Saybrook",
+    "first_seen": "2026-06-13"
+  },
+  {
+    "title": "Restaurant Crew / Cashier / Server",
+    "employer": "Jersey Mike's Subs (Branford)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "845 West Main St, Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$16.35–$18/hr + tips (~$4–$5/hr additional)",
+    "schedule": "Flexible; FT and PT shifts available, all hours",
+    "summary": "Crew, cashier, and counter server at the Branford Jersey Mike's — slice fresh deli meats, build subs, run the register, and greet guests. Full-time and part-time schedules available. Tips can add $4–$5/hr on top of base pay. 3% IRA match after 1 year.",
+    "source": "ZipRecruiter / Jersey Mike's Subs",
+    "url": "https://www.ziprecruiter.com/c/Jersey-Mikes-Subs-Branford/Job/Restaurant-Crew,-Cashier,-Server-Jersey-Mikes-Subs/-in-Branford,CT?jid=365d4e288fd90831",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "3% IRA match after 1 year; employee discount",
+    "experience": "Entry level; retail or restaurant experience a plus",
+    "apply_method": "jerseymikes.com/careers or via ZipRecruiter",
+    "id": "job-132",
+    "town": "Branford",
+    "first_seen": "2026-06-13"
+  },
+  {
+    "title": "Bartender / Server",
+    "employer": "Fat Duck Tavern",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Hourly + tips",
+    "schedule": "Variable shifts; evenings and weekends",
+    "summary": "Bartender and server role at Fat Duck Tavern, an upscale casual American restaurant in Madison — craft cocktails and serve bar guests while handling floor tables as needed. Bar service or upscale dining experience preferred.",
+    "source": "Glassdoor / Fat Duck Tavern",
+    "url": "https://www.glassdoor.com/job-listing/bartender-server-fat-duck-tavern-JV_IC1148461_KO0,16_KE17,32.htm?jl=1009736478695",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "Varies",
+    "experience": "Bar service or upscale dining experience preferred",
+    "apply_method": "Via Glassdoor or fatducktavern.com",
+    "id": "job-133",
+    "town": "Madison",
+    "first_seen": "2026-06-13"
   }
 ]
