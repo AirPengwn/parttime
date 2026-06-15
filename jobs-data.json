@@ -2967,5 +2967,100 @@
     "id": "job-135",
     "town": "Clinton",
     "first_seen": "2026-06-14"
+  },
+  {
+    "title": "Concierge (Part-Time)",
+    "employer": "Solstice Senior Living at Guilford",
+    "categories": [
+      "Hospitality",
+      "Caregiving / Health"
+    ],
+    "location": "201 Granite Rd, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$17.75–$18.25/hr",
+    "schedule": "Flexible; includes evenings and weekends",
+    "summary": "Independent senior living community seeking a part-time concierge to greet guests, residents, and employees at the front desk; manage multi-line phones; relay messages; and provide general information. Solstice is part of Provincial Senior Living, recognized as a Great Place to Work 2022–2026.",
+    "source": "Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/concierge-solstice-at-guilford-JV_IC1148459_KO0,9_KE10,30.htm?jl=1009839726948",
+    "hours_week": "~20 hrs/wk",
+    "posted": "2026-06-11",
+    "benefits": "Paid training; employee assistance program",
+    "experience": "1 year customer service; HS diploma or GED preferred",
+    "apply_method": "Online via Glassdoor or ZipRecruiter",
+    "id": "job-136",
+    "town": "Guilford",
+    "first_seen": "2026-06-15"
+  },
+  {
+    "title": "Physical Therapy Aide (Part-Time)",
+    "employer": "Physical Therapy & Sports Medicine Centers (PTSMC)",
+    "categories": [
+      "Caregiving / Health",
+      "Office / Admin"
+    ],
+    "location": "5 Pequot Park Rd Suite 102, Westbrook, CT 06498",
+    "distance": "~17 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "Not listed",
+    "schedule": "Flexible; clinic open 7 am–7 pm Mon–Fri",
+    "summary": "Connecticut’s largest private-practice PT provider (35 locations statewide) seeks a part-time aide to assist licensed physical therapists with patient care and to handle front-desk tasks such as answering phones, scheduling appointments, and processing payments. Great entry point for those interested in healthcare or exercise science.",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/viewjob?jk=70d404e660214143",
+    "hours_week": "Varies (part-time)",
+    "posted": "2026-06",
+    "benefits": "Top Workplace CT 14 consecutive years; supportive team environment",
+    "experience": "Interest in health, wellness, or exercise science; no prior clinical experience required",
+    "apply_method": "Online via Indeed",
+    "id": "job-137",
+    "town": "Westbrook",
+    "first_seen": "2026-06-15"
+  },
+  {
+    "title": "Host / Hostess",
+    "employer": "Lenny's Indian Head Inn",
+    "categories": [
+      "Food Service",
+      "Hospitality"
+    ],
+    "location": "205 S Montowese St (Rt 146), Branford, CT 06405",
+    "distance": "~6 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$16.35/hr + tips",
+    "schedule": "Lunch and dinner shifts; weekend availability required",
+    "summary": "Beloved shoreline seafood landmark since 1968 seeks an energetic, self-motivated host or hostess to greet and seat guests, manage the waitlist, and coordinate with servers. Great earning potential with hourly pay plus tips. Both part-time and full-time shifts available.",
+    "source": "Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/host-lenny-s-JV_IC1148455_KO0,4_KE5,12.htm?jl=1009830986502",
+    "hours_week": "Varies (part-time or full-time)",
+    "posted": "2026-06",
+    "benefits": "Tips; established team at a local institution",
+    "experience": "Prior host or customer service experience preferred",
+    "apply_method": "Via Glassdoor; or email/drop off in person during non-peak hours",
+    "id": "job-138",
+    "town": "Branford",
+    "first_seen": "2026-06-15"
+  },
+  {
+    "title": "Cashier / Sales Associate",
+    "employer": "Coastal Wine & Spirits",
+    "categories": [
+      "Retail"
+    ],
+    "location": "103 N Main St, Branford, CT 06405",
+    "distance": "~6 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Competitive (not listed)",
+    "schedule": "Flexible; includes evenings and weekends",
+    "summary": "Large, fast-paced wine, beer, and liquor store in downtown Branford seeks a friendly, personable cashier/sales associate. Duties include ringing up sales, accepting cash and card payments, verifying customer age for alcohol purchases, and balancing the cash drawer at shift end.",
+    "source": "Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/cashier-sales-associate-coastal-wine-and-spirits-JV_IC1148455_KO0,23_KE24,48.htm?jl=1009819451378",
+    "hours_week": "Flexible (part-time)",
+    "posted": "2026-06",
+    "benefits": "Friendly team environment; good management",
+    "experience": "Cashier or retail experience helpful; must be able to verify age for alcohol sales",
+    "apply_method": "Online via Glassdoor or Indeed",
+    "id": "job-139",
+    "town": "Branford",
+    "first_seen": "2026-06-15"
   }
 ]
