@@ -3109,5 +3109,121 @@
     "id": "job-141",
     "town": "Clinton",
     "first_seen": "2026-06-16"
+  },
+  {
+    "title": "Host / Food Runner",
+    "employer": "Shoreline Diner",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "345 Boston Post Rd, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$15.69/hr",
+    "schedule": "Flexible; weekend availability required",
+    "summary": "Classic Guilford diner hiring front-of-house staff to greet guests, seat tables, and run food from kitchen. Part-time and full-time options available; team-oriented environment.",
+    "source": "SimplyHired",
+    "url": "https://www.simplyhired.com/job/F_kg7TbrXjOOTEi-dCH0QVlg2AcD9CyBtu1jR-BtwbeKSRpS8hdzzQ",
+    "hours_week": "Varies (PT or FT)",
+    "posted": "2026-06",
+    "benefits": "401(k); employee discount; flexible schedule; health insurance",
+    "experience": "Customer service experience preferred",
+    "apply_method": "Via SimplyHired or Indeed (search Shoreline Diner Guilford)",
+    "id": "job-142",
+    "town": "Guilford",
+    "first_seen": "2026-06-17"
+  },
+  {
+    "title": "Library Technical Assistant 2, Circulation Dept (Part-Time)",
+    "employer": "E.C. Scranton Memorial Library",
+    "categories": [
+      "Library"
+    ],
+    "location": "Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "~$18.90/hr (see posting for current rate)",
+    "schedule": "22–26 hrs/week; Mon or Wed evenings + every other Saturday",
+    "summary": "Provides circulation services and one-on-one technology assistance to library patrons at the Scranton Memorial Library in Madison. Duties include checking materials in/out, helping patrons locate resources, and supporting library programming. Posted May 2026.",
+    "source": "E.C. Scranton Memorial Library (official PDF posting)",
+    "url": "https://scrantonlibrary.org/wp-content/uploads/2026/05/LTA-2-Circ-Tech-Asst.-PT-2026.pdf",
+    "hours_week": "22–26",
+    "posted": "2026-05",
+    "benefits": "See posting",
+    "experience": "Library, education, or customer service experience; familiarity with library technology preferred",
+    "apply_method": "Email cover letter, résumé, and three references to scrantonlibraryhr@scrantonlibrary.org",
+    "id": "job-143",
+    "town": "Madison",
+    "first_seen": "2026-06-17"
+  },
+  {
+    "title": "Receptionist (Part-Time)",
+    "employer": "Apple Rehab Saybrook",
+    "categories": [
+      "Caregiving / Health",
+      "Office / Admin"
+    ],
+    "location": "Old Saybrook, CT",
+    "distance": "~20 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Competitive (see posting)",
+    "schedule": "Part-time; includes weekend shifts",
+    "summary": "Part-time receptionist at a 100-bed skilled nursing and rehabilitation facility on the CT shoreline in Old Saybrook. Greet and assist residents, families, and visitors; manage front desk and incoming calls.",
+    "source": "ZipRecruiter / Indeed",
+    "url": "https://www.ziprecruiter.com/co/Apple-Rehab-Saybrook/Jobs",
+    "hours_week": "~24 (varies)",
+    "posted": "2026-04",
+    "benefits": "See posting",
+    "experience": "Receptionist or customer service experience preferred",
+    "apply_method": "Via ZipRecruiter or Indeed (search Apple Rehab Saybrook receptionist)",
+    "id": "job-144",
+    "town": "Old Saybrook",
+    "first_seen": "2026-06-17"
+  },
+  {
+    "title": "Line Cook",
+    "employer": "Sapore Pizzeria & Bar",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "163 Boston Post Rd, Old Lyme, CT 06371",
+    "distance": "~22 mi (Old Lyme)",
+    "type": "Part-time",
+    "pay": "See posting",
+    "schedule": "Restaurant hours; evenings and weekends",
+    "summary": "Line cook at an Italian pizzeria and bar in Old Lyme. Prepare pizza and menu items, maintain kitchen standards, and support a busy restaurant team.",
+    "source": "Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/line-cook-sapore-pizzeria-and-bar-JV_IC1148503_KO0,9_KE10,33.htm?jl=1009539143667",
+    "hours_week": "Varies",
+    "posted": "2026-06",
+    "benefits": "See posting",
+    "experience": "Kitchen or cooking experience preferred",
+    "apply_method": "Via Glassdoor or call Sapore at (860) 390-6278",
+    "id": "job-145",
+    "town": "Old Lyme",
+    "first_seen": "2026-06-17"
+  },
+  {
+    "title": "Home Health Aide / Caregiver",
+    "employer": "Right at Home (Madison office)",
+    "categories": [
+      "Caregiving / Health"
+    ],
+    "location": "Madison, CT and shoreline area",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$18–$18.50/hr",
+    "schedule": "Flexible; all shifts available (FT, PT, or live-in)",
+    "summary": "Home care agency hiring aides to assist clients in the Madison and CT shoreline area with personal care, daily living activities, and companionship in their own homes. Drive time and mileage reimbursed between clients.",
+    "source": "Right at Home",
+    "url": "https://www.rightathome.net/madison/jobs/home-health-aide",
+    "hours_week": "Flexible (PT or FT)",
+    "posted": "2026-06",
+    "benefits": "Paid time off; rewards system; paid mileage and drive time; time-and-a-half for overtime and holidays",
+    "experience": "HHA certification preferred; training available",
+    "apply_method": "Apply at rightathome.net/madison or call (203) 402-8966",
+    "id": "job-146",
+    "town": "Madison",
+    "first_seen": "2026-06-17"
   }
 ]
