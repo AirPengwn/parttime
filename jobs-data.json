@@ -3225,5 +3225,75 @@
     "id": "job-146",
     "town": "Madison",
     "first_seen": "2026-06-17"
+  },
+  {
+    "title": "ABA Paraeducator (Pre-K)",
+    "employer": "Branford Public Schools (Indian Neck School)",
+    "categories": [
+      "Education"
+    ],
+    "location": "Indian Neck School, Branford, CT",
+    "distance": "~4 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$19.37/hr + $3.00 ABA differential",
+    "schedule": "10-month school year; daytime hours",
+    "summary": "Support Pre-K students with special needs by implementing Applied Behavior Analysis (ABA) techniques under the direction of the classroom teacher. Assist with instruction, behavior management, and maintaining a safe, nurturing environment. Bilingual English/Spanish candidates encouraged to apply.",
+    "source": "CTREAP / Branford Public Schools",
+    "url": "https://www.ziprecruiter.com/c/Branford-Public-Schools/Job/ABA-Paraeducator/-in-Branford,CT?jid=b8ba6a6d6a4151e3",
+    "hours_week": 20,
+    "posted": "2026-03-05",
+    "benefits": "Per collective bargaining unit contract",
+    "experience": "Academic degree, 60+ college credits, or passing ParaPro assessment required",
+    "apply_method": "Apply online at branfordschools.org",
+    "id": "job-147",
+    "town": "Branford",
+    "first_seen": "2026-06-18"
+  },
+  {
+    "title": "Farmers' Market Staff (Seasonal)",
+    "employer": "Summer Hill Catering",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "Madison Farmers' Market and other area markets, Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Not listed",
+    "schedule": "Saturdays 7:15am–1:45pm; Friday afternoons 1:30–6:30pm; seasonal through end of October",
+    "summary": "Seasonal part-time role staffing local farmers' market booths for a Madison-based catering company. Sell prepared foods, answer product questions, handle cash accurately, and track inventory. Work 2–3 Saturdays and 3–4 Fridays per month. Valid driver's license with clean record required.",
+    "source": "Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/farmers-market-staff-seasonal-summer-hill-catering-JV_IC1148461_KO0,30_KE31,51.htm?jl=1010114456326",
+    "hours_week": "~13 (varies)",
+    "posted": "2026-04",
+    "benefits": "None listed",
+    "experience": "Valid driver's license and clean driving record required",
+    "apply_method": "Via Glassdoor or summerhillcatering.square.site",
+    "id": "job-148",
+    "town": "Madison",
+    "first_seen": "2026-06-18"
+  },
+  {
+    "title": "Behavioral Consultant (Summer Camp)",
+    "employer": "Central Connecticut Coast YMCA (Soundview / Hays Camp)",
+    "categories": [
+      "Education",
+      "Recreation"
+    ],
+    "location": "Hays Camp (Soundview YMCA), East Haven / Branford, CT",
+    "distance": "~6 mi (East Haven/Branford)",
+    "type": "Seasonal",
+    "pay": "$22–$27/hr",
+    "schedule": "Summer camp season (June–August); full days",
+    "summary": "Provide behavioral consultation and direct support for campers with special needs at the CCCYMCA's Hays Camp summer day program. Collaborate with camp staff to implement positive behavior plans and ensure an inclusive camp experience for all campers.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/c/CENTRAL-CONNECTICUT-COAST-YOUNG-MENS-CHRISTIAN-ASSOCIATION/Job/Behavioral-Consultant-(Hays-Camp)/-in-Branford,CT?jid=00ac5c18360d0559",
+    "hours_week": "~35–40 (seasonal)",
+    "posted": "2026-04",
+    "benefits": "None listed",
+    "experience": "Background in behavior analysis, special education, or related field; experience working with children required",
+    "apply_method": "Via ZipRecruiter or cccymca.org/careers",
+    "id": "job-149",
+    "town": "Branford",
+    "first_seen": "2026-06-18"
   }
 ]
