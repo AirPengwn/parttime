@@ -3295,5 +3295,97 @@
     "id": "job-149",
     "town": "Branford",
     "first_seen": "2026-06-18"
+  },
+  {
+    "title": "Part-Time Certified Public Safety Telecommunicator",
+    "employer": "Town of Branford (Police Department)",
+    "categories": [
+      "Municipal"
+    ],
+    "location": "Branford Police Dept., 33 Laurel St, Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$32.15–$48.10/hr",
+    "schedule": "On-call / relief shifts; nights, weekends, and emergencies as needed",
+    "summary": "Relief dispatcher for the Branford Police Department, receiving and dispatching 911 calls for police, fire, and EMS. Requires current CT Telecommunicator, COLLECT/NCIC, and Emergency Medical Dispatcher (EMD) certifications plus a minimum of three years full-time dispatch experience. Application deadline: October 24, 2026.",
+    "source": "PoliceApp",
+    "url": "https://www.policeapp.com/Dispatcher-Branford-CT-Police-Officer-Jobs/6307/",
+    "hours_week": "On-call / as needed",
+    "posted": "2026-06",
+    "benefits": "Hourly pay only",
+    "experience": "Min. 3 years full-time dispatch experience; CT Telecom, COLLECT/NCIC, and EMD certifications required",
+    "apply_method": "Apply at PoliceApp.com (application fee: $35); contact Jalves@branfordpolice.com",
+    "id": "job-150",
+    "town": "Branford",
+    "first_seen": "2026-06-19"
+  },
+  {
+    "title": "Night Crew Stocker",
+    "employer": "Garafalo Markets dba ShopRite (Clinton)",
+    "categories": [
+      "Grocery"
+    ],
+    "location": "ShopRite, 266 E Main St, Clinton, CT 06413",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$16–$18/hr",
+    "schedule": "Overnight / evening shifts",
+    "summary": "Stock shelves, build and replenish displays, and order merchandise at the family-owned ShopRite supermarket in Clinton. Entry-level overnight role; benefits available after qualifying period.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/co/Shoprite/Jobs/-in-Clinton,CT",
+    "hours_week": "Part-time (varies)",
+    "posted": "2026-06",
+    "benefits": "Medical, dental, vision, 401k, life insurance (eligible associates)",
+    "experience": "Entry level; must be able to work overnight hours",
+    "apply_method": "Via ZipRecruiter or apply in person at 266 E Main St, Clinton",
+    "id": "job-151",
+    "town": "Clinton",
+    "first_seen": "2026-06-19"
+  },
+  {
+    "title": "Night Crew Clerk",
+    "employer": "Big Y Foods, Inc. (Old Saybrook)",
+    "categories": [
+      "Grocery"
+    ],
+    "location": "Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$18.65–$23.55/hr",
+    "schedule": "Overnight hours",
+    "summary": "Overnight grocery clerk at the Old Saybrook Big Y World Class Market. Stock, rotate, clean, and level product to maintain department conditions and ensure fresh merchandise for morning shoppers. Must be 18+; valid driver's license required.",
+    "source": "Indeed / ZipRecruiter",
+    "url": "https://www.indeed.com/q-Big-Y-Foods-l-Old-Saybrook,-CT-jobs.html",
+    "hours_week": "Varies (overnight)",
+    "posted": "2026-06",
+    "benefits": "Medical, dental, vision, 401k, PTO (eligible associates)",
+    "experience": "Must be 18+; valid driver's license required",
+    "apply_method": "bigy.com/page/careers or via Indeed",
+    "id": "job-152",
+    "town": "Old Saybrook",
+    "first_seen": "2026-06-19"
+  },
+  {
+    "title": "Guest Services Manager (Part-Time)",
+    "employer": "Westbrook Inn Bed and Breakfast",
+    "categories": [
+      "Hospitality"
+    ],
+    "location": "Westbrook Inn Bed and Breakfast, Westbrook, CT",
+    "distance": "~20 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "$18–$22/hr",
+    "schedule": "Flexible; must be available weekends and holidays",
+    "summary": "Part-time innkeeper role at a charming Connecticut shoreline bed and breakfast. Open the Inn each morning, set up the dining room and kitchen, prepare and serve breakfast daily, and provide warm guest services including check-in/check-out and addressing guest inquiries.",
+    "source": "Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/guest-services-manager-westbrook-inn-bed-and-breakfast-JV_IC1148447_KO0,22_KE23,54.htm?jl=1009913510222",
+    "hours_week": "Part-time (varies)",
+    "posted": "2026-06",
+    "benefits": "Not listed",
+    "experience": "Hospitality or customer service experience preferred",
+    "apply_method": "Apply via Glassdoor or Indeed (search Westbrook Inn Bed and Breakfast Westbrook CT)",
+    "id": "job-153",
+    "town": "Westbrook",
+    "first_seen": "2026-06-19"
   }
 ]
