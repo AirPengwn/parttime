@@ -3550,5 +3550,99 @@
     "id": "job-160",
     "town": "Old Saybrook",
     "first_seen": "2026-06-20"
+  },
+  {
+    "title": "Customer Service Representative B (Part-Time)",
+    "employer": "Connecticut Water Service, Inc.",
+    "categories": [
+      "Office / Admin"
+    ],
+    "location": "Connecticut Water Service, 93 W Main St, Clinton, CT 06413",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$19.66–$31.44/hr",
+    "schedule": "Part-time; specific schedule TBD with employer",
+    "summary": "Provide excellent customer service by responding professionally and efficiently to water utility customers who contact Connecticut Water by phone or in person. Responsibilities include resolving billing and service concerns, arranging service or emergency dispatch, interpreting customer records and account history, and navigating the proprietary Customer Information System (CIS). Connecticut Water serves ~109,000 customer accounts across 60+ CT communities from its Clinton headquarters.",
+    "source": "Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/customer-service-representative-b-connecticut-water-service-inc-JV_IC1148375_KO0,33_KE34,63.htm?jl=1009426991712",
+    "hours_week": "Part-time (hours TBD)",
+    "posted": "2026-06",
+    "benefits": "Inquire with employer (CT Water is a regulated utility with comprehensive benefits for eligible employees)",
+    "experience": "High school diploma required; excellent customer service and data entry skills; MS Office Outlook proficiency; CIS experience a plus",
+    "apply_method": "Apply via Glassdoor listing or visit ctwater.com/community-commitment/careers/",
+    "id": "job-161",
+    "town": "Clinton",
+    "first_seen": "2026-06-21"
+  },
+  {
+    "title": "Dog Trainer",
+    "employer": "Petco (Guilford store)",
+    "categories": [
+      "Pet Care",
+      "Retail"
+    ],
+    "location": "Petco, Boston Post Rd, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "~$14–$20/hr (Petco dog trainer range)",
+    "schedule": "Flexible; includes some evenings and weekends",
+    "summary": "Become a Petco Certified Dog Trainer and help strengthen the bond between pet parents and their dogs. Facilitate group and private training classes using positive-reinforcement methods. Petco provides a comprehensive training certification program — no prior professional dog training experience required. Role involves selling training packages, coaching pet parents during classes, and contributing to the store's pet health and wellness mission.",
+    "source": "Petco Careers",
+    "url": "https://careers.petco.com/job/guilford/dog-trainer/47428/92169412400",
+    "hours_week": "Part-time (varies)",
+    "posted": "2026-06",
+    "benefits": "Employee discount; Petco-provided dog training certification",
+    "experience": "Passion for animals required; no prior dog training certification needed — Petco trains you",
+    "apply_method": "Apply at careers.petco.com or directly at the Guilford Petco store",
+    "id": "job-162",
+    "town": "Guilford",
+    "first_seen": "2026-06-21"
+  },
+  {
+    "title": "Fitness Center Attendant (Part-Time)",
+    "employer": "Central Connecticut Coast YMCA (Soundview Family YMCA)",
+    "categories": [
+      "Recreation"
+    ],
+    "location": "Soundview Family YMCA, 628 E Main St, Branford, CT 06405",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$17–$24/hr",
+    "schedule": "Flexible; evenings and weekends likely",
+    "summary": "Support members at the Soundview Family YMCA fitness center in Branford, maintaining a safe, welcoming, and clean workout environment. Greet and assist members, monitor equipment use, enforce safety policies, and provide excellent customer service. CPR/AED and First Aid certifications required (can be completed upon hire). The Central CT Coast YMCA champions youth development, healthy living, and social responsibility.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/c/CENTRAL-CONNECTICUT-COAST-YOUNG-MENS-CHRISTIAN-ASSOCIATION-INC/Job/Fitness-Center-Attendant/-in-Branford,CT?jid=d72c965de8712d00",
+    "hours_week": "Part-time (varies)",
+    "posted": "2026-06",
+    "benefits": "Free YMCA membership; opportunities for growth within the Y",
+    "experience": "Customer service skills required; CPR/AED and First Aid (or willingness to obtain upon hire)",
+    "apply_method": "Apply via ZipRecruiter or visit cccymca.org/careers/",
+    "id": "job-163",
+    "town": "Branford",
+    "first_seen": "2026-06-21"
+  },
+  {
+    "title": "Patient Services Coordinator (Part-Time / Full-Time)",
+    "employer": "Physical Therapy & Sports Medicine Centers (PTSMC)",
+    "categories": [
+      "Office / Admin",
+      "Caregiving / Health"
+    ],
+    "location": "PTSMC Westbrook, Westbrook, CT",
+    "distance": "~18 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "Not listed; inquire with employer",
+    "schedule": "Clinic hours 7:00 AM–7:00 PM; some evening shifts",
+    "summary": "Serve as the first and last point of contact at the front desk of PTSMC's Westbrook clinic. Greet patients, collect co-pays, manage scheduling, handle administrative duties, and deliver exceptional customer service. Role is available as part-time or full-time. PTSMC is Connecticut's largest private-practice physical therapy company (33 locations, 20,000+ patients/year) and has been named a 'Top Workplace' in Connecticut for 14 consecutive years.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/c/Physical-Therapy-&-Sports-Medicine-Centers/Job/Patient-Services-Coordinator-Customer-Service-Coordinator/-in-Westbrook,CT?jid=e534273c39687ce5",
+    "hours_week": "Part-time or full-time (flexible)",
+    "posted": "2026-06",
+    "benefits": "Inquire with employer",
+    "experience": "Personable and professional demeanor; customer service experience preferred; healthcare admin experience a plus",
+    "apply_method": "Apply via ZipRecruiter or visit ptsmc.com/about-us/career-center/job-openings",
+    "id": "job-164",
+    "town": "Westbrook",
+    "first_seen": "2026-06-21"
   }
 ]
