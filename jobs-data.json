@@ -4114,5 +4114,28 @@
     "id": "job-184",
     "town": "Clinton",
     "first_seen": "2026-06-26"
+  },
+  {
+    "title": "Cafeteria Worker (Senior Center)",
+    "employer": "Town of Madison",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "Madison Senior Center, Madison, CT",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$16.79–$20.25/hr",
+    "schedule": "29.5 hrs/week; daytime",
+    "summary": "Cafeteria worker at the Madison Senior Center, preparing and serving meals to senior residents. Just under 30 hrs/week with stable daytime hours. Municipal position open until filled.",
+    "source": "Town of Madison (CivicEngage)",
+    "url": "https://madisonct.org/Jobs.aspx?CommunityJobs=False&From=Employment-with-the-Town-of-Madison-CT-100&JobID=Cafeteria-Worker-Senior-Center-167&UniqueId=100",
+    "hours_week": "29.5",
+    "posted": "May 15, 2026",
+    "benefits": "Municipal",
+    "experience": "Entry level",
+    "apply_method": "madisonct.org/Jobs.aspx",
+    "id": "job-185",
+    "town": "Madison",
+    "first_seen": "2026-06-27"
   }
 ]
