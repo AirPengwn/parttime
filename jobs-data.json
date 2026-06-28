@@ -4137,5 +4137,74 @@
     "id": "job-185",
     "town": "Madison",
     "first_seen": "2026-06-27"
+  },
+  {
+    "title": "Commission Clerk (Part-Time) — Economic Development",
+    "employer": "Town of Clinton",
+    "categories": [
+      "Admin"
+    ],
+    "location": "Clinton, CT",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$25.00/hr",
+    "schedule": "~2–3 hrs/month; one monthly evening meeting",
+    "summary": "Serve as Clerk for Clinton's Economic Development Commission. Attend and document monthly EDC evening meetings at the Clinton Police Department Community Room, post notices per Freedom of Information Act requirements, transcribe and post meeting minutes within 7 days. Extremely low-hour role (~2–3 hrs/month) ideal for someone seeking minimal but consistent town government work.",
+    "source": "Town of Clinton (CivicEngage) — Job Postings",
+    "url": "https://clintonct.org/Jobs.aspx?CID=98",
+    "hours_week": "<1",
+    "posted": "May 21, 2026",
+    "benefits": "None listed",
+    "experience": "Strong writing/typing skills; familiarity with taking and transcribing meeting minutes preferred",
+    "apply_method": "Apply online at clintonct.org/490/Employment-Application or email to Town of Clinton HR",
+    "id": "job-186",
+    "town": "Clinton",
+    "first_seen": "2026-06-28"
+  },
+  {
+    "title": "Certified Nursing Assistant (Part-Time)",
+    "employer": "Gladeview Rehabilitation & Health Care Center",
+    "categories": [
+      "Caregiving"
+    ],
+    "location": "60 Boston Post Rd, Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$20.50+/hr (experience-based); $2,500 part-time retention bonus for 24+ hrs/wk",
+    "schedule": "Part-time; various shifts available",
+    "summary": "Provide CNA-level care at Gladeview's premier shoreline skilled-nursing and rehabilitation center overlooking Ragged Rock Marina and Long Island Sound. Immediate openings for part-time and per diem CNAs. Starting rate of $20.50/hr for newly licensed CNAs plus shift differentials; higher rates for experience. $2,500 retention bonus for part-time staff working 24+ hrs/wk.",
+    "source": "Gladeview Rehabilitation & Health Care Center (official employment page)",
+    "url": "https://www.gladeviewcares.com/employment",
+    "hours_week": "Varies (part-time/per diem)",
+    "posted": "2026",
+    "benefits": "$2,500 part-time retention bonus (24+ hrs/wk); shift differentials",
+    "experience": "CNA certification required",
+    "apply_method": "Apply online at gladeviewcares.com/employment or call (860) 388-6696",
+    "id": "job-187",
+    "town": "Old Saybrook",
+    "first_seen": "2026-06-28"
+  },
+  {
+    "title": "Spa Specialist",
+    "employer": "Saybrook Point Resort & Marina",
+    "categories": [
+      "Hospitality"
+    ],
+    "location": "2 Bridge St, Old Saybrook, CT",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$16.35–$18.78/hr + $1,500 sign-on bonus",
+    "schedule": "Variable; Spa hours Sun–Thu 9 AM–7 PM, Fri–Sat 9 AM–8 PM",
+    "summary": "Front-of-spa customer service role at this luxury waterfront resort: answer phones, book spa reservations, upsell services and retail products, and maintain locker rooms and relaxation lounge on an hourly basis. CPR/First Aid certification required. $1,500 sign-on bonus paid after successful 60-day probation.",
+    "source": "Saybrook Point Resort & Marina / Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/spa-specialist-saybrook-point-resort-marina-JV_IC1148418_KO0,14_KE15,43.htm?jl=1009772845207",
+    "hours_week": "Varies",
+    "posted": "2026",
+    "benefits": "$1,500 sign-on bonus after 60-day probation; resort employee perks",
+    "experience": "Customer service experience preferred; CPR and First Aid certifications required",
+    "apply_method": "Apply at saybrook.com/spa-specialist/ or via Glassdoor/LinkedIn",
+    "id": "job-188",
+    "town": "Old Saybrook",
+    "first_seen": "2026-06-28"
   }
 ]
