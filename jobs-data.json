@@ -4206,5 +4206,74 @@
     "id": "job-188",
     "town": "Old Saybrook",
     "first_seen": "2026-06-28"
+  },
+  {
+    "title": "Barista (Part-Time)",
+    "employer": "Starbucks (Store #07701, Madison Boston Post Road)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "613 Boston Post Rd, Madison, CT 06443",
+    "distance": "~10 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$17.10–$19.41/hr + partner benefits",
+    "schedule": "Flexible; may include early mornings, evenings, weekends, nights and/or holidays; store hours 5 AM–8 PM daily",
+    "summary": "Prepare and serve Starbucks beverages and food at the standalone Madison store on Boston Post Road. Baristas connect with customers, craft beverages, and contribute to a positive team culture. No previous experience required; full paid training provided. Active barista posting as of June 2026 (Store #07701).",
+    "source": "Starbucks Careers (apply.starbucks.com)",
+    "url": "https://apply.starbucks.com/careers/job/481077856979",
+    "hours_week": "Part-time (varies)",
+    "posted": "2026",
+    "benefits": "30% partner discount; medical, dental, vision, life insurance for eligible partners; paid time off; 401(k) match; free pound of coffee weekly; tuition reimbursement",
+    "experience": "No prior experience required; must maintain regular and consistent attendance",
+    "apply_method": "Apply online at apply.starbucks.com — search Store #07701 Madison CT, or use the direct job link",
+    "id": "job-189",
+    "town": "Madison",
+    "first_seen": "2026-06-29"
+  },
+  {
+    "title": "Crew Member",
+    "employer": "Crumbl Cookies (North Haven)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "209 Universal Dr N, North Haven, CT 06473",
+    "distance": "~15 mi (North Haven)",
+    "type": "Part-time",
+    "pay": "~$14.75/hr (estimated; varies by experience)",
+    "schedule": "Flexible; Monday–Saturday (closed Sundays)",
+    "summary": "Prepare Crumbl's signature giant cookies from their weekly rotating menu for customers. Upbeat and friendly atmosphere. No previous bakery experience required — all training provided on the job. Both part-time and full-time positions available. Must be at least 16 years old.",
+    "source": "ZipRecruiter / Crumbl Cookies Careers",
+    "url": "https://crumblcookies.com/jobs",
+    "hours_week": "Part-time (varies)",
+    "posted": "2026",
+    "benefits": "Flexible scheduling; promotion potential to Shift Lead and Manager",
+    "experience": "No prior food service/bakery experience needed; must be 16+; customer service aptitude preferred",
+    "apply_method": "Apply at crumblcookies.com/jobs or via Indeed/ZipRecruiter — search Crumbl Cookies North Haven CT",
+    "id": "job-190",
+    "town": "North Haven",
+    "first_seen": "2026-06-29"
+  },
+  {
+    "title": "Front Desk Agent (Part-Time)",
+    "employer": "Water's Edge Resort and Spa",
+    "categories": [
+      "Hospitality"
+    ],
+    "location": "1525 Boston Post Rd, Westbrook, CT 06498",
+    "distance": "~13 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "~$16–$18/hr estimated (resort role range reported $16–$50/hr across all positions)",
+    "schedule": "Flexible; shifts include days, evenings, weekdays, weekends, and holidays",
+    "summary": "Guest-facing front desk role at this beachfront Long Island Sound resort and spa — a member of Historic Hotels of America. Welcome arriving guests, process check-ins and check-outs, assign rooms, issue keys, handle inquiries, and resolve guest issues while creating a warm first impression. Multiple open positions as of June 2026.",
+    "source": "Indeed / Water's Edge Resort and Spa Careers",
+    "url": "https://watersedgeresortandspa.com/careers/",
+    "hours_week": "Varies (part-time)",
+    "posted": "2026",
+    "benefits": "Resort employee perks",
+    "experience": "High school diploma or equivalent; customer service experience preferred; flexible availability required including weekends and holidays",
+    "apply_method": "Apply at watersedgeresortandspa.com/careers/ or via Indeed (search Water's Edge Resort and Spa, Westbrook CT)",
+    "id": "job-191",
+    "town": "Westbrook",
+    "first_seen": "2026-06-29"
   }
 ]
