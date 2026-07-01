@@ -4368,5 +4368,98 @@
     "id": "job-195",
     "town": "Guilford",
     "first_seen": "2026-06-30"
+  },
+  {
+    "title": "Dining Room Server (Part-Time)",
+    "employer": "Evergreen Woods Senior Living",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "88 Notch Hill Rd, North Branford, CT 06471",
+    "distance": "~9 mi (North Branford)",
+    "type": "Part-time",
+    "pay": "$13.75–$18.50/hr estimated; $1,000 sign-on bonus for part-time (limited time)",
+    "schedule": "8 AM–2 PM or 3 PM–7:30 PM; weekends and holidays required",
+    "summary": "Serve meals in the dining room of this upscale continuing care retirement community set on 88 wooded acres in North Branford, offering independent living, assisted living, skilled nursing, and memory care. Must be available for morning and evening shifts including weekends and holidays. Training provided. Great Place to Work–certified employer.",
+    "source": "Evergreen Woods Careers / Indeed / ZipRecruiter",
+    "url": "https://evergreen-woods.com/careers/",
+    "hours_week": "Part-time (varies)",
+    "posted": "2026",
+    "benefits": "$1,000 sign-on bonus (part-time, limited time); Great Place to Work–certified company",
+    "experience": "Prior dining/serving experience a plus but not required; weekend and holiday availability required",
+    "apply_method": "Apply at evergreen-woods.com/careers or call 203-457-8865",
+    "id": "job-196",
+    "town": "North Branford",
+    "first_seen": "2026-07-01"
+  },
+  {
+    "title": "Certified Nursing Assistant – CNA (Part-Time)",
+    "employer": "Evergreen Woods Senior Living",
+    "categories": [
+      "Caregiving/Health"
+    ],
+    "location": "88 Notch Hill Rd, North Branford, CT 06471",
+    "distance": "~9 mi (North Branford)",
+    "type": "Part-time",
+    "pay": "Competitive; $1,000 sign-on bonus for part-time (limited time)",
+    "schedule": "Part-time shifts available",
+    "summary": "Provide direct nursing care and support to residents at this premium 88-acre continuing care retirement community in North Branford. Active CT CNA certification required. Offers independent living, assisted living, skilled nursing, and memory care services. Newly certified CNAs may qualify for an Education Investment Scholarship.",
+    "source": "Evergreen Woods Careers / Indeed / ZipRecruiter",
+    "url": "https://evergreen-woods.com/careers/",
+    "hours_week": "Part-time (varies)",
+    "posted": "2026",
+    "benefits": "$1,000 part-time sign-on bonus (limited time); Education Investment Scholarship up to $2,500 for newly certified CNAs; Great Place to Work–certified",
+    "experience": "Active CT CNA certification required",
+    "apply_method": "Apply at evergreen-woods.com/careers or call 203-457-8865",
+    "id": "job-197",
+    "town": "North Branford",
+    "first_seen": "2026-07-01"
+  },
+  {
+    "title": "Housekeeper (Part-Time / Per Diem)",
+    "employer": "Evergreen Woods Senior Living",
+    "categories": [
+      "Cleaning/Facilities"
+    ],
+    "location": "88 Notch Hill Rd, North Branford, CT 06471",
+    "distance": "~9 mi (North Branford)",
+    "type": "Part-time",
+    "pay": "Competitive; $1,000 sign-on bonus for part-time (limited time)",
+    "schedule": "Part-time and per diem shifts available",
+    "summary": "Clean and sanitize common areas, homes, apartments, and suites at this upscale 88-acre senior living community in North Branford. Part-time and per diem positions available. Great Place to Work–certified employer with a people-first culture. Sign-on bonus offered for a limited time.",
+    "source": "Evergreen Woods Careers / Indeed / ZipRecruiter",
+    "url": "https://evergreen-woods.com/careers/",
+    "hours_week": "Part-time / per diem (varies)",
+    "posted": "2026",
+    "benefits": "$1,000 sign-on bonus (part-time, limited time); Great Place to Work–certified",
+    "experience": "Prior housekeeping or cleaning experience preferred; attention to detail required",
+    "apply_method": "Apply at evergreen-woods.com/careers or call 203-457-8865",
+    "id": "job-198",
+    "town": "North Branford",
+    "first_seen": "2026-07-01"
+  },
+  {
+    "title": "Weekend Spa Receptionist",
+    "employer": "The Spring Wellness Center",
+    "categories": [
+      "Hospitality",
+      "Admin"
+    ],
+    "location": "12 Coulter Street, Old Saybrook, CT 06475",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Not listed (contact employer)",
+    "schedule": "Weekends; schedule built around your availability (some days a few visits, others full-day shifts)",
+    "summary": "Be the welcoming face of this woman-owned holistic wellness spa in Old Saybrook. Greet clients, manage bookings, answer inquiries, and support the therapeutic massage team. Energetic and friendly personality a must. Weekend schedule is flexible and built around your availability — great for someone who loves wellness and people.",
+    "source": "Indeed / The Spring Wellness Center",
+    "url": "https://www.thespringwellness.com/",
+    "hours_week": "Part-time (weekends, varies)",
+    "posted": "2026",
+    "benefits": "Flexible weekend scheduling; holistic wellness environment",
+    "experience": "Customer service experience preferred; friendly and organized; interest in wellness helpful",
+    "apply_method": "Apply via Indeed (search The Spring Wellness Center Old Saybrook) or email thespringwellness@hotmail.com",
+    "id": "job-199",
+    "town": "Old Saybrook",
+    "first_seen": "2026-07-01"
   }
 ]
