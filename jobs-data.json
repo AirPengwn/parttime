@@ -4275,5 +4275,75 @@
     "id": "job-191",
     "town": "Westbrook",
     "first_seen": "2026-06-29"
+  },
+  {
+    "title": "Restaurant Team Member – Cashier",
+    "employer": "Panera Bread (Guilford)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "1919 Boston Post Rd, Suite 100, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "~$16–$17/hr + team tips",
+    "schedule": "Flexible; morning, midday, and evening shifts available; café hours 8 AM–9 PM daily",
+    "summary": "Counter service role at the Guilford Boston Post Road Panera: take orders, handle register transactions, serve customers, and keep the café clean and stocked. Free on-shift meal each day. Both part-time and full-time hours available; no prior food service experience required.",
+    "source": "Panera Bread Careers (careers.panerabread.com)",
+    "url": "https://careers.panerabread.com/global/en/job/JR0017417/Restaurant-Team-Member-Cashier",
+    "hours_week": "Part-time (variable)",
+    "posted": "2026",
+    "benefits": "Free on-shift meal; unlimited fountain beverages on shift; paid vacation/sick time for eligible full-timers; 401(k)",
+    "experience": "No prior food service experience required; must be at least 16; customer-service mindset preferred",
+    "apply_method": "Apply online at careers.panerabread.com (job ID JR0017417) or via Indeed/ZipRecruiter — search Panera Bread Guilford CT",
+    "id": "job-192",
+    "town": "Guilford",
+    "first_seen": "2026-07-02"
+  },
+  {
+    "title": "Administrative Assistant (Part-Time)",
+    "employer": "Town of Clinton (Human Services Department)",
+    "categories": [
+      "Admin"
+    ],
+    "location": "Town of Clinton, CT",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$21.00/hr",
+    "schedule": "20 hours per week",
+    "summary": "Part-time administrative support for the Town of Clinton's Department of Human Services. Duties include answering phones, managing records, coordinating appointments, and assisting residents accessing social services. Posted June 22, 2026; open until filled.",
+    "source": "Town of Clinton (clintonct.org)",
+    "url": "https://clintonct.org/Jobs.aspx",
+    "hours_week": "20",
+    "posted": "2026-06-22",
+    "benefits": "Municipal benefits per Town of Clinton policy",
+    "experience": "Administrative/clerical experience preferred",
+    "apply_method": "Submit town employment application at clintonct.org/490/Employment-Application",
+    "id": "job-193",
+    "town": "Clinton",
+    "first_seen": "2026-07-02"
+  },
+  {
+    "title": "Substitute Food Service Worker",
+    "employer": "Old Saybrook Public Schools",
+    "categories": [
+      "Food Service",
+      "Education"
+    ],
+    "location": "Old Saybrook Public Schools, Old Saybrook, CT 06475",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$17.00/hr",
+    "schedule": "On-call / as-needed substitute basis (school days)",
+    "summary": "On-call substitute covering cafeteria roles across Old Saybrook school buildings. Duties include preparing and serving food, maintaining a clean work area, and following safe food-handling standards. School nutrition and/or food service experience required.",
+    "source": "Old Saybrook Public Schools / Frontline AppliTrack",
+    "url": "https://www.applitrack.com/oldsaybrook/onlineapp/default.aspx?all=1",
+    "hours_week": "Varies (on-call)",
+    "posted": "2026",
+    "benefits": "N/A (substitute/on-call role)",
+    "experience": "School nutrition and/or food service experience required; must pass background check",
+    "apply_method": "Apply online via Frontline/AppliTrack at applitrack.com/oldsaybrook",
+    "id": "job-194",
+    "town": "Old Saybrook",
+    "first_seen": "2026-07-02"
   }
 ]
