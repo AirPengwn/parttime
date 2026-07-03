@@ -4531,5 +4531,29 @@
     "id": "job-202",
     "town": "Old Saybrook",
     "first_seen": "2026-07-02"
+  },
+  {
+    "title": "ESOL Morning Co-Manager",
+    "employer": "Branford Public Schools (Shoreline Adult Education)",
+    "categories": [
+      "Education",
+      "Admin"
+    ],
+    "location": "Branford High School / Joel Elementary School (Clinton), Branford, CT",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$47.00/hr",
+    "schedule": "Mornings; 10-month position; starts Aug 10, 2026",
+    "summary": "Part of the Shoreline Adult Education Management Team overseeing all morning ESOL classes and instructional staff. Responsibilities include coordinating ESOL programming and semester scheduling, selecting instructional materials, leading the annual federal PEP Family Literacy grant writing, monitoring grant compliance, and managing student data (registration, attendance, assessment) in the LACES database. CT Teaching Cert with Endorsement #088 (English to Non-English Speaking Adults) or #111 (TESOL) required. Bilingual English/Spanish encouraged.",
+    "source": "Branford Public Schools / CT REAP (listing #163057)",
+    "url": "https://www.ctreap.net/job_postings/163057/CT01/CT01",
+    "hours_week": "Part-time mornings",
+    "posted": "2026-03-26",
+    "benefits": "Per contract",
+    "experience": "CT Teaching Certification with Endorsement #088 (English to Non-English Speaking Adults) or #111 (TESOL); proficiency in Google Workspace/Google Classroom; bilingual English/Spanish preferred",
+    "apply_method": "Apply online at branfordschools.org or applitrack.com/branford/onlineapp; contact cbjork@branfordschools.org",
+    "id": "job-203",
+    "town": "Branford",
+    "first_seen": "2026-07-03"
   }
 ]
