@@ -4671,5 +4671,77 @@
     "id": "job-208",
     "town": "Branford",
     "first_seen": "2026-07-05"
+  },
+  {
+    "title": "Ice Cream Scooper",
+    "employer": "Hershey's Ice Cream (Clinton Crossing Premium Outlets)",
+    "categories": [
+      "Food Service",
+      "Seasonal"
+    ],
+    "location": "Clinton Crossing Premium Outlets, 20-A Killingworth Tpke, Clinton, CT 06413",
+    "distance": "~17 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "Not listed",
+    "schedule": "Seasonal / flexible hours; weekdays & weekends",
+    "summary": "Scoop and serve ice cream at the Hershey's scoop shop inside Clinton Crossing Outlet mall. Greet customers, recommend flavors, handle cash and POS transactions, maintain a clean work area, and restock product. Food service or retail experience a plus but not required.",
+    "source": "Hershey's Ice Cream Employment Portal",
+    "url": "https://hersheyicecream.com/employment/",
+    "hours_week": "Varies (seasonal)",
+    "posted": "2026-07-06",
+    "benefits": "Not listed",
+    "experience": "Food service or retail preferred, not required",
+    "apply_method": "Apply at hersheyicecream.com/employment",
+    "id": "job-209",
+    "town": "Clinton",
+    "first_seen": "2026-07-06"
+  },
+  {
+    "title": "Temporary Bus Monitor",
+    "employer": "Westbrook Public Schools",
+    "categories": [
+      "Education",
+      "Transportation"
+    ],
+    "location": "Westbrook Public Schools, 158 McVeagh Rd, Westbrook, CT 06498",
+    "distance": "~22 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "Not listed",
+    "schedule": "As needed (school-day hours)",
+    "summary": "Ride school buses to assist students and ensure safe, orderly transportation during school routes. Temporary, as-needed position with Westbrook Public Schools. Training provided; no specialized certification required.",
+    "source": "Town of Westbrook — Westbrook Public Schools Jobs",
+    "url": "https://www.westbrookct.us/Jobs.aspx?UniqueId=113&From=Westbrook-Public-Schools-113&CommunityJobs=False&JobID=Various-Public-School-Jobs-Available-33",
+    "hours_week": "Varies",
+    "posted": "2026-07-06",
+    "benefits": "Not listed",
+    "experience": "None required",
+    "apply_method": "Apply via westbrookct.us or contact Westbrook Public Schools HR",
+    "id": "job-210",
+    "town": "Westbrook",
+    "first_seen": "2026-07-06"
+  },
+  {
+    "title": "Temporary Health Aide",
+    "employer": "Westbrook Public Schools",
+    "categories": [
+      "Education",
+      "Caregiving / Health"
+    ],
+    "location": "Westbrook Public Schools, 158 McVeagh Rd, Westbrook, CT 06498",
+    "distance": "~22 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "Not listed",
+    "schedule": "As needed (school-day hours)",
+    "summary": "Provide basic health screening, first aid, and medication administration support to students during the school day. Temporary, as-needed position. Prior nursing aide, health aide, or first-responder experience preferred.",
+    "source": "Town of Westbrook — Westbrook Public Schools Jobs",
+    "url": "https://www.westbrookct.us/Jobs.aspx?UniqueId=113&From=Westbrook-Public-Schools-113&CommunityJobs=False&JobID=Various-Public-School-Jobs-Available-33",
+    "hours_week": "Varies",
+    "posted": "2026-07-06",
+    "benefits": "Not listed",
+    "experience": "Health aide / first-aid background preferred",
+    "apply_method": "Apply via westbrookct.us or contact Westbrook Public Schools HR",
+    "id": "job-211",
+    "town": "Westbrook",
+    "first_seen": "2026-07-06"
   }
 ]
