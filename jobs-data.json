@@ -4743,5 +4743,75 @@
     "id": "job-211",
     "town": "Westbrook",
     "first_seen": "2026-07-06"
+  },
+  {
+    "title": "Server (Part-Time)",
+    "employer": "LongHorn Steakhouse (North Haven, #5356)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "70 Universal Dr, North Haven, CT 06473",
+    "distance": "~12 mi (North Haven)",
+    "type": "Part-time",
+    "pay": "Tipped position; est. $15–$25/hr with gratuity",
+    "schedule": "Flexible shifts; evenings & weekends; swap shifts via team member app",
+    "summary": "Serve food and beverages at LongHorn Steakhouse's North Haven location. Create authentic guest connections while delivering bold, quality food. No experience required — LongHorn provides training. Shift meals included; flexible scheduling via the team member app.",
+    "source": "LongHorn Steakhouse Careers (official)",
+    "url": "https://jobs.longhornsteakhouse.com/search/jobdetails/server/1c9c0046-c276-49e3-8f9c-1bcecc077f90",
+    "hours_week": "Varies",
+    "posted": "2026-05-11",
+    "benefits": "Shift meals; flexible scheduling; team benefits program",
+    "experience": "Restaurant experience preferred, not required",
+    "apply_method": "Apply online at jobs.longhornsteakhouse.com",
+    "id": "job-212",
+    "town": "North Haven",
+    "first_seen": "2026-07-07"
+  },
+  {
+    "title": "Frozen Food / Dairy Clerk",
+    "employer": "Big Y Foods, Inc. (Old Saybrook)",
+    "categories": [
+      "Grocery"
+    ],
+    "location": "22 Spencer Plain Rd, Old Saybrook, CT 06475",
+    "distance": "~12 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "~$16–$18/hr (estimated; see posting)",
+    "schedule": "Varied shifts; days and/or evenings; weekends possible",
+    "summary": "Stock, rotate, and maintain the frozen food and dairy department at Big Y's Old Saybrook store. Ensure product freshness and presentation, assist customers with product questions, and operate department equipment. Must be comfortable working in cold temperatures.",
+    "source": "Big Y Careers (CadientTalent portal)",
+    "url": "https://cta.cadienttalent.com/index.jsp?POSTING_ID=37786445887&LOCATION_ID=37786440453&locale=en_US&SEQ=postingLocationDetails&applicationName=BigYNonReqExt",
+    "hours_week": "Varies",
+    "posted": "2026-07-05",
+    "benefits": "Employee discount; benefits eligible at qualifying hours; paid time off",
+    "experience": "Grocery or retail stocking experience helpful, not required; must be 18+",
+    "apply_method": "Apply online at bigy.com/page/careers or via the direct posting link",
+    "id": "job-213",
+    "town": "Old Saybrook",
+    "first_seen": "2026-07-07"
+  },
+  {
+    "title": "Van Driver – Thrive 55+ Program",
+    "employer": "Town of Old Lyme (Parks & Recreation Department)",
+    "categories": [
+      "Transportation",
+      "Older Adult Services"
+    ],
+    "location": "Town of Old Lyme Parks & Recreation, 52 Lyme St, Old Lyme, CT 06371",
+    "distance": "~18 mi (Old Lyme)",
+    "type": "Part-time",
+    "pay": "$20.00/hr starting; prorated benefits eligible",
+    "schedule": "Varied and flexible; up to 32 hrs/week based on program needs",
+    "summary": "Transport older adults to and from the Thrive 55+ senior program activities in Old Lyme. Must hold a valid CT driver's license with CDL Class B (P endorsement) or Class D (F endorsement). Good driving and safety record required; ability to assist passengers and lift up to 20 lbs regularly.",
+    "source": "Town of Old Lyme Employment Postings",
+    "url": "https://www.oldlyme-ct.gov/Jobs.aspx",
+    "hours_week": "Up to 32 hrs/week",
+    "posted": "Open until filled",
+    "benefits": "Prorated town benefits; non-union regular part-time",
+    "experience": "CDL Class B (P endorsement) or Class D (F endorsement) required; public/senior transportation experience preferred",
+    "apply_method": "Apply via oldlyme-ct.gov/Jobs.aspx or contact HR Mon/Wed/Fri 8:30 AM–4 PM at 860-434-1605",
+    "id": "job-214",
+    "town": "Old Lyme",
+    "first_seen": "2026-07-07"
   }
 ]
