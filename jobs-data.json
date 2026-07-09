@@ -4956,5 +4956,120 @@
     "id": "job-220",
     "town": "Westbrook",
     "first_seen": "2026-07-08"
+  },
+  {
+    "title": "School Bus Driver (Part-Time)",
+    "employer": "Durham School Services",
+    "categories": [
+      "Transportation"
+    ],
+    "location": "82 Nathans Ln, Madison, CT 06443",
+    "distance": "~8 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$25.75/hr",
+    "schedule": "Split shifts (AM & PM routes); ~20 hrs/wk; no weekends or holidays",
+    "summary": "Madison Public Schools' contracted transportation provider seeks safe, reliable drivers. Paid CDL training provided — no prior driving experience necessary. Morning and afternoon routes; great for those wanting weekday-only part-time work with solid pay and benefits.",
+    "source": "Indeed / LinkedIn",
+    "url": "https://www.indeed.com/viewjob?jk=765b763cf5f275fa",
+    "hours_week": "~20",
+    "posted": "Open until filled",
+    "benefits": "Medical, dental, vision, 401(k) with match, paid holidays, life insurance",
+    "experience": "Valid driver's license required; CDL training fully provided and paid by employer",
+    "apply_method": "Apply via Indeed or contact Durham School Services, 82 Nathans Ln, Madison CT (769-231-6360)",
+    "id": "job-221",
+    "town": "Madison",
+    "first_seen": "2026-07-09"
+  },
+  {
+    "title": "Part-Time Sales Associate",
+    "employer": "Robertson's Ace Hardware (Clinton)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "Clinton, CT",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$17–$18/hr",
+    "schedule": "Part-time; weekday and weekend shifts available",
+    "summary": "Local Ace Hardware franchise in Clinton seeks friendly, outgoing sales associates to welcome customers, assist with hardware and home-improvement product selection, and operate the register. Customer service mindset is a must; prior hardware experience a plus but not required.",
+    "source": "ZipRecruiter / Workstream (Robertson's Ace Hardware Clinton)",
+    "url": "https://www.ziprecruiter.com/c/Ace-Hardware/Job/Part-Time-Sales-Associate/-in-Clinton,CT?jid=d2d57aecb1262857",
+    "hours_week": "~16–24",
+    "posted": "Open until filled",
+    "benefits": "Not listed",
+    "experience": "Customer service experience helpful; hardware knowledge a plus",
+    "apply_method": "Apply online via ZipRecruiter or careers.acehardware.com",
+    "id": "job-222",
+    "town": "Clinton",
+    "first_seen": "2026-07-09"
+  },
+  {
+    "title": "Team Member",
+    "employer": "Burger King (Store #2500, Old Saybrook)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "607 Boston Post Rd, Old Saybrook, CT 06475",
+    "distance": "~18 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$16–$18/hr",
+    "schedule": "Flexible shifts; various day, evening, and weekend hours available",
+    "summary": "Fast-food crew member positions available at the Old Saybrook Burger King. Responsibilities include cashiering, food preparation, and drive-through service. Ideal for those seeking a flexible schedule and consistent hourly pay in the Old Saybrook area.",
+    "source": "ZipRecruiter / Glassdoor (Burger King Old Saybrook)",
+    "url": "https://www.ziprecruiter.com/c/Burger-King/Job/Team-Member/-in-Old-Saybrook,CT?jid=8536d5c031535f22",
+    "hours_week": "15–35",
+    "posted": "Open until filled",
+    "benefits": "Varies by franchisee; meal discounts",
+    "experience": "No experience required; on-the-job training provided",
+    "apply_method": "Apply via ZipRecruiter or careers.bk.com (search Old Saybrook)",
+    "id": "job-223",
+    "town": "Old Saybrook",
+    "first_seen": "2026-07-09"
+  },
+  {
+    "title": "Instructional Paraprofessional – Literacy",
+    "employer": "North Branford Public Schools",
+    "categories": [
+      "Education"
+    ],
+    "location": "North Branford, CT",
+    "distance": "~7 mi (North Branford)",
+    "type": "Part-time",
+    "pay": "Per NBFP union agreement",
+    "schedule": "School year, Monday–Friday during school hours; part-time",
+    "summary": "Provides targeted literacy intervention to individual students and small groups under the district's Multi-Tiered Systems of Support (MTSS) framework. Assists teachers with literacy intervention planning and implementation. Distinct from the district's special-education paraprofessional role.",
+    "source": "K12JobSpot (North Branford Public Schools)",
+    "url": "https://www.k12jobspot.com/Job/5590475",
+    "hours_week": "~25–30",
+    "posted": "Open until filled",
+    "benefits": "Per union contract (NBFP)",
+    "experience": "Previous school, tutoring, or reading-intervention experience preferred",
+    "apply_method": "Apply via K12JobSpot or North Branford Public Schools AppliTrack portal (applitrack.com/northbranfordschools)",
+    "id": "job-224",
+    "town": "North Branford",
+    "first_seen": "2026-07-09"
+  },
+  {
+    "title": "Line Cook",
+    "employer": "Char & Lemon (Guilford)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "2 Water St, Guilford, CT (former Amarone space)",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$16–$22/hr est. (see posting)",
+    "schedule": "Lunch and dinner service; weekday and weekend availability",
+    "summary": "Guilford's newest Italian wood-fired restaurant — occupying the former Amarone space at 2 Water St on the Green — seeks a professional line cook. Menu features Neapolitan-style pizza, handmade pasta, and Italian entrées. Sibling location to the popular Oxford Char & Lemon.",
+    "source": "Lensa / ZipRecruiter (Char & Lemon Guilford)",
+    "url": "https://lensa.com/job-v1/char-lemon-ct/guilford-ct/chef/9e86a8b7da49d702267bf3cf54a74326",
+    "hours_week": "20–40",
+    "posted": "Open until filled",
+    "benefits": "Competitive hourly pay; growing restaurant group",
+    "experience": "Line cook or professional kitchen experience preferred",
+    "apply_method": "Apply via Lensa or ZipRecruiter (Char & Lemon Guilford openings)",
+    "id": "job-225",
+    "town": "Guilford",
+    "first_seen": "2026-07-09"
   }
 ]
