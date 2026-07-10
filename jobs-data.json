@@ -5071,5 +5071,98 @@
     "id": "job-225",
     "town": "Guilford",
     "first_seen": "2026-07-09"
+  },
+  {
+    "title": "Store Associate / Retail Sales",
+    "employer": "CVS Health (Old Saybrook)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "519 Boston Post Rd, Old Saybrook, CT 06475",
+    "distance": "~18 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$16.35–$19/hr est.",
+    "schedule": "Flexible shifts; evenings and weekends available",
+    "summary": "CVS Health is hiring a Store Associate at its Old Saybrook location. Responsibilities include cashiering, stocking shelves, processing returns, and assisting customers in a pharmacy-retail environment. Flexible scheduling with day, evening, and weekend options. Application window closes 07/18/2026.",
+    "source": "CVS Health Careers / Glassdoor (Old Saybrook)",
+    "url": "https://jobs.cvshealth.com/us/en/job/R0876375/Store-Associate",
+    "hours_week": "10–30",
+    "posted": "Apply by 07/18/2026",
+    "benefits": "Health, dental, vision for eligible employees; 20% employee discount; paid time off",
+    "experience": "Retail or customer service experience preferred; training provided",
+    "apply_method": "Apply via jobs.cvshealth.com/us/en/job/R0876375/Store-Associate",
+    "id": "job-226",
+    "town": "Old Saybrook",
+    "first_seen": "2026-07-10"
+  },
+  {
+    "title": "Task Associate",
+    "employer": "Ulta Beauty (Old Saybrook)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "Old Saybrook, CT",
+    "distance": "~18 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$16.35–$18/hr est.",
+    "schedule": "Variable shifts; evenings and weekends",
+    "summary": "Ulta Beauty's Old Saybrook store seeks a Task Associate to support operational excellence. Duties include stocking shelves, processing shipments, maintaining store organization, and helping ensure the beauty retail floor is customer-ready. Part-time with flexible hours.",
+    "source": "Ulta Beauty Careers (Old Saybrook)",
+    "url": "https://careers.ulta.com/corporate/jobs/232923",
+    "hours_week": "10–25",
+    "posted": "Open until filled",
+    "benefits": "Part-time eligible for dental and vision; generous product discount",
+    "experience": "Retail or stocking experience a plus; on-the-job training provided",
+    "apply_method": "Apply via careers.ulta.com/corporate/jobs/232923",
+    "id": "job-227",
+    "town": "Old Saybrook",
+    "first_seen": "2026-07-10"
+  },
+  {
+    "title": "Front Desk Receptionist (Seasonal)",
+    "employer": "Madison Beach Club",
+    "categories": [
+      "Hospitality",
+      "Admin"
+    ],
+    "location": "128 Island Ave, Madison, CT",
+    "distance": "~8 mi (Madison)",
+    "type": "Part-time / Seasonal",
+    "pay": "$25–$30/hr",
+    "schedule": "Summer season; now through September 7, 2026",
+    "summary": "Premier private beach club in Madison seeks a friendly, organized Front Desk Receptionist for the summer season. Responsibilities include warmly greeting members and guests, answering and directing phone calls, managing reservations, facilitating guest room check-ins/check-outs, and supporting retail sales at the front desk. Professional attitude and strong interpersonal skills required.",
+    "source": "Glassdoor / Indeed (Madison Beach Club)",
+    "url": "https://www.indeed.com/cmp/Madison-Beach-Club",
+    "hours_week": "20–40",
+    "posted": "Seasonal; through September 7, 2026",
+    "benefits": "Seasonal position at upscale shoreline beach club",
+    "experience": "Customer service or front desk experience preferred",
+    "apply_method": "Apply via Indeed (Madison Beach Club company page) or contact club directly",
+    "id": "job-228",
+    "town": "Madison",
+    "first_seen": "2026-07-10"
+  },
+  {
+    "title": "Instructional Paraprofessional – Mathematics (SRBI)",
+    "employer": "North Branford Public Schools",
+    "categories": [
+      "Education"
+    ],
+    "location": "North Branford, CT (Totoket Valley Elementary / North Branford Intermediate School)",
+    "distance": "~7 mi (North Branford)",
+    "type": "Part-time",
+    "pay": "Per NBFP union agreement",
+    "schedule": "School year, Monday–Friday during school hours; ~32.5 hrs/week",
+    "summary": "North Branford Public Schools seeks an Instructional Paraprofessional to provide targeted mathematics intervention to individual students and small groups under the district's SRBI/MTSS framework. Works collaboratively with the SRBI team and classroom teachers at Totoket Valley Elementary or North Branford Intermediate School. Distinct from the district's literacy para (job-224) and special-education para roles.",
+    "source": "North Branford Public Schools / AppliTrack (Frontline)",
+    "url": "https://www.applitrack.com/northbranfordschools/onlineapp/default.aspx?all=1",
+    "hours_week": "~32.5",
+    "posted": "Open until filled",
+    "benefits": "Per union contract (NBFP); school-year schedule",
+    "experience": "Math tutoring, instructional, or prior school paraprofessional experience preferred",
+    "apply_method": "Apply via North Branford Public Schools AppliTrack portal (applitrack.com/northbranfordschools)",
+    "id": "job-229",
+    "town": "North Branford",
+    "first_seen": "2026-07-10"
   }
 ]
