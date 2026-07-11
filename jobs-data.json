@@ -5164,5 +5164,74 @@
     "id": "job-229",
     "town": "North Branford",
     "first_seen": "2026-07-10"
+  },
+  {
+    "title": "Cafe Associate / Barista",
+    "employer": "Cilantro Specialty Foods, LLC",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "85 Whitfield St (Historic Guilford Green), Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "~$16/hr",
+    "schedule": "Year-round; shop hours Mon–Sun 7 AM–5 PM; shift schedule varies",
+    "summary": "Established specialty food shop and coffee roaster on the Guilford Green hiring for a year-round barista and café associate. Responsibilities include preparing espresso and specialty coffee beverages, assembling made-to-order sandwiches, supporting food prep, and maintaining a clean and welcoming café environment. Team-oriented, detail-focused candidates preferred.",
+    "source": "Glassdoor (Cilantro Specialty Foods, LLC)",
+    "url": "https://www.glassdoor.com/job-listing/cafe-associate-barista-year-round-cilantro-specialty-foods-llc-JV_IC1148459_KO0,33_KE34,62.htm?jl=1009825152812",
+    "hours_week": "~20–30",
+    "posted": "Open until filled",
+    "benefits": "Not listed",
+    "experience": "Prior barista or food service experience preferred",
+    "apply_method": "Apply via Glassdoor or Indeed; or inquire directly at 85 Whitfield St, Guilford",
+    "id": "job-230",
+    "town": "Guilford",
+    "first_seen": "2026-07-11"
+  },
+  {
+    "title": "Sales Associate (Part-Time)",
+    "employer": "Lucky Brand (Store #2695, Clinton Crossing Premium Outlets)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "20-A Killingworth Turnpike, Space 2040, Clinton, CT 06413 (Clinton Crossing)",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "~$16/hr",
+    "schedule": "Flexible, including evenings and weekends",
+    "summary": "Lucky Brand outlet store at Clinton Crossing Premium Outlets is hiring part-time sales associates. Responsibilities include welcoming customers, assisting with apparel purchases, maintaining store presentation, and processing transactions. Denim-focused apparel brand known for casual, Western-inspired styles.",
+    "source": "Talentify / LinkedIn (Lucky Brand)",
+    "url": "https://www.talentify.io/job/part-time-sales-associate-clinton-crossing-premium-outlets-2695-clinton-connecticut-us-lucky-brand-76225",
+    "hours_week": "~15–20",
+    "posted": "Open until filled",
+    "benefits": "Employee discount on Lucky Brand merchandise",
+    "experience": "Retail sales experience a plus; entry level welcome",
+    "apply_method": "Apply via Talentify, LinkedIn, or Lucky Brand careers page (luckybrand.com/careers.html)",
+    "id": "job-231",
+    "town": "Clinton",
+    "first_seen": "2026-07-11"
+  },
+  {
+    "title": "Deli Prep / Sandwich Maker",
+    "employer": "Stop & Go Deli",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "312 Harbor St, Branford, CT 06405",
+    "distance": "~6 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$18/hr",
+    "schedule": "Daytime hours; schedule varies",
+    "summary": "Family-owned Branford deli (est. 2017) seeking a motivated sandwich maker and deli prep associate. Responsibilities include preparing sandwiches, wraps, salads, and deli items to order; operating POS systems (Aloha/Micros); and keeping food prep areas clean and sanitary. Fast-paced, customer-focused environment.",
+    "source": "Glassdoor (Stop & Go Deli)",
+    "url": "https://www.glassdoor.com/job-listing/deli-prep-sandwich-maker-stop-and-go-deli-JV_IC1148455_KO0,24_KE25,41.htm?jl=1009942037523",
+    "hours_week": "~20–30",
+    "posted": "Open until filled",
+    "benefits": "Not listed",
+    "experience": "Food service or deli experience preferred; entry-level candidates welcome",
+    "apply_method": "Apply via Glassdoor or contact Stop & Go Deli at (203) 208-4752",
+    "id": "job-232",
+    "town": "Branford",
+    "first_seen": "2026-07-11"
   }
 ]
