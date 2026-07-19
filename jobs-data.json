@@ -5907,5 +5907,52 @@
     "id": "job-261",
     "town": "Killingworth",
     "first_seen": "2026-07-18"
+  },
+  {
+    "title": "Theatre Team Member",
+    "employer": "Cinemark North Haven and XD",
+    "categories": [
+      "Retail",
+      "Food Service"
+    ],
+    "location": "550 Universal Dr, North Haven, CT 06473",
+    "distance": "~12 mi (North Haven)",
+    "type": "Part-time",
+    "pay": "$14.04–$17.55 / hr",
+    "schedule": "Flexible; includes evenings and weekends",
+    "summary": "Part-time crew member at Cinemark North Haven, working cross-functionally as usher, box office cashier, or concessionist as staffing needs require. Greet guests, operate POS system, maintain theatre cleanliness, and help create a welcoming movie-going experience.",
+    "source": "Cinemark Careers",
+    "url": "https://careers.cinemark.com/search/jobdetails/theatre-team-member/fe082922-5c86-4590-b509-6feed47d1fb9",
+    "hours_week": "10–25 hrs/week (variable)",
+    "posted": "Open until filled",
+    "benefits": "Free movies, 401(k) match, employee discount, health benefits, education assistance, daily pay",
+    "experience": "No prior experience required; customer service attitude helpful",
+    "apply_method": "Apply online at careers.cinemark.com",
+    "id": "job-262",
+    "town": "North Haven",
+    "first_seen": "2026-07-19"
+  },
+  {
+    "title": "Evening or Weekend Dog Walker",
+    "employer": "Shoreline Happy Paws",
+    "categories": [
+      "Pet Care"
+    ],
+    "location": "33 Main St, Old Saybrook, CT (serves shoreline communities)",
+    "distance": "~12 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$16.35–$22 / hr + tips + mileage",
+    "schedule": "Evenings and/or weekends; build a consistent weekly schedule",
+    "summary": "Part-time evening and weekend dog walker serving Old Saybrook and surrounding CT shoreline communities. Afternoons, evenings, and weekend visits with client dogs. Flexible schedule—start with 2+ hours and grow from there. Competitive pay plus tips, mileage, and perks.",
+    "source": "Shoreline Happy Paws Careers",
+    "url": "https://shorelinehappypaws.applytojob.com/apply/bx7IWzbFBL/Evening-Or-Weekend-Dog-Walker",
+    "hours_week": "5–25 hrs/week (flexible)",
+    "posted": "Open until filled",
+    "benefits": "Paid training, Pet CPR certification, tips, mileage reimbursement, holiday pay, EOY bonus, Costco membership",
+    "experience": "Comfortable handling dogs required; no formal experience needed",
+    "apply_method": "Apply online at shorelinehappypaws.applytojob.com",
+    "id": "job-263",
+    "town": "Old Saybrook",
+    "first_seen": "2026-07-19"
   }
 ]
