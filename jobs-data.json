@@ -6095,5 +6095,51 @@
     "id": "job-269",
     "town": "Guilford",
     "first_seen": "2026-07-21"
+  },
+  {
+    "title": "Team Member (Part-Time)",
+    "employer": "Tractor Supply Co. (Guilford)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "2945 Boston Post Rd, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "~$15–18/hr",
+    "schedule": "Flexible; mornings, evenings, and weekends available",
+    "summary": "Help customers at Guilford's Tractor Supply with livestock, pet, home improvement, and gardening supplies. Duties include customer service, stocking shelves, cashier, and general store operations at a pet- and family-friendly farm store.",
+    "source": "ZipRecruiter / Tractor Supply Careers",
+    "url": "https://www.ziprecruiter.com/c/Tractor-Supply-Company/Job/Team-Member/-in-Guilford,CT?jid=dae29a32c820b50a",
+    "hours_week": "15–30",
+    "posted": "Open / rolling",
+    "benefits": "Medical, dental, vision for employees averaging 15+ hrs/wk; employee discount; paid vacation",
+    "experience": "No experience required; retail or customer service background helpful",
+    "apply_method": "Apply at tractorsupply.com/careers or text TSC to 25000",
+    "id": "job-270",
+    "town": "Guilford",
+    "first_seen": "2026-07-22"
+  },
+  {
+    "title": "Seasonal Sales Associate / Stockroom Associate",
+    "employer": "Kohl's (Branhaven Plaza, Branford)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "1075 W Main St (Branhaven Plaza), Branford, CT 06405",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time (Seasonal)",
+    "pay": "$17–24/hr (estimated)",
+    "schedule": "Flexible; evenings and weekends expected",
+    "summary": "Seasonal retail positions at the Branford Kohl's department store in Branhaven Plaza. Sales associates assist customers and maintain floor presentation; stockroom associates handle receiving, processing, and organizing merchandise in a fast-paced environment.",
+    "source": "Kohl's Careers / ZipRecruiter",
+    "url": "https://careers.kohls.com/stores/job/R365505/Seasonal-Stockroom-Operations-Associate",
+    "hours_week": "15–25",
+    "posted": "Open / rolling (seasonal)",
+    "benefits": "Employee discount; medical/dental possible for qualifying hours",
+    "experience": "No experience required; retail experience a plus",
+    "apply_method": "Apply at careers.kohls.com",
+    "id": "job-271",
+    "town": "Branford",
+    "first_seen": "2026-07-22"
   }
 ]
