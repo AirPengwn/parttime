@@ -6819,5 +6819,51 @@
     "id": "job-300",
     "town": "Guilford",
     "first_seen": "2026-07-28"
+  },
+  {
+    "title": "Server",
+    "employer": "Chili's Grill & Bar (East Haven)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "58 Frontage Rd, East Haven, CT 06512",
+    "distance": "~8 mi (East Haven)",
+    "type": "Part-time",
+    "pay": "$6.38/hr base + tips (~$28-32/hr with tips)",
+    "schedule": "Flexible shifts; restaurant open daily from 11 AM",
+    "summary": "Server role at the East Haven Chili's. Deliver friendly guest experiences, take orders, and ensure table satisfaction in a casual dining environment. Part-time and full-time schedules available.",
+    "source": "Chili's Careers / ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/c/Chilis-Grill-&-Bar/Job/Server-East-Haven-Chilis/-in-East-Haven,CT?jid=48a8d45ef5ed6227",
+    "hours_week": "Varies",
+    "posted": "2026-07",
+    "benefits": "Varies",
+    "experience": "Restaurant experience preferred; training provided",
+    "apply_method": "Via chilisjobs.com or ZipRecruiter",
+    "id": "job-301",
+    "town": "East Haven",
+    "first_seen": "2026-07-29"
+  },
+  {
+    "title": "Certified Nursing Assistant (CNA) — Per Diem",
+    "employer": "Ocean Meadow Memory Care",
+    "categories": [
+      "Caregiving / Health"
+    ],
+    "location": "91 E Main St, Clinton, CT 06413",
+    "distance": "~16 mi (Clinton)",
+    "type": "Part-time / Per Diem",
+    "pay": "Per diem rate (see posting)",
+    "schedule": "Multiple shifts available, including weekends",
+    "summary": "Per-diem CNA at a dedicated memory care community in Clinton. Assist residents with activities of daily living, personal care, and emotional support in a compassionate setting.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/c/Ocean-Meadow-Memory-Care/Job/Certified-Nursing-Assistant-%7C-Per-diem-Shifts-Available/-in-Clinton,CT?jid=3e7f5d3b79d5ba31",
+    "hours_week": "Varies (per diem)",
+    "posted": "2026-07",
+    "benefits": "See posting (benefits subject to status)",
+    "experience": "Active CT CNA certification required",
+    "apply_method": "Via ZipRecruiter or oceanmeadowsl.com",
+    "id": "job-302",
+    "town": "Clinton",
+    "first_seen": "2026-07-29"
   }
 ]
