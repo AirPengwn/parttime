@@ -7099,5 +7099,74 @@
     "id": "job-312",
     "town": "Old Saybrook",
     "first_seen": "2026-07-31"
+  },
+  {
+    "title": "Front Desk Associate (Part-Time)",
+    "employer": "Planet Fitness (Branford)",
+    "categories": [
+      "Recreation"
+    ],
+    "location": "469 E Main St, Branford, CT 06405",
+    "distance": "~7 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$15–$17/hr",
+    "schedule": "Evenings and weekends; rotating shifts",
+    "summary": "Greet and check in members at the front desk of a busy fitness center. Sell memberships, answer phones, assist members with questions, and keep the facility clean and welcoming. Evening and weekend availability needed. No fitness background required; training provided.",
+    "source": "Indeed / Planet Fitness Careers",
+    "url": "https://www.indeed.com/q-planet-fitness-l-branford,-ct-jobs.html",
+    "hours_week": "Part-time (varies; evenings & weekends)",
+    "posted": "2026-07",
+    "benefits": "Free gym membership; employee perks",
+    "experience": "Customer service experience preferred; all levels welcome",
+    "apply_method": "Apply via Indeed or Planet Fitness careers page (planetfitness.com/careers)",
+    "id": "job-313",
+    "town": "Branford",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "title": "RN Charge Nurse (Part-Time)",
+    "employer": "Gladeview Rehabilitation & Health Care Center",
+    "categories": [
+      "Caregiving/Health"
+    ],
+    "location": "60 Boston Post Rd, Old Saybrook, CT 06475",
+    "distance": "~16 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Competitive (experience-based); $2,500 sign-on bonus",
+    "schedule": "24 hrs/week; night and weekend shift differentials available",
+    "summary": "Provide nursing leadership at this skilled nursing and rehabilitation facility in Old Saybrook. Oversee resident care, administer medications and treatments, supervise nursing staff, document accurately, and respond to emergencies. Part-time is 24 hrs/week with a $2,500 sign-on bonus. Current CT RN license required.",
+    "source": "Gladeview Careers / Glassdoor",
+    "url": "https://www.gladeviewcares.com/employment",
+    "hours_week": "24 hrs/week",
+    "posted": "2026-07",
+    "benefits": "$2,500 sign-on bonus; health/dental/vision insurance; shift differentials; pick-up bonuses",
+    "experience": "Licensed RN with current CT license in good standing required; background check required",
+    "apply_method": "Email resume and 3 professional references to Gladeview, or apply in person at 60 Boston Post Rd, Old Saybrook",
+    "id": "job-314",
+    "town": "Old Saybrook",
+    "first_seen": "2026-08-01"
+  },
+  {
+    "title": "Licensed Practical Nurse (LPN) — Part-Time, 3–11 Shift",
+    "employer": "Evergreen Woods Senior Living",
+    "categories": [
+      "Caregiving/Health"
+    ],
+    "location": "North Branford, CT 06471",
+    "distance": "~10 mi (North Branford)",
+    "type": "Part-time",
+    "pay": "Competitive; $2,500 sign-on bonus",
+    "schedule": "3–11 pm (afternoon/evening) shift; part-time",
+    "summary": "Provide direct nursing care as part of the clinical team at a continuing-care retirement community. Administer medications and treatments, conduct resident assessments, document accurately, and respond rapidly to emergency situations. Current CT LPN license in good standing required; 1–2 years' experience in a similar healthcare setting preferred.",
+    "source": "Indeed / ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/co/Evergreen-Woods/Jobs/-in-North-Branford,CT",
+    "hours_week": "Part-time (3–11 shift)",
+    "posted": "2026-05",
+    "benefits": "$2,500 sign-on bonus; competitive wages; benefits available",
+    "experience": "Current CT LPN license required; 1–2 years' experience in similar healthcare setting preferred",
+    "apply_method": "Apply via Indeed or ZipRecruiter, or call Evergreen Woods HR at (203) 488-8000",
+    "id": "job-315",
+    "town": "North Branford",
+    "first_seen": "2026-08-01"
   }
 ]
