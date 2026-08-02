@@ -7168,5 +7168,51 @@
     "id": "job-315",
     "town": "North Branford",
     "first_seen": "2026-08-01"
+  },
+  {
+    "title": "Citizens Teller (Part-Time)",
+    "employer": "Citizens Bank (East Haven)",
+    "categories": [
+      "Admin"
+    ],
+    "location": "East Haven, CT 06512",
+    "distance": "~8 mi (East Haven)",
+    "type": "Part-time",
+    "pay": "$21.00–$23.84/hr",
+    "schedule": "Varies; Monday–Friday and Saturday mornings; ~20 hrs/week",
+    "summary": "Greet customers at the branch, assist with deposits, withdrawals, and check cashing, demonstrate the Citizens mobile app and ATM for simple transactions, provide personalized financial guidance, and meet quarterly referral goals. Part-time (~20 hrs/week) at Citizens Bank's East Haven branch. A video interview assessment is required as part of the application process.",
+    "source": "Citizens Bank Careers",
+    "url": "https://jobs.citizensbank.com/job/east-haven/citizens-teller-part-time/288/70786788240",
+    "hours_week": "~20 hrs/week",
+    "posted": "2026-05",
+    "benefits": "Competitive pay; medical, dental, and vision coverage; 401(k) with company match; paid time off; tuition reimbursement",
+    "experience": "Customer service or retail experience helpful; banking background a plus; all levels considered",
+    "apply_method": "Apply online at jobs.citizensbank.com; video self-assessment required during application",
+    "id": "job-316",
+    "town": "East Haven",
+    "first_seen": "2026-08-02"
+  },
+  {
+    "title": "Grocery Clerk / Cashier (Part-Time)",
+    "employer": "Big Y Foods, Inc. (North Branford)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "1289 Foxon Rd, North Branford, CT 06471",
+    "distance": "~10 mi (North Branford)",
+    "type": "Part-time",
+    "pay": "$16–$18/hr",
+    "schedule": "Flexible; days, evenings, and weekends available",
+    "summary": "Join the team at Big Y's North Branford store. Positions available across departments including cashier, produce, dairy, deli, and grocery. Responsibilities include providing friendly customer service, stocking shelves, maintaining department cleanliness and product freshness, and operating registers. Part-time schedules available; customer-friendly attitude and reliability required.",
+    "source": "Big Y Careers / Indeed",
+    "url": "https://www.bigy.com/store-locator/1289-foxon-rd-rt-80-87",
+    "hours_week": "Part-time (varies by department)",
+    "posted": "2026-07",
+    "benefits": "Competitive wages; employee benefits available for qualifying hours",
+    "experience": "No prior grocery experience required; customer service orientation preferred",
+    "apply_method": "Apply online at bigy.com/Careers or visit the store at 1289 Foxon Rd, North Branford",
+    "id": "job-317",
+    "town": "North Branford",
+    "first_seen": "2026-08-02"
   }
 ]
