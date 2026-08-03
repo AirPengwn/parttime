@@ -7214,5 +7214,51 @@
     "id": "job-317",
     "town": "North Branford",
     "first_seen": "2026-08-02"
+  },
+  {
+    "title": "Crew Member / Closer",
+    "employer": "Wendy's (Guilford)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "570 Boston Post Rd, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "CT minimum wage+",
+    "schedule": "Flexible shifts; evenings and weekends available; closer shifts focus on end-of-day tasks",
+    "summary": "Join the crew at Wendy's Guilford to prepare made-to-order food, serve customers at the counter and drive-thru, maintain a clean and stocked restaurant, and help the team meet service goals. 'Closer' shifts focus on end-of-day prep and restaurant closing. No prior experience required; on-the-job training provided.",
+    "source": "Wendy's Careers / Glassdoor",
+    "url": "https://wendys-careers.com/job-search/posting/Crew-Member/39255/",
+    "hours_week": "Part-time (flexible)",
+    "posted": "2026-08",
+    "benefits": "Flexible scheduling; meal discounts",
+    "experience": "No experience required; food service experience a plus",
+    "apply_method": "Apply online via wendys-careers.com or walk in to 570 Boston Post Rd, Guilford",
+    "id": "job-318",
+    "town": "Guilford",
+    "first_seen": "2026-08-03"
+  },
+  {
+    "title": "Part-Time Sales Associate",
+    "employer": "GNC (Branhaven Plaza)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "1060 W Main St (Branhaven Plaza), Branford, CT 06405",
+    "distance": "~5 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$16–18/hr",
+    "schedule": "Flexible part-time schedule; weekday and weekend availability preferred",
+    "summary": "Help customers at GNC's Branhaven Plaza store find nutritional supplements, vitamins, proteins, and health-and-wellness products. Responsibilities include customer service, product recommendations, POS transactions, inventory management, store merchandising, and fulfilling omni-channel orders. GNC looks for associates with a passion for health and living well.",
+    "source": "GNC Careers / LinkedIn",
+    "url": "https://jobs.gnc.com/job/21118002/part-time-sales-associate-branhaven-plaza-branford-ct/",
+    "hours_week": "Part-time (flexible)",
+    "posted": "2026-08",
+    "benefits": "Employee discount; flexible scheduling",
+    "experience": "Must be 18+; retail or health/wellness experience a plus; interest in nutrition preferred",
+    "apply_method": "Apply online at jobs.gnc.com",
+    "id": "job-319",
+    "town": "Branford",
+    "first_seen": "2026-08-03"
   }
 ]
