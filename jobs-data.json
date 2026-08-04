@@ -7260,5 +7260,53 @@
     "id": "job-319",
     "town": "Branford",
     "first_seen": "2026-08-03"
+  },
+  {
+    "title": "Part-Time Custodian",
+    "employer": "Hagaman Memorial Library",
+    "categories": [
+      "Cleaning/Facilities",
+      "Library"
+    ],
+    "location": "227 Main St, East Haven, CT 06512",
+    "distance": "~10 mi (East Haven)",
+    "type": "Part-time",
+    "pay": "$15.00–$15.90/hr",
+    "schedule": "Part-time; specific schedule TBD with library management",
+    "summary": "Custodial and cleaning duties at East Haven's community public library — Hagaman Memorial Library, a 501(c)3 nonprofit association library at 227 Main St. Maintains cleanliness and upkeep of library spaces. The library recently reopened after renovations and serves East Haven's population of ~28,000.",
+    "source": "Hagaman Memorial Library / Geebo",
+    "url": "https://hagamanlibrary.org/employment/",
+    "hours_week": "Part-time (hours vary)",
+    "posted": "2026-08",
+    "benefits": "",
+    "experience": "Custodial experience preferred",
+    "apply_method": "Submit cover letter, resume, and employment application via hagamanlibrary.org/employment/ or in person at 227 Main St, East Haven",
+    "id": "job-320",
+    "town": "East Haven",
+    "first_seen": "2026-08-04"
+  },
+  {
+    "title": "Library Media Assistant",
+    "employer": "East Haven Public Schools (Kathleen E. Goodwin School)",
+    "categories": [
+      "Education",
+      "Admin"
+    ],
+    "location": "Kathleen E. Goodwin School, East Haven, CT",
+    "distance": "~10 mi (East Haven)",
+    "type": "Part-time",
+    "pay": "Per EHEA contract",
+    "schedule": "Monday–Friday during school hours; 2026–2027 school year; start date 08/24/2026",
+    "summary": "Secretarial/clerical Library Media Assistant supporting the school library media center at Kathleen E. Goodwin Elementary School for the 2026–2027 academic year. Assists students, staff, and the media specialist with library operations, circulation, and resources. Open until filled.",
+    "source": "East Haven Public Schools / CTREAP Frontline",
+    "url": "https://www.applitrack.com/easthaven/onlineapp/default.aspx?all=1",
+    "hours_week": "Part-time (school year)",
+    "posted": "2026-06",
+    "benefits": "",
+    "experience": "Library or school experience helpful; 60 college credits or ParaPro assessment may be required",
+    "apply_method": "Apply online via East Haven Public Schools Frontline portal at applitrack.com/easthaven",
+    "id": "job-321",
+    "town": "East Haven",
+    "first_seen": "2026-08-04"
   }
 ]
