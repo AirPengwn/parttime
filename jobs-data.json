@@ -7354,5 +7354,51 @@
     "id": "job-323",
     "town": "East Haven",
     "first_seen": "2026-08-05"
+  },
+  {
+    "title": "PT Sales Associate",
+    "employer": "Brooks Brothers Factory Store (Clinton Crossing Premium Outlets)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "20 Killingworth Turnpike, Clinton, CT 06413",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$17.75–$24.00/hr",
+    "schedule": "Part-time; flexible scheduling including evenings and weekends",
+    "summary": "Part-time Sales Associate at Brooks Brothers Factory Store #3644 at Clinton Crossing Premium Outlets. Engages with customers to deliver exceptional shopping experiences and achieve sales goals through brand-appropriate interactions, styling advice, and consistent execution of visual merchandising standards.",
+    "source": "Brooks Brothers / LinkedIn",
+    "url": "https://www.linkedin.com/jobs/view/pt-sales-associate-at-brooks-brothers-4252936461",
+    "hours_week": "Part-time (hours vary)",
+    "posted": "2026-07",
+    "benefits": "50% employee discount; Medical, Dental, Vision, Life, 401k, PTO",
+    "experience": "Retail sales experience preferred",
+    "apply_method": "Apply on LinkedIn at linkedin.com/jobs/view/pt-sales-associate-at-brooks-brothers-4252936461 or via brooksbrothers.com/careers",
+    "id": "job-324",
+    "town": "Clinton",
+    "first_seen": "2026-08-06"
+  },
+  {
+    "title": "Brand Ambassador (Weekend Part-Time)",
+    "employer": "Polo Ralph Lauren Factory Store (Clinton Crossing Premium Outlets)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "20 Killingworth Tpke Suite 420, Clinton, CT 06413",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "~$20/hr",
+    "schedule": "Weekends; part-time",
+    "summary": "Weekend part-time Brand Ambassador at Polo Ralph Lauren Factory Store at Clinton Crossing Premium Outlets. Delivers personalized, inspiring shopping experiences consistent with Ralph Lauren brand standards. Supports sales floor presentation, provides customer-first service, and serves as an entry point for future leadership roles within the company.",
+    "source": "Ralph Lauren Careers / SimplyHired",
+    "url": "https://www.simplyhired.com/job/IRmQDchnukdHMIc-X9ODBTZ1RiS1IUm4R_BXlTBc9-fMW9W_y3Y-zA",
+    "hours_week": "Part-time (weekends)",
+    "posted": "2026-07",
+    "benefits": "Employee discount; benefits for eligible employees",
+    "experience": "Retail experience or similar industry experience preferred",
+    "apply_method": "Apply at careers.ralphlauren.com or through job boards (SimplyHired, Indeed)",
+    "id": "job-325",
+    "town": "Clinton",
+    "first_seen": "2026-08-06"
   }
 ]
