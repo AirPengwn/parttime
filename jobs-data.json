@@ -7400,5 +7400,75 @@
     "id": "job-325",
     "town": "Clinton",
     "first_seen": "2026-08-06"
+  },
+  {
+    "title": "Group Exercise Instructor",
+    "employer": "Valley Shore YMCA",
+    "categories": [
+      "Recreation"
+    ],
+    "location": "130 Flat Rock Place, Westbrook, CT 06498",
+    "distance": "~21 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "$25.00/hr",
+    "schedule": "Part-time; flexible scheduling including evenings and weekends",
+    "summary": "Lead group fitness classes for Valley Shore YMCA members and program participants. Responsible for designing and delivering safe, effective, and motivating exercise sessions consistent with YMCA standards. Must obtain CPR/First Aid/AED certification within 30 days of hire.",
+    "source": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/c/Valley-Shore-YMCA/Job/Group-Exercise-Instructor/-in-Westbrook,CT?jid=3b1b85b7dc72edf6",
+    "hours_week": "Part-time (hours vary)",
+    "posted": "2026-05",
+    "benefits": "YMCA membership; program discounts",
+    "experience": "Group fitness certification required (ACE, NETA, AFAA, NASM, or YMCA Foundations); CPR/First Aid/AED required within 30 days",
+    "apply_method": "Apply via ZipRecruiter or at the Valley Shore YMCA",
+    "id": "job-326",
+    "town": "Westbrook",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "title": "Spa Receptionist",
+    "employer": "Madison Beach Hotel (Sounds of the Sea Spa)",
+    "categories": [
+      "Hospitality"
+    ],
+    "location": "94 West Wharf Road, Madison, CT 06443",
+    "distance": "~9 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$17.00–$19.00/hr DOE",
+    "schedule": "Part-time; includes some weekend availability",
+    "summary": "Greet spa guests, book reservations, and promote hotel and spa services at the Sounds of the Sea Spa within Madison Beach Hotel. Requires strong customer service skills, proficiency with booking software, and a warm, professional demeanor. Represents the hotel's commitment to exceptional guest experiences.",
+    "source": "Glassdoor / LinkedIn",
+    "url": "https://www.glassdoor.com/job-listing/spa-receptionist-madison-beach-hotel-madison-beach-hotel-JV_IC1148461_KO0,36_KE37,56.htm?jl=1009851943574",
+    "hours_week": "Part-time (hours vary)",
+    "posted": "2026-07",
+    "benefits": "Hotel employee perks; details upon offer",
+    "experience": "Customer service experience required; spa or hospitality background preferred; strong computer skills",
+    "apply_method": "Apply on Glassdoor or LinkedIn",
+    "id": "job-327",
+    "town": "Madison",
+    "first_seen": "2026-08-07"
+  },
+  {
+    "title": "Massage Therapist",
+    "employer": "Saybrook Point Resort & Marina",
+    "categories": [
+      "Healthcare",
+      "Hospitality"
+    ],
+    "location": "2 Bridge Street, Old Saybrook, CT 06475",
+    "distance": "~25 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "$16.35/hr + gratuities",
+    "schedule": "Per diem / flexible; weekend availability a plus",
+    "summary": "Provide professional massage therapy services to resort guests at Saybrook Point Resort & Marina's full-service spa. Must hold an active Connecticut massage therapy license and demonstrate proficiency in three or more specialty modalities. Per diem scheduling offers flexibility for part-time candidates.",
+    "source": "Snagajob / Saybrook Point Resort",
+    "url": "https://www.snagajob.com/jobs/1170320477",
+    "hours_week": "Per diem / part-time (hours vary)",
+    "posted": "2026-07",
+    "benefits": "Gratuities; resort employee discounts; details upon offer",
+    "experience": "Active CT massage therapy license required; proficiency in 3+ specialty modalities required",
+    "apply_method": "Apply via Snagajob or at saybrookpoint.com/careers",
+    "id": "job-328",
+    "town": "Old Saybrook",
+    "first_seen": "2026-08-07"
   }
 ]
