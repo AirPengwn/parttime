@@ -7587,5 +7587,77 @@
     "id": "job-333",
     "town": "North Branford",
     "first_seen": "2026-08-09"
+  },
+  {
+    "title": "Deli Specialist",
+    "employer": "The Fresh Market (Guilford)",
+    "categories": [
+      "Food Service",
+      "Retail"
+    ],
+    "location": "1919 Boston Post Rd, Unit 305, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$18.88–$20.14/hr",
+    "schedule": "Flexible shifts; days and weekends",
+    "summary": "Join the Deli team at The Fresh Market in Guilford, a specialty grocer known for high-quality food and an exceptional guest experience. Responsibilities include ensuring deli products meet freshness and quality standards with proper rotation and dating, executing planograms, maintaining accurate product placement and signage, and coordinating with department leadership on ordering and replenishment. Opportunities to cross-train in Deli, Meat & Seafood, Bakery, and other departments.",
+    "source": "The Fresh Market Careers",
+    "url": "https://jobs.thefreshmarket.com/job/guilford/deli-specialist/35614/94594998752",
+    "hours_week": "Variable (part-time)",
+    "posted": "2026-05",
+    "benefits": "Details upon offer; Fresh Market team member benefits",
+    "experience": "Deli or food service experience preferred; high standards for quality and food safety required",
+    "apply_method": "Apply online at jobs.thefreshmarket.com",
+    "id": "job-334",
+    "town": "Guilford",
+    "first_seen": "2026-08-10"
+  },
+  {
+    "title": "Teen Counselor (Before and After School Program)",
+    "employer": "Town of Madison Beach & Recreation",
+    "categories": [
+      "Recreation",
+      "Education"
+    ],
+    "location": "School sites, Madison, CT 06443",
+    "distance": "~7 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Per Town pay scale; call (203) 245-5623 for rate",
+    "schedule": "Before school: 7:00 a.m. to start of school; after school hours; school-year position",
+    "summary": "The Town of Madison Beach & Recreation Department seeks Teen Counselors for its Before and After School Program. Teen Counselors assist adult staff in supervising children, facilitating games and activities, and maintaining a safe and positive program environment at school sites. A great fit for high school students or young adults seeking part-time work experience in recreation and childcare.",
+    "source": "Town of Madison, CT — CivicEngage Job Board",
+    "url": "https://madisonct.org/Jobs.aspx?CommunityJobs=False&From=All&JobID=Teen-Counselor-Before-and-After-School-P-115&UniqueId=100",
+    "hours_week": "Variable (before/after school daily)",
+    "posted": "2026-08",
+    "benefits": "None listed",
+    "experience": "Interest in working with children; high school age or older; no prior experience required",
+    "apply_method": "Apply at madisonct.org/jobs or call Recreation Supervisor at (203) 245-5623",
+    "id": "job-335",
+    "town": "Madison",
+    "first_seen": "2026-08-10"
+  },
+  {
+    "title": "Front Desk Associate (Part-Time)",
+    "employer": "Planet Fitness (Guilford — 705 Boston Post Rd)",
+    "categories": [
+      "Recreation",
+      "Admin"
+    ],
+    "location": "705 Boston Post Rd, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$16.94–$17.44/hr",
+    "schedule": "Flexible shifts; days, evenings, and overnights available; 24/7 gym",
+    "summary": "Greet members and guests at the front desk of Planet Fitness Guilford, a 24/7 Judgement Free Zone® fitness center. Responsibilities include handling membership inquiries, answering phones, maintaining front desk operations, ensuring cleanliness of the facility, and delivering friendly, professional member service. Part-time schedules available with flexible shift options.",
+    "source": "ZipRecruiter / Planet Fitness",
+    "url": "https://www.ziprecruiter.com/co/Planet-Fitness/Jobs/-in-Guilford,CT",
+    "hours_week": "~15–25 (part-time)",
+    "posted": "2026-08",
+    "benefits": "Free Planet Fitness black card membership; details upon offer",
+    "experience": "Customer service experience preferred; friendly, professional demeanor required",
+    "apply_method": "Apply via the Planet Fitness careers portal at careers.planetfitness.com or through Indeed / ZipRecruiter for Guilford, CT",
+    "id": "job-336",
+    "town": "Guilford",
+    "first_seen": "2026-08-10"
   }
 ]
