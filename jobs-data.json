@@ -7659,5 +7659,53 @@
     "id": "job-336",
     "town": "Guilford",
     "first_seen": "2026-08-10"
+  },
+  {
+    "title": "Retail Sales Associate (Part-Time)",
+    "employer": "PetSmart (Store #1938, North Haven Crossing)",
+    "categories": [
+      "Retail",
+      "Pet Care"
+    ],
+    "location": "400 Universal Dr N, North Haven, CT 06473",
+    "distance": "~12 mi (North Haven)",
+    "type": "Part-time",
+    "pay": "$17.00–$26.00/hr",
+    "schedule": "Flexible; availability for weekends, evenings, and holidays required",
+    "summary": "Greet and assist pet parents; provide positive shopping experiences for people and their pets. Help with pet care products and live animals (aquatics, birds, reptiles, small animals). PetSmart Store #1938 at North Haven Crossing seeks friendly, animal-loving associates for flexible part-time shifts.",
+    "source": "PetSmart Careers",
+    "url": "https://careers.petsmart.com/jobs/100899499055-1213311454?lang=en-us",
+    "hours_week": "15–29",
+    "posted": "2026-08-11",
+    "benefits": "Employee pet-care discounts; health benefits available for eligible roles",
+    "experience": "No experience required; love of animals a plus",
+    "apply_method": "Apply online at careers.petsmart.com",
+    "id": "job-337",
+    "town": "North Haven",
+    "first_seen": "2026-08-11"
+  },
+  {
+    "title": "Dock Staff / Dock Hand (Seasonal)",
+    "employer": "Freedom Boat Club (Safe Harbor Pilot Point Marina, Westbrook)",
+    "categories": [
+      "Recreation",
+      "Hospitality"
+    ],
+    "location": "Safe Harbor Pilot Point Marina, Westbrook, CT",
+    "distance": "~14 mi (Westbrook)",
+    "type": "Seasonal / Part-time",
+    "pay": "$16.94/hr + tips",
+    "schedule": "Weekdays, weekends, and holidays; seasonal position ending October/November",
+    "summary": "Greet members and assist with boat launching and docking at Freedom Boat Club's Westbrook marina location. Train new members on boating basics, operate yard truck for dock management, and maintain safety and cleanliness of the dock and yard. Tips add meaningfully to base pay. Nation's largest private member boat club.",
+    "source": "ZipRecruiter / Freedom Boat Club Careers",
+    "url": "https://www.ziprecruiter.com/co/freedom-boat-club/Jobs",
+    "hours_week": "Varies (seasonal; weekdays and weekends)",
+    "posted": "2026-08-11",
+    "benefits": "Tips; seasonal outdoor schedule",
+    "experience": "Customer service skills helpful; basic boating knowledge a plus; no experience required",
+    "apply_method": "Apply at freedomboatclub.com/careers or search Freedom Boat Club on Indeed / ZipRecruiter",
+    "id": "job-338",
+    "town": "Westbrook",
+    "first_seen": "2026-08-11"
   }
 ]
