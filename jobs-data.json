@@ -7894,5 +7894,29 @@
     "id": "job-346",
     "town": "North Haven",
     "first_seen": "2026-08-13"
+  },
+  {
+    "title": "Maintenance Assistant (Part-Time)",
+    "employer": "Solstice Senior Living at Guilford",
+    "categories": [
+      "Cleaning / Facilities",
+      "Older Adult Services"
+    ],
+    "location": "Solstice Senior Living at Guilford, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$18.25/hr",
+    "schedule": "Part-time; varied shifts",
+    "summary": "Assist with maintaining a safe, clean, and comfortable environment for residents, guests, and staff. Perform routine maintenance on grounds, buildings, apartment homes, equipment, and vehicles, including minor repairs to flooring, walls, plumbing, electrical, appliances, and painting. Entry-level with paid training.",
+    "source": "ZipRecruiter / Solstice Senior Living",
+    "url": "https://www.ziprecruiter.com/c/Solstice-at-Guilford/Job/Maintenance-Assistant/-in-Guilford,CT?jid=824e0814563e05fe",
+    "hours_week": "Part-time",
+    "posted": "August 2026",
+    "benefits": "Employee assistance program; paid training",
+    "experience": "High school diploma or GED; 1 year of maintenance experience preferred; entry-level considered",
+    "apply_method": "Apply via ZipRecruiter link above",
+    "id": "job-347",
+    "town": "Guilford",
+    "first_seen": "2026-08-14"
   }
 ]
