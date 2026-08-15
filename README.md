@@ -9,7 +9,7 @@ One self-contained `index.html` — no build step, no dependencies. Works on Git
 
 ## Files
 - `index.html` — the site (HTML + CSS + JS, data embedded).
-- `jobs-data.json` — the underlying dataset (347 listings), regenerated from the embedded array so the two stay in parity.
+- `jobs-data.json` — the underlying dataset (348 listings), regenerated from the embedded array so the two stay in parity.
 
 ## Features
 - **Tri-state filter pills** — click a Town / Category / Type pill to cycle:
