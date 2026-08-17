@@ -8154,5 +8154,52 @@
     "id": "job-357",
     "town": "North Haven",
     "first_seen": "2026-08-16"
+  },
+  {
+    "title": "Athletic Event Worker (Site Supervisor / Event Staff)",
+    "employer": "Branford Public Schools",
+    "categories": [
+      "Education"
+    ],
+    "location": "Branford Public Schools Athletics, Branford, CT 06405",
+    "distance": "~8 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$18.00–$25.00/hr depending on tier (Site Supervisor $25; Scoreboard/Clock $20; Chain Crew/Event Staff $18)",
+    "schedule": "Per diem; evenings and weekends during athletic events; 2026-2027 school year",
+    "summary": "Branford Public Schools is hiring Athletic Event Workers for the 2026-2027 school year. Roles include Tier 1 Site Supervisor ($25/hr) who oversees all game-night operations, Tier 2 Scoreboard Operator/Shot Clock ($20/hr), and Tier 3 Chain Crew/Event Staff ($18/hr) who support football and other CIAC home events. Flexible per-diem schedule tied to the athletic calendar.",
+    "source": "LinkedIn / Branford Public Schools Talent Services",
+    "url": "https://www.linkedin.com/jobs/view/athletic-event-worker-at-branford-public-schools-4208622071",
+    "hours_week": "Per diem; varies with athletic event calendar",
+    "posted": "March 2026; open until filled",
+    "benefits": "N/A (per-diem position)",
+    "experience": "No specific prior experience required; must be punctual and available for evening/weekend events; ability to work as a team under game conditions",
+    "apply_method": "Apply online at applitrack.com/branford or email hr@branfordschools.org",
+    "id": "job-358",
+    "town": "Branford",
+    "first_seen": "2026-08-17"
+  },
+  {
+    "title": "Temporary Custodian (Substitute)",
+    "employer": "Westbrook Public Schools",
+    "categories": [
+      "Education",
+      "Cleaning/Facilities"
+    ],
+    "location": "Westbrook Public Schools, Westbrook, CT 06498",
+    "distance": "~22 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "$19.28–$19.78/hr (plus shift differential)",
+    "schedule": "Substitute / as-needed; 1st Shift (7:00 AM–3:00 PM) or 2nd Shift (3:00 PM–11:30 PM); hours vary",
+    "summary": "Westbrook Public Schools seeks substitute custodians to provide on-call cleaning and facility maintenance at school buildings. Both first and second shift slots are available. The position requires a high school diploma or GED, custodial experience, and a valid CT driver's license. Apply through the district's online Applitrack portal.",
+    "source": "CTREAP / Town of Westbrook CT Jobs",
+    "url": "https://www.ctreap.net/job_postings/154163/CT01/CT01",
+    "hours_week": "As-needed; varies (substitute basis)",
+    "posted": "Open until filled",
+    "benefits": "None specified (substitute role)",
+    "experience": "High school diploma or GED required; custodial experience preferred; valid Connecticut driver's license required",
+    "apply_method": "Apply online at applitrack.com/westbrook or visit westbrookct.us/Jobs.aspx",
+    "id": "job-359",
+    "town": "Westbrook",
+    "first_seen": "2026-08-17"
   }
 ]
