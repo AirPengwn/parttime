@@ -8293,5 +8293,51 @@
     "id": "job-363",
     "town": "Madison",
     "first_seen": "2026-08-18"
+  },
+  {
+    "title": "Physical Therapy Aide (Part-Time)",
+    "employer": "Physical Therapy & Sports Medicine Centers (PTSMC)",
+    "categories": [
+      "Caregiving/Health"
+    ],
+    "location": "Physical Therapy & Sports Medicine Centers, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "~$15–16/hr (CT market rate; PTSMC is a 14-time Top CT Workplace)",
+    "schedule": "Fall PM shift; approx. Mon–Fri 12:00 PM–8:00 PM",
+    "summary": "PTSMC is hiring a part-time Physical Therapy Aide at its Guilford clinic to cover the fall afternoon/evening shift (noon–8 PM). Duties include assisting physical therapists in delivering quality patient care and maintaining a clean, efficient clinic environment. Ideal for candidates interested in healthcare, exercise science, or physical therapy. PTSMC has been named a Top Workplace in Connecticut 14 consecutive years and a Top Workplace USA for 5 years.",
+    "source": "Indeed / PTSMC Careers",
+    "url": "https://www.indeed.com/viewjob?jk=002e4ebe5d2d8b9b",
+    "hours_week": "Part-time; PM shift (hours vary)",
+    "posted": "Open until filled",
+    "benefits": "Award-winning workplace culture; benefits details vary by role",
+    "experience": "Interest in health, wellness, or exercise science; evening availability required; no prior PT experience required",
+    "apply_method": "Apply via Indeed link or visit ptsmc.com/location/guilford-connecticut",
+    "id": "job-364",
+    "town": "Guilford",
+    "first_seen": "2026-08-19"
+  },
+  {
+    "title": "Code Coach (Part-Time)",
+    "employer": "theCoderSchool Branford",
+    "categories": [
+      "Education"
+    ],
+    "location": "theCoderSchool, 375 E Main St, Branford, CT 06405",
+    "distance": "~5 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$18–21/hr",
+    "schedule": "After school; 6–15 hrs/week; consistent weekly time slots",
+    "summary": "theCoderSchool in Branford is looking for Code Coaches to mentor students ages 7–18 in an after-school drop-off coding program. Coaches teach programming concepts one-on-one or in small groups in a fun, supportive environment. Hours run 6–15 per week with consistent scheduling. College students at CCSU and ECSU may receive academic credit; UConn and Quinnipiac students can qualify this as a full internship.",
+    "source": "theCoderSchool Branford",
+    "url": "https://www.thecoderschool.com/locations/branford/",
+    "hours_week": "6–15 hrs/week",
+    "posted": "Open until filled",
+    "benefits": "Flexible scheduling; academic credit available for qualifying college students",
+    "experience": "General familiarity with programming; strong communicator; patient with children ages 7–18; no formal teaching certificate required",
+    "apply_method": "Visit thecoderschool.com/locations/branford or call (860) 470-6276 to inquire",
+    "id": "job-365",
+    "town": "Branford",
+    "first_seen": "2026-08-19"
   }
 ]
