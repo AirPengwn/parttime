@@ -8433,5 +8433,28 @@
     "id": "job-369",
     "town": "Guilford",
     "first_seen": "2026-08-22"
+  },
+  {
+    "title": "Server",
+    "employer": "South Lane Bistro",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$35–$50/hr (includes tips, est.)",
+    "schedule": "Evenings / nights; ~10–15 hrs/week",
+    "summary": "Casual fine-dining bistro in Guilford Center seeking a part-time server. Duties include greeting guests, taking accurate food and beverage orders, providing pairing recommendations, ensuring timely service, and keeping the dining area clean. Small, family-like team atmosphere.",
+    "source": "Glassdoor",
+    "url": "https://www.glassdoor.com/job-listing/server-south-lane-bistro-JV_IC1148459_KO0,6_KE7,24.htm?jl=1009833756731",
+    "hours_week": "10–15",
+    "posted": "2026-08-23",
+    "benefits": "Employee discount; flexible schedule",
+    "experience": "Restaurant serving experience preferred",
+    "apply_method": "Apply via Glassdoor listing or contact restaurant directly",
+    "id": "job-370",
+    "town": "Guilford",
+    "first_seen": "2026-08-23"
   }
 ]
