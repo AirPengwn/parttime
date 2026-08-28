@@ -8667,5 +8667,28 @@
     "id": "job-379",
     "town": "North Haven",
     "first_seen": "2026-08-27"
+  },
+  {
+    "title": "Crew Member / Cashier",
+    "employer": "Dunkin' (Killingworth — Dancoffee Inc.)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "177 Route 81, Killingworth, CT 06419",
+    "distance": "~9 mi (Killingworth)",
+    "type": "Part-time",
+    "pay": "$16.35/hr",
+    "schedule": "Flexible; day and evening shifts available; weekends",
+    "summary": "Join the Dancoffee Inc. Dunkin' team in Killingworth. Crew members prepare food and beverages, take customer orders, maintain a clean and welcoming environment, and deliver great guest experiences. Both part-time and full-time positions available.",
+    "source": "Glassdoor — Dancoffee Inc. (12 open positions)",
+    "url": "https://www.glassdoor.com/Jobs/Dancoffee-Jobs-E6516751.htm",
+    "hours_week": "Part-time (flexible)",
+    "posted": "2026-08",
+    "benefits": "Employee discount; 401(k) (management level)",
+    "experience": "No experience required; on-the-job training provided",
+    "apply_method": "Apply via Glassdoor Dancoffee page or contact Dunkin' Killingworth at 177 Route 81",
+    "id": "job-380",
+    "town": "Killingworth",
+    "first_seen": "2026-08-28"
   }
 ]
