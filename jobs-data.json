@@ -8690,5 +8690,99 @@
     "id": "job-380",
     "town": "Killingworth",
     "first_seen": "2026-08-28"
+  },
+  {
+    "title": "Line Cook",
+    "employer": "Charter Oak Tavern",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "24 Westbrook Place, Westbrook, CT 06498",
+    "distance": "~9 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "$20.63–$21.18/hr",
+    "schedule": "Flexible; kitchen/evening shifts",
+    "summary": "Charter Oak Tavern in Westbrook is seeking a dedicated Line Cook to join their culinary team. Responsibilities include preparing menu items to order, maintaining kitchen cleanliness and food safety standards, and supporting smooth daily service at this popular local tavern.",
+    "source": "Glassdoor — Charter Oak Tavern (Line Cook, Westbrook CT)",
+    "url": "https://www.glassdoor.com/job-listing/line-cook-charter-oak-tavern-JV_IC1148447_KO0,9_KE10,28.htm?jl=1009645504359",
+    "hours_week": "Part-time (flexible)",
+    "posted": "2026-08",
+    "benefits": "Not listed",
+    "experience": "Kitchen or line cook experience preferred",
+    "apply_method": "Apply via Glassdoor or contact Charter Oak Tavern directly at (860) 661-5118",
+    "id": "job-381",
+    "town": "Westbrook",
+    "first_seen": "2026-08-29"
+  },
+  {
+    "title": "Banquet Porter",
+    "employer": "Madison Beach Hotel, Curio Collection by Hilton",
+    "categories": [
+      "Hospitality"
+    ],
+    "location": "94 W Wharf Rd, Madison, CT 06443",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Not listed (event-based)",
+    "schedule": "Event-based; banquets and special events",
+    "summary": "Madison Beach Hotel seeks a Banquet Porter to support the smooth execution of banquets and events. Responsibilities include setting up and breaking down event spaces (tables, chairs, linens, décor), assisting with food and beverage service coordination, maintaining cleanliness of event areas, and delivering excellent guest service.",
+    "source": "ZipRecruiter — Madison Beach Hotel, Curio Collection by Hilton",
+    "url": "https://www.ziprecruiter.com/co/madison-beach-hotel/Jobs/Hotel",
+    "hours_week": "Variable (event-based)",
+    "posted": "2026-08",
+    "benefits": "Hotel employee benefits",
+    "experience": "Banquet or event setup experience preferred",
+    "apply_method": "Apply via ZipRecruiter or contact Madison Beach Hotel HR directly",
+    "id": "job-382",
+    "town": "Madison",
+    "first_seen": "2026-08-29"
+  },
+  {
+    "title": "Evening Hotel Houseperson",
+    "employer": "Madison Beach Hotel, Curio Collection by Hilton",
+    "categories": [
+      "Hospitality",
+      "Cleaning/Facilities"
+    ],
+    "location": "94 W Wharf Rd, Madison, CT 06443",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Not listed",
+    "schedule": "Evening shift; 3:00 PM–10:00 PM",
+    "summary": "Madison Beach Hotel seeks an Evening Hotel Houseperson to maintain the cleanliness of general public areas and restrooms, assist the Guest Service Agent with guest requests, stock and organize housekeeping areas for the next shift, and handle light maintenance tasks throughout the evening.",
+    "source": "Career.com / ZipRecruiter — Madison Beach Hotel, Curio Collection by Hilton",
+    "url": "https://www.ziprecruiter.com/co/madison-beach-hotel/Jobs/-in-Madison,CT",
+    "hours_week": "~21 hrs/week (3–10 PM daily)",
+    "posted": "2026-08",
+    "benefits": "Hotel employee benefits",
+    "experience": "Housekeeping or facilities experience helpful",
+    "apply_method": "Apply via ZipRecruiter or contact Madison Beach Hotel HR directly",
+    "id": "job-383",
+    "town": "Madison",
+    "first_seen": "2026-08-29"
+  },
+  {
+    "title": "Licensed Massage Therapist (Per Diem / Part-Time)",
+    "employer": "Madison Beach Hotel (Sounds of the Sea Spa)",
+    "categories": [
+      "Hospitality",
+      "Caregiving/Health"
+    ],
+    "location": "94 W Wharf Rd, Madison, CT 06443",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "Not listed (competitive spa rates)",
+    "schedule": "Flexible; days, some evenings, and weekends",
+    "summary": "The Sounds of the Sea Spa at Madison Beach Hotel seeks a seasoned, licensed massage therapist with flexible availability. Duties include providing a variety of massage treatments to hotel and spa guests at this AAA Four Diamond beachfront luxury boutique resort. Per diem and part-time schedules available.",
+    "source": "ZipRecruiter / Glassdoor — Madison Beach Hotel (Sounds of the Sea Spa)",
+    "url": "https://www.ziprecruiter.com/co/madison-beach-hotel/Jobs/-in-Madison,CT",
+    "hours_week": "Flexible / per diem",
+    "posted": "2026-08",
+    "benefits": "Hotel employee benefits; flexible scheduling",
+    "experience": "CT Licensed Massage Therapist (LMT) required; hotel or spa experience preferred",
+    "apply_method": "Contact the spa directly: spa@MadisonBeachHotel.com or (203) 868-0950",
+    "id": "job-384",
+    "town": "Madison",
+    "first_seen": "2026-08-29"
   }
 ]
