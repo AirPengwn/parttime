@@ -8784,5 +8784,28 @@
     "id": "job-384",
     "town": "Madison",
     "first_seen": "2026-08-29"
+  },
+  {
+    "title": "Field Merchandiser (Part-Time)",
+    "employer": "Hallmark Cards (Hallmark Marketing Company)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "Guilford, CT (multiple retail store locations)",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$14–$16/hr",
+    "schedule": "Variable weekday hours; availability required the week before/after major holidays (may include weekends)",
+    "summary": "Service Hallmark product displays at local grocery, drug, and mass-retail stores in Guilford. Restock and organize inventory, manage shelf placement, and build relationships with store teams using a Hallmark-provided mobile device. Paid training and mileage reimbursement provided.",
+    "source": "LinkedIn — Hallmark Cards",
+    "url": "https://www.linkedin.com/jobs/view/hallmark-field-merchandiser-part-time-guilford-ct-06437-at-hallmark-cards-4328833058",
+    "hours_week": "10–12",
+    "posted": "2026-08",
+    "benefits": "Mileage reimbursement, paid travel time between stores, voluntary dental/vision/accident insurance, paid training",
+    "experience": "No prior experience required; smartphone required",
+    "apply_method": "Apply via LinkedIn listing or at careers.hallmark.com",
+    "id": "job-385",
+    "town": "Guilford",
+    "first_seen": "2026-08-30"
   }
 ]
