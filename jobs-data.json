@@ -8807,5 +8807,52 @@
     "id": "job-385",
     "town": "Guilford",
     "first_seen": "2026-08-30"
+  },
+  {
+    "title": "Bar / Concessions Staff (Part-Time, As Needed)",
+    "employer": "Katharine Hepburn Cultural Arts Center (The Kate)",
+    "categories": [
+      "Hospitality"
+    ],
+    "location": "300 Main St, Old Saybrook, CT 06475",
+    "distance": "~18 mi (Old Saybrook)",
+    "type": "Part-time",
+    "pay": "Not listed (tips customary)",
+    "schedule": "Evenings and weekends; shifts typically 3–5 hours; scheduling done in monthly blocks at least 2 weeks in advance",
+    "summary": "The Kate is always accepting applications for enthusiastic individuals to join their Bar/Concessions staff for performances at this beloved 285-seat arts center. Duties include setting up and breaking down the bar/concessions area, operating the point-of-sale system, handling cash, maintaining cleanliness, and restocking. The menu is simple: water, soda, beer, wine, snacks, and basic mixed drinks. Advanced bartending skill not required but welcomed. TIPS certification a plus; training provided for new hires.",
+    "source": "Katharine Hepburn Cultural Arts Center — thekate.org/about/job-opportunities/",
+    "url": "https://www.thekate.org/about/job-opportunities/",
+    "hours_week": "Variable / as needed (3–5 hrs per show shift)",
+    "posted": "2026-08",
+    "benefits": "Flexible scheduling (month-block schedule posted 2+ weeks out)",
+    "experience": "Customer service or bar/hospitality experience helpful; TIPS certification a plus (training available)",
+    "apply_method": "Submit application via The Kate website (thekate.org/about/job-opportunities/) or contact The Kate at 300 Main St, Old Saybrook CT",
+    "id": "job-386",
+    "town": "Old Saybrook",
+    "first_seen": "2026-08-31"
+  },
+  {
+    "title": "Recreation Assistant (Part-Time, Every Weekend)",
+    "employer": "Ark Healthcare & Rehabilitation at Branford Hills",
+    "categories": [
+      "Caregiving/Health",
+      "Recreation"
+    ],
+    "location": "135 Brushy Plain Rd, Branford, CT 06405",
+    "distance": "~4 mi (Branford)",
+    "type": "Part-time",
+    "pay": "Not listed",
+    "schedule": "Every weekend (Saturday and Sunday)",
+    "summary": "Ark Healthcare & Rehabilitation at Branford Hills, a skilled nursing and short-term rehabilitation facility, seeks a Part-Time Weekend Recreation Assistant to help plan, organize, and facilitate a wide range of recreational and therapeutic activities for residents. Duties include supporting the recreation department with programming, special events, and seasonal activities to meet residents' emotional, social, spiritual, and physical needs.",
+    "source": "ZipRecruiter — Ark Healthcare & Rehabilitation at Branford Hills",
+    "url": "https://www.ziprecruiter.com/co/Ark-Healthcare-And-Rehabilitation-At-Branford-Hills/Jobs/-in-Branford,CT",
+    "hours_week": "~16 hrs/week (weekend shifts)",
+    "posted": "2026-08",
+    "benefits": "Not listed",
+    "experience": "Recreation or healthcare experience preferred; TRD background helpful",
+    "apply_method": "Apply via ZipRecruiter or contact Ark Healthcare & Rehabilitation at Branford Hills directly at 135 Brushy Plain Rd, Branford, CT",
+    "id": "job-387",
+    "town": "Branford",
+    "first_seen": "2026-08-31"
   }
 ]
