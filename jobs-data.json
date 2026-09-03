@@ -8901,5 +8901,52 @@
     "id": "job-389",
     "town": "Branford",
     "first_seen": "2026-09-01"
+  },
+  {
+    "title": "Grocery Team Member (Part-Time)",
+    "employer": "The Fresh Market (Guilford)",
+    "categories": [
+      "Retail",
+      "Grocery"
+    ],
+    "location": "1919 Boston Post Rd, Unit 305, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$16.94–$17.15/hr",
+    "schedule": "Flexible; various shifts available",
+    "summary": "Join the Grocery team at The Fresh Market's Guilford location. Responsibilities include stocking and facing shelves, maintaining center-store product organization, ensuring freshness and quality standards are met, and providing guests with a premium shopping experience. Opportunity to cross-train in Deli, Meat & Seafood, Bakery, Produce & Floral, and Front-End departments.",
+    "source": "The Fresh Market Careers (jobs.thefreshmarket.com)",
+    "url": "https://jobs.thefreshmarket.com/job/guilford/grocery-team-member/35614/92888940960",
+    "hours_week": "Part-time (variable)",
+    "posted": "2026-04-17",
+    "benefits": "Early Earn Wage Access (up to 50% of earned wages per pay period); benefits details upon offer",
+    "experience": "No prior experience required; customer-service mindset and team orientation preferred",
+    "apply_method": "Apply at jobs.thefreshmarket.com (search Guilford, CT) or careers.thefreshmarket.com",
+    "id": "job-390",
+    "town": "Guilford",
+    "first_seen": "2026-09-03"
+  },
+  {
+    "title": "Fashion Stylist & Sales Associate (Part-Time)",
+    "employer": "Robertson Madison LLC",
+    "categories": [
+      "Retail"
+    ],
+    "location": "69 Wall St, Madison, CT 06443",
+    "distance": "~5 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$17–$20/hr + incentives",
+    "schedule": "Typical hours 11 AM–5:30 PM; schedule varies",
+    "summary": "Premier attainable luxury boutique in downtown Madison seeks a fashion-forward Stylist & Sales Associate. Build and maintain an active client book, create complete head-to-toe looks for clients, and provide expert knowledge of European and American designer apparel, shoes, handbags, and fine jewelry. Ideal for someone who thrives in a luxury retail environment and is motivated by sales goals and building lasting client relationships.",
+    "source": "ZipRecruiter — Robertson Madison LLC",
+    "url": "https://www.ziprecruiter.com/c/Robertson-Madison/Job/Fashion-Stylist-Sales-Associate/-in-Madison,CT?jid=7366b2fc59334e5b",
+    "hours_week": "Part-time (hours vary)",
+    "posted": "2026",
+    "benefits": "Sales incentives; additional benefits details upon offer",
+    "experience": "Fashion retail or styling experience preferred; passion for fashion and client service required",
+    "apply_method": "Apply via ZipRecruiter listing or contact Robertson Madison directly at 69 Wall St, Madison, CT",
+    "id": "job-391",
+    "town": "Madison",
+    "first_seen": "2026-09-03"
   }
 ]
