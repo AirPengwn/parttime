@@ -8901,5 +8901,74 @@
     "id": "job-389",
     "town": "Branford",
     "first_seen": "2026-09-01"
+  },
+  {
+    "title": "Retail Merchandise Associate (Part-Time)",
+    "employer": "TJ Maxx (Store #629, North Haven)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "135 Universal Dr N, North Haven, CT 06473",
+    "distance": "~14 mi (North Haven)",
+    "type": "Part-time",
+    "pay": "~$17/hr (TJX scale)",
+    "schedule": "Flexible; evenings and weekends",
+    "summary": "Receive and display merchandise, assist customers on the sales floor, process transactions, and help maintain a clean store environment.",
+    "source": "TJX Companies Careers",
+    "url": "https://jobs.tjx.com/global/en/job/REQ143167/Retail-Merchandise-Associate-Part-Time",
+    "hours_week": "15–20",
+    "posted": "2026-06-18",
+    "benefits": "Employee discount; 401(k)",
+    "experience": "Entry-level; no prior retail experience required",
+    "apply_method": "Online via TJX Careers",
+    "id": "job-390",
+    "town": "North Haven",
+    "first_seen": "2026-09-10"
+  },
+  {
+    "title": "Part-Time Universal Banker — Float",
+    "employer": "Ascend Bank",
+    "categories": [
+      "Office / Admin"
+    ],
+    "location": "1 Park St / 625 Boston Post Rd, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Competitive (banking scale)",
+    "schedule": "Mon–Sat; includes Saturdays",
+    "summary": "Provide in-person customer service, process financial transactions, educate clients about bank products and digital channels, and help strengthen client relationships across Guilford branches.",
+    "source": "LinkedIn Jobs",
+    "url": "https://www.linkedin.com/jobs/view/part-time-universal-banker-float-at-ascend-bank-4418297562",
+    "hours_week": "~20",
+    "posted": "2026-05-27",
+    "benefits": "Bank benefits package",
+    "experience": "Banking or customer service experience preferred",
+    "apply_method": "Online via LinkedIn",
+    "id": "job-391",
+    "town": "Guilford",
+    "first_seen": "2026-09-10"
+  },
+  {
+    "title": "Keyholder (Part-Time)",
+    "employer": "The Cosmetics Company Store (Clinton Premium Outlets)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "20 Killingworth Tpke (Clinton Premium Outlets), Clinton, CT 06413",
+    "distance": "~15 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$18.98–$31.63/hr",
+    "schedule": "Flexible; includes weekends",
+    "summary": "Support store manager with daily operations at a premium cosmetics outlet; provide exceptional customer service; coach sales associates; manage inventory and product presentation. Part of The Estée Lauder Companies.",
+    "source": "Estée Lauder Companies Careers",
+    "url": "https://careers.elcompanies.com/careers/job/1168271714769",
+    "hours_week": "15–25",
+    "posted": "2026-09-07",
+    "benefits": "Employee discount on luxury brands; ELC benefits",
+    "experience": "Prior retail or cosmetics experience preferred",
+    "apply_method": "Online via EL Companies Careers",
+    "id": "job-392",
+    "town": "Clinton",
+    "first_seen": "2026-09-10"
   }
 ]
