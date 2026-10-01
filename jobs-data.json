@@ -8901,5 +8901,97 @@
     "id": "job-389",
     "town": "Branford",
     "first_seen": "2026-09-01"
+  },
+  {
+    "title": "Host / Hostess (Part-Time)",
+    "employer": "Char & Lemon (Guilford)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "2 Water St, Guilford, CT 06437",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "$16.35–$18.00/hr",
+    "schedule": "Evenings and weekends required",
+    "summary": "Char & Lemon, a popular waterfront restaurant in Guilford Center, is hiring a part-time Host/Hostess. Duties include greeting and seating guests, managing waitlists, answering phones, assisting with reservations, and maintaining efficient seating flow during service.",
+    "source": "ZipRecruiter — Char & Lemon",
+    "url": "https://www.ziprecruiter.com/co/char-lemon/Jobs?lk=MTnJgDOocbGfjs8nTjL-3w",
+    "hours_week": "Variable (part-time)",
+    "posted": "2026-09",
+    "benefits": "Not listed",
+    "experience": "Restaurant or customer service experience helpful",
+    "apply_method": "Apply via ZipRecruiter or visit Char & Lemon at 2 Water St, Guilford, CT",
+    "id": "job-390",
+    "town": "Guilford",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "title": "Floor Staff (Part-Time)",
+    "employer": "Westbrook Cinemas",
+    "categories": [
+      "Hospitality"
+    ],
+    "location": "314 Flat Rock Place, Westbrook, CT 06498",
+    "distance": "~12 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "From $16.94/hr",
+    "schedule": "Flexible; includes evenings and weekends",
+    "summary": "Westbrook Cinemas at Westbrook Outlets is hiring part-time Floor Staff. Duties rotate through box office, concession stand, and usher/auditorium roles. Responsibilities include greeting customers, selling and serving concessions, keeping theaters and bathrooms clean, and handling cash. Employee discount included.",
+    "source": "career.com — Westbrook Cinemas",
+    "url": "https://www.career.com/job/westbrook-cinemas/floor-staff/j202308061939032726602",
+    "hours_week": "Variable (part-time)",
+    "posted": "2026",
+    "benefits": "Employee discount",
+    "experience": "No experience required",
+    "apply_method": "Apply via Indeed (search Westbrook Cinemas floor staff) or email cinemas@westbrookcinemas.com",
+    "id": "job-391",
+    "town": "Westbrook",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "title": "Temporary Seasonal Retail Store Associate (Part-Time)",
+    "employer": "Ocean State Job Lot (Clinton)",
+    "categories": [
+      "Retail"
+    ],
+    "location": "90 W Main St, Clinton, CT 06413",
+    "distance": "~12 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$17.00/hr",
+    "schedule": "Daytime shifts; weekend availability required",
+    "summary": "Ocean State Job Lot's Clinton location is hiring seasonal part-time retail associates. Responsibilities include customer service, stocking shelves, maintaining store appearance, and general retail duties. Weekend availability required. 30% employee discount included.",
+    "source": "ZipRecruiter — Ocean State Job Lot",
+    "url": "https://www.ziprecruiter.com/co/Ocean-State-Job-Lot/Jobs/-in-Clinton,CT?id=RY7XycLqZZN1IGgGsAUXR27_8Lg%3D",
+    "hours_week": "15–30",
+    "posted": "2026-09",
+    "benefits": "30% employee discount",
+    "experience": "No experience required",
+    "apply_method": "Apply via ZipRecruiter or Ocean State Job Lot careers site",
+    "id": "job-392",
+    "town": "Clinton",
+    "first_seen": "2026-10-01"
+  },
+  {
+    "title": "Server (Part-Time)",
+    "employer": "9 East Hibachi & Asian Kitchen",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "310 E Main St, Branford, CT 06405",
+    "distance": "~5 mi (Branford)",
+    "type": "Part-time",
+    "pay": "$16.94–$50.00/hr (inc. tips)",
+    "schedule": "5–30 hrs/wk; weekends as needed",
+    "summary": "Branford's upscale hibachi and Asian kitchen is hiring part-time servers. Responsibilities include taking meal and drink orders, delivering food, explaining the menu, and providing attentive tableside service during hibachi and à la carte dining. Evenings and weekends required.",
+    "source": "Indeed — 9 East Hibachi & Asian Kitchen",
+    "url": "https://www.indeed.com/q-server-l-branford,-ct-jobs.html",
+    "hours_week": "5–30",
+    "posted": "2026-09",
+    "benefits": "Not listed",
+    "experience": "Restaurant experience preferred",
+    "apply_method": "Apply via Indeed or contact 9 East Hibachi at (203) 315-8111 or branford9east@me.com",
+    "id": "job-393",
+    "town": "Branford",
+    "first_seen": "2026-10-01"
   }
 ]
