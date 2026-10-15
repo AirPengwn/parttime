@@ -8971,5 +8971,98 @@
     "id": "job-392",
     "town": "Old Saybrook",
     "first_seen": "2026-10-08"
+  },
+  {
+    "title": "Barista (Part-Time)",
+    "employer": "Starbucks (11 Killingworth Tpke, Clinton)",
+    "categories": [
+      "Food Service"
+    ],
+    "location": "11 Killingworth Tpke, Clinton, CT 06413",
+    "distance": "~14 mi (Clinton)",
+    "type": "Part-time",
+    "pay": "$17.10/hr",
+    "schedule": "Flexible; part-time shifts available including mornings and weekends",
+    "summary": "Starbucks location on Killingworth Turnpike in Clinton is actively recruiting part-time baristas. Duties include crafting beverages, providing customer service, maintaining a clean and welcoming store environment, and working as part of a team. No prior coffee experience required; Starbucks provides training.",
+    "source": "Snagajob",
+    "url": "https://www.snagajob.com/jobs/1205274772",
+    "hours_week": "Part-time (up to 25 hrs/week)",
+    "posted": "2026-10",
+    "benefits": "Flexible scheduling; Starbucks partner benefits available for eligible hours",
+    "experience": "Customer service experience helpful; no prior barista experience required",
+    "apply_method": "Apply online via Snagajob at snagajob.com/jobs/1205274772 or through the Starbucks careers site",
+    "id": "job-393",
+    "town": "Clinton",
+    "first_seen": "2026-10-15"
+  },
+  {
+    "title": "Registered Nurse Supervisor (Part-Time)",
+    "employer": "Apple Rehab Guilford",
+    "categories": [
+      "Caregiving/Health"
+    ],
+    "location": "Guilford, CT",
+    "distance": "In town",
+    "type": "Part-time",
+    "pay": "Competitive (inquire with facility)",
+    "schedule": "Weekend availability required; on-call support for staff and residents; per diem staff fulfill at least 2 weekend shifts/month",
+    "summary": "Apple Rehab Guilford is hiring a part-time Registered Nurse Supervisor to provide clinical oversight and on-call support for staff and residents at this skilled nursing and rehabilitation facility. Responsibilities include supervising nursing staff, conducting assessments, and ensuring quality resident care. Both part-time and per diem schedules are available; weekends are required.",
+    "source": "Apploi — Apple Rehab Guilford careers",
+    "url": "https://apply-jobs.apploi.com/job/635571/guilford/registered-nurse-supervisor-rn",
+    "hours_week": "Varies (part-time / per diem)",
+    "posted": "2026-10",
+    "benefits": "Employee benefits available for staff working 30+ hours (health coverage, PTO, 401K program)",
+    "experience": "Current Connecticut RN license required; prior supervisory experience required; long-term care experience strongly preferred",
+    "apply_method": "Apply online via Apploi at apply-jobs.apploi.com/job/635571/guilford/registered-nurse-supervisor-rn",
+    "id": "job-394",
+    "town": "Guilford",
+    "first_seen": "2026-10-15"
+  },
+  {
+    "title": "Recreation Assistant (Part-Time)",
+    "employer": "Autumn Lake Healthcare at Madison",
+    "categories": [
+      "Caregiving/Health",
+      "Recreation"
+    ],
+    "location": "34 Wildwood Ave, Madison, CT 06443",
+    "distance": "~6 mi (Madison)",
+    "type": "Part-time",
+    "pay": "$19.63/hr",
+    "schedule": "~16 hours per week",
+    "summary": "Autumn Lake Healthcare at Madison is hiring a part-time Recreation Assistant to help plan and lead engaging activities for residents at this skilled nursing and rehabilitation community. Duties include assisting the recreation director, organizing group and individual activity programs, and supporting residents' social and emotional well-being. Basic computer proficiency required.",
+    "source": "Apploi — Autumn Lake Healthcare at Madison careers",
+    "url": "https://apply-jobs.apploi.com/job/1757156/at-madison-2/recreation-assistant",
+    "hours_week": "~16 hrs/week",
+    "posted": "2026-10",
+    "benefits": "Benefits available for staff working 30+ hours",
+    "experience": "High school diploma or GED; minimum 1 year relevant experience required; basic computer skills",
+    "apply_method": "Apply online via Apploi at apply-jobs.apploi.com/job/1757156/at-madison-2/recreation-assistant",
+    "id": "job-395",
+    "town": "Madison",
+    "first_seen": "2026-10-15"
+  },
+  {
+    "title": "Caregiver (Part-Time)",
+    "employer": "Senior Helpers (Fairfield/Shoreline area)",
+    "categories": [
+      "Caregiving/Health"
+    ],
+    "location": "Westbrook, CT and surrounding shoreline area",
+    "distance": "~18 mi (Westbrook)",
+    "type": "Part-time",
+    "pay": "$16.35–$18.00/hr",
+    "schedule": "Flexible shifts; varied hours",
+    "summary": "Senior Helpers is hiring part-time caregivers to provide in-home companionship and daily personal support to senior clients in Westbrook and the surrounding Connecticut shoreline area. Duties include assisting with daily living activities, providing companionship, and supporting clients' independence at home. PPE and specialized training provided. Background check and drug screen required.",
+    "source": "VivaHR — Senior Helpers Upper Fairfield",
+    "url": "https://jobs.vivahr.com/40072-senior-helpers-upper-fairfield/70491-caregiver/l",
+    "hours_week": "Varies (part-time)",
+    "posted": "2026-10",
+    "benefits": "PPE provided; specialized training; flexible scheduling",
+    "experience": "Prior elderly care experience preferred; age 18+; valid driver's license and auto insurance required; TB test, CPR certification, background check, and drug screen required",
+    "apply_method": "Apply online via VivaHR at jobs.vivahr.com/40072-senior-helpers-upper-fairfield/70491-caregiver/l",
+    "id": "job-396",
+    "town": "Westbrook",
+    "first_seen": "2026-10-15"
   }
 ]
